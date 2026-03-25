@@ -1,0 +1,260 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tzp_path_storage"
+	group: "5b5b5b5b5b5b5b5b"
+	icon: "storagedrawers:oak_full_drawers_1"
+	id: "09ab09ab09ab09ab"
+	order_index: 9
+	progression_mode: "flexible"
+	title: "Path: Storage & Logistics"
+	quests: [
+		{
+			dependencies: ["e7a2c91d4b0f56e8"]
+			description: ["A simple chest is the foundation of all storage systems." "" "As your base grows, you will need smarter ways to organize thousands of items." "" "This path covers physical storage, digital networks, and automated logistics."]
+			icon: "minecraft:chest"
+			id: "s900000000000001"
+			rewards: [{
+				id: "s9r0000000000001"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "s9t0000000000001"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "Organize Everything"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["s900000000000001"]
+			description: ["Iron Chests hold significantly more items than vanilla chests." "" "Upgrade from wood to iron, gold, diamond, and obsidian tiers." "" "You can upgrade in-place without emptying the chest first."]
+			icon: "ironchest:iron_chest"
+			id: "s900000000000002"
+			rewards: [{
+				id: "s9r0000000000002"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "s9t0000000000002"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			title: "Iron Chest"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["s900000000000002"]
+			description: ["Storage Drawers hold large quantities of a single item type per slot." "" "Perfect for bulk materials like cobblestone, dirt, and ores." "" "Upgrade with storage upgrades to hold thousands of stacks in one drawer face."]
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "s900000000000003"
+			rewards: [{
+				id: "s9r0000000000003"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "s9t0000000000003"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			title: "Storage Drawers"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["s900000000000003"]
+			description: ["The Drawer Controller connects to all adjacent drawers in a network." "" "Pipe items into the controller and they auto-sort into the correct drawer." "" "This turns a wall of drawers into one unified, sorted storage system."]
+			icon: "storagedrawers:controller"
+			id: "s900000000000004"
+			rewards: [{
+				id: "s9r0000000000004"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "s9t0000000000004"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			title: "Drawer Controller"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["s900000000000001"]
+			description: ["Sophisticated Backpacks give you portable, upgradeable inventory space." "" "Craft upgrades like auto-smelting, magnet pickup, and filtering." "" "Wear it on your back or place it down as a portable chest."]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "s900000000000005"
+			rewards: [{
+				id: "s9r0000000000005"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "s9t0000000000005"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Sophisticated Backpack"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["s900000000000001"]
+			description: ["Applied Energistics 2 stores items digitally on storage cells inside an ME network." "" "Craft an ME Controller, drive bay, and storage cells to get started." "" "AE2 supports auto-crafting, pattern encoding, and massive item counts."]
+			icon: "ae2:me_controller"
+			id: "s900000000000006"
+			rewards: [{
+				id: "s9r0000000000006"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "s9t0000000000006"
+				item: "ae2:me_controller"
+				type: "item"
+			}]
+			title: "AE2 Network"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["s900000000000001"]
+			description: ["Refined Storage is a simpler alternative to AE2 for digital item storage." "" "Place a Controller, connect disks, and access everything from a Grid." "" "Great if you want digital storage without AE2's channel complexity."]
+			icon: "refinedstorage:controller"
+			id: "s900000000000007"
+			rewards: [{
+				id: "s9r0000000000007"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "s9t0000000000007"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "RS Network"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["s900000000000006"]
+			description: ["Ender Chests from Ender Storage share inventory across any distance or dimension." "" "Color-code the three wool pads on top to create unique channels." "" "Place matching Ender Chests at your base and a mining outpost for instant transfers."]
+			icon: "enderstorage:ender_chest"
+			id: "s900000000000008"
+			rewards: [{
+				id: "s9r0000000000008"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "s9t0000000000008"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			title: "Ender Chest"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["s900000000000007"]
+			description: ["The Trash Can instantly voids any items piped into it." "" "Essential for preventing system clogs from overflow cobblestone or dirt." "" "Place one at the end of any sorting system as a catch-all for junk."]
+			icon: "trashcans:item_trash_can"
+			id: "s900000000000009"
+			rewards: [{
+				id: "s9r0000000000009"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "s9t0000000000009"
+				item: "trashcans:item_trash_can"
+				type: "item"
+			}]
+			title: "Trash Can"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["s900000000000001"]
+			description: ["Create's Mechanical Belts visually transport items along a path." "" "Place two shafts, connect them with a belt, and apply rotational force." "" "Items ride on top and can be filtered, split, or funneled off at any point."]
+			icon: "create:belt_connector"
+			id: "s90000000000000a"
+			rewards: [{
+				id: "s9r000000000000a"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "s9t000000000000a"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Create Belts"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["s90000000000000a"]
+			description: ["Mekanism's Logistical Transporters are smart item pipes with built-in sorting." "" "Set them to pull or push mode, and configure color-coded destinations." "" "They auto-route items to the nearest valid inventory — no manual sorting needed."]
+			icon: "mekanism:basic_logistical_transporter"
+			id: "s90000000000000b"
+			rewards: [{
+				id: "s9r000000000000b"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "s9t000000000000b"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			title: "Mek Transporters"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["s90000000000000b"]
+			description: ["Ender IO Item Conduits share block space with energy and fluid conduits." "" "Run items, power, and fluids all in the same one-block conduit bundle." "" "Use insert/extract modes and item filters for precise routing control."]
+			icon: "enderio:item_conduit"
+			id: "s90000000000000c"
+			rewards: [{
+				id: "s9r000000000000c"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "s9t000000000000c"
+				item: "enderio:item_conduit"
+				type: "item"
+			}]
+			title: "EIO Item Conduit"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["s90000000000000c"]
+			description: ["XNet is a channel-based universal networking system for items, fluids, energy, and info." "" "One XNet Controller can manage up to 8 channels on a single cable network." "" "Configure each channel's routing logic via the controller GUI — extremely flexible."]
+			icon: "xnet:controller"
+			id: "s90000000000000d"
+			rewards: [{
+				id: "s9r000000000000d"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "s9t000000000000d"
+				item: "xnet:controller"
+				type: "item"
+			}]
+			title: "XNet"
+			x: 3.0d
+			y: -6.5d
+		}
+	]
+}

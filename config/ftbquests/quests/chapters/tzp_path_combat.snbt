@@ -1,0 +1,454 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "tzp_path_combat"
+	group: "5b5b5b5b5b5b5b5b"
+	icon: "minecraft:netherite_sword"
+	id: "07ab07ab07ab07ab"
+	order_index: 7
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["e7a2c91d4b0f56e8"]
+			description: [
+				"TZP has dozens of bosses and dangerous encounters across dimensions. This path guides you through them from weakest to strongest."
+				""
+				"Better Combat mod changes melee \u2014 try combos and timing. Gear up before each fight and bring plenty of food."
+			]
+			icon: "minecraft:iron_sword"
+			id: "c700000000000001"
+			rewards: [{
+				id: "c7r0000000000001"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "c7t0000000000001"
+				item: "minecraft:iron_sword"
+				type: "item"
+			}]
+			title: "Prepare for Battle"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["c700000000000001"]
+			description: [
+				"Before facing any boss, you need at least a full set of Iron Armor. This is the bare minimum to survive early encounters."
+				""
+				"Enchant it if possible \u2014 even Protection I makes a noticeable difference against Overworld bosses."
+			]
+			id: "c700000000000002"
+			rewards: [{
+				id: "c7r0000000000002"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "c7t0000000000002"
+				item: "minecraft:iron_chestplate"
+				type: "item"
+			}]
+			title: "Iron Armor"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["c700000000000002"]
+			description: [
+				"Elder Guardians lurk inside Ocean Monuments. They inflict Mining Fatigue and deal heavy damage in water. Bring Water Breathing potions and a trident or ranged weapon."
+				""
+				"There are three per monument. Defeating all three clears the Mining Fatigue curse."
+			]
+			id: "c700000000000003"
+			rewards: [{
+				id: "c7r0000000000003"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "c7t0000000000003"
+				title: "Defeat an Elder Guardian in an Ocean Monument"
+				type: "checkmark"
+			}]
+			title: "Elder Guardian"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["c700000000000003"]
+			description: [
+				"The Ferrous Wroughtnaut is a massive armored knight found underground (Mowzi's Mobs). It is immune to damage from the front \u2014 you must get behind it to deal damage."
+				""
+				"Listen for metallic clanking sounds deep underground. Bring a shield and be patient with positioning."
+			]
+			id: "c700000000000004"
+			rewards: [{
+				id: "c7r0000000000004"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "c7t0000000000004"
+				title: "Find and defeat a Wroughtnaut underground (Mowzi's Mobs)"
+				type: "checkmark"
+			}]
+			title: "Ferrous Wroughtnaut"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["c700000000000004"]
+			description: [
+				"Barako the Sun Chief rules a savanna village with solar magic. He summons Sun Strike attacks from the sky and commands Barakoa minions."
+				""
+				"Defeating him drops the Solar Blessing, which grants the Sun Strike ability. Dodge his beam attacks and focus DPS between casts."
+			]
+			id: "c700000000000005"
+			rewards: [{
+				id: "c7r0000000000005"
+				type: "xp"
+				xp: 70
+			}]
+			tasks: [{
+				id: "c7t0000000000005"
+				title: "Defeat Barako in a savanna village (Mowzi's Mobs)"
+				type: "checkmark"
+			}]
+			title: "Barako the Sun Chief"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["c700000000000005"]
+			description: [
+				"The Frostmaw is a giant yeti boss found in cold biomes (Mowzi's Mobs). It hurls ice and slams the ground, dealing heavy AoE damage."
+				""
+				"Bring Fire Resistance and warm armor. Ranged attacks work well between its slam cooldowns. Drops the Ice Crystal."
+			]
+			id: "c700000000000006"
+			rewards: [{
+				id: "c7r0000000000006"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "c7t0000000000006"
+				title: "Defeat a Frostmaw in a cold biome (Mowzi's Mobs)"
+				type: "checkmark"
+			}]
+			title: "Frostmaw"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["c700000000000001"]
+			description: [
+				"Diamond Armor is the gear check for Nether-tier bosses. You need significant damage reduction to survive the Wither and other Nether threats."
+				""
+				"Enchant with Protection IV and bring Fire Resistance potions for every Nether fight."
+			]
+			id: "c700000000000007"
+			rewards: [{
+				id: "c7r0000000000007"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "c7t0000000000007"
+				item: "minecraft:diamond_chestplate"
+				type: "item"
+			}]
+			title: "Diamond Armor"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["c700000000000007"]
+			description: [
+				"The Wither is summoned with 4 Soul Sand and 3 Wither Skeleton Skulls. It fires explosive skulls and grants the Wither effect on contact."
+				""
+				"Fight it underground in a confined space to limit its movement. Smite V swords deal massive bonus damage. Drops the Nether Star."
+			]
+			id: "c700000000000008"
+			rewards: [{
+				id: "c7r0000000000008"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "c7t0000000000008"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "Wither"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["c700000000000008"]
+			description: [
+				"The Naga is a large serpent boss from Mowzi's Mobs found deep underground. It coils and strikes with surprising speed in tight caverns."
+				""
+				"Bring a fast weapon and keep moving. The confined quarters make this a challenging fight \u2014 clear the area before engaging."
+			]
+			id: "c700000000000009"
+			rewards: [{
+				id: "c7r0000000000009"
+				type: "xp"
+				xp: 70
+			}]
+			tasks: [{
+				id: "c7t0000000000009"
+				title: "Defeat a Naga underground (Mowzi's Mobs)"
+				type: "checkmark"
+			}]
+			title: "Naga"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["c700000000000001"]
+			description: [
+				"The Ender Dragon is the classic Minecraft boss. Destroy the End Crystals on the obsidian pillars first, then attack the dragon when it perches."
+				""
+				"Bring a bow with Infinity, Slow Falling potions, and plenty of blocks for pillar climbing. The dragon drops massive XP."
+			]
+			id: "c70000000000000a"
+			rewards: [{
+				id: "c7r000000000000a"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "c7t000000000000a"
+				title: "Defeat the Ender Dragon"
+				type: "checkmark"
+			}]
+			title: "Ender Dragon"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["c70000000000000a"]
+			description: [
+				"The Warden is not a boss you defeat \u2014 it is a boss you survive. Found in the Deep Dark biome near Sculk Shriekers, it has 500 HP and deals devastating damage."
+				""
+				"Sneak to avoid triggering Sculk Sensors. If it spawns, either run or fight with your absolute best gear. Sonic attacks bypass armor."
+			]
+			id: "c70000000000000b"
+			rewards: [{
+				id: "c7r000000000000b"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "c7t000000000000b"
+				title: "Survive the Warden in the Deep Dark"
+				type: "checkmark"
+			}]
+			title: "Warden"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["c70000000000000b"]
+			description: [
+				"The Forgotten Guardian is a powerful boss in the Undergarden dimension. It guards rare loot and requires strong gear to defeat."
+				""
+				"Access the Undergarden through its portal and explore until you find the Guardian's arena. Bring ranged options and healing."
+			]
+			id: "c70000000000000c"
+			rewards: [{
+				id: "c7r000000000000c"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "c7t000000000000c"
+				title: "Defeat the Forgotten Guardian in the Undergarden"
+				type: "checkmark"
+			}]
+			title: "Forgotten Guardian"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["c70000000000000c"]
+			description: [
+				"The Chaos Guardian is the hardest boss in the entire pack. Found orbiting the Chaos Island in the outer End, it has massive HP, instant-kill attacks, and regenerates from Chaos Crystals."
+				""
+				"You need Draconic-tier armor minimum. Destroy all Chaos Crystals first, then burst it down. Drops the Chaos Shard for Chaotic-tier crafting."
+			]
+			id: "c70000000000000d"
+			rewards: [{
+				id: "c7r000000000000d"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "c7t000000000000d"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			title: "Chaos Guardian"
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["c700000000000001"]
+			description: [
+				"Netherite is the first major armor upgrade beyond Diamond. Craft a Smithing Template, combine a Diamond tool with a Netherite Ingot at the Smithing Table."
+				""
+				"Mine Ancient Debris in the Nether at Y=15. Smelt it into Netherite Scrap, then combine 4 Scrap with 4 Gold Ingots."
+			]
+			id: "c70000000000000e"
+			rewards: [{
+				id: "c7r000000000000e"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "c7t000000000000e"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Netherite Upgrade"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["c70000000000000e"]
+			description: [
+				"Apotheosis affix weapons have colored names and random magical properties. Find them in dungeon chests or craft them using the Apotheosis enchanting system."
+				""
+				"Affixes stack with enchantments, making these weapons significantly stronger than plain enchanted gear."
+			]
+			id: "c70000000000000f"
+			rewards: [{
+				id: "c7r000000000000f"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "c7t000000000000f"
+				title: "Find or create a weapon with an affix"
+				type: "checkmark"
+			}]
+			title: "Apotheosis Affixed Weapon"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["c70000000000000f"]
+			description: [
+				"The Wyvern Sword is Draconic Evolution tier 1. It deals massive damage and can be charged with RF/FE energy for bonus effects."
+				""
+				"Craft it via Fusion Crafting with a Wyvern Core and Draconium. This weapon trivializes most Overworld and Nether content."
+			]
+			id: "c700000000000010"
+			rewards: [{
+				id: "c7r0000000000010"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "c7t0000000000010"
+				item: "draconicevolution:wyvern_sword"
+				type: "item"
+			}]
+			title: "Wyvern Weapon"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["c700000000000010"]
+			description: [
+				"The Draconic Sword is tier 2 \u2014 a significant jump in damage and AoE capability. It can sweep entire groups of mobs in one swing when charged."
+				""
+				"Requires Draconic Cores and Awakened Draconium. Keep it charged with a portable energy source."
+			]
+			id: "c700000000000011"
+			rewards: [{
+				id: "c7r0000000000011"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "c7t0000000000011"
+				item: "draconicevolution:draconic_sword"
+				type: "item"
+			}]
+			title: "Draconic Weapon"
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["c700000000000011"]
+			description: [
+				"The MekaSuit is Mekanism's powered endgame armor. It provides flight, auto-feeding, radiation shielding, and configurable modules."
+				""
+				"Craft the helmet first \u2014 it includes a HUD and vision modules. Each piece requires advanced Mekanism components and significant power infrastructure."
+			]
+			id: "c700000000000012"
+			rewards: [{
+				id: "c7r0000000000012"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "c7t0000000000012"
+				item: "mekanism:mekasuit_helmet"
+				type: "item"
+			}]
+			title: "Mekasuit"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["c700000000000012"]
+			description: [
+				"Gem Armor is ProjectE's endgame armor set. It grants creative-mode-like flight, near invincibility, and no fall damage."
+				""
+				"Requires massive EMC investment. If you have completed the EMC path, this is the ultimate reward \u2014 virtually unkillable."
+			]
+			id: "c700000000000013"
+			rewards: [{
+				id: "c7r0000000000013"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "c7t0000000000013"
+				item: "projecte:gem_helmet"
+				type: "item"
+			}]
+			title: "Gem Armor"
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["c700000000000006" "c700000000000009" "c70000000000000d"]
+			description: [
+				"You have conquered every major boss in TZP \u2014 from the Elder Guardian to the Chaos Guardian. Few adventurers reach this point."
+				""
+				"The world bends to your will. Consider helping others on the server tackle these challenges, or push into creative builds with your endgame gear."
+			]
+			id: "c700000000000014"
+			rewards: [{
+				id: "c7r0000000000014"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "c7t0000000000014"
+				title: "You've conquered every major boss in TZP"
+				type: "checkmark"
+			}]
+			title: "Boss Rush Complete"
+			x: 0.0d
+			y: -10.0d
+		}
+	]
+}

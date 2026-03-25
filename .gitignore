@@ -1,0 +1,5 @@
+# OS files
+.DS_Store
+
+# TZP-client is the mod distribution repo — JARs ARE tracked here
+# (unlike TZP-server where they are ignored)

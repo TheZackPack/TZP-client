@@ -1,0 +1,298 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tzp_path_emc"
+	group: "5b5b5b5b5b5b5b5b"
+	icon: "projecte:transmutation_table"
+	id: "06ab06ab06ab06ab"
+	order_index: 6
+	progression_mode: "flexible"
+	title: "Path: ProjectE / EMC"
+	quests: [
+		{
+			dependencies: ["e7a2c91d4b0f56e8"]
+			description: ["The Transmutation Tablet is your gateway to ProjectE's EMC system." "" "Learn items by placing them in the tablet — this teaches you their EMC value." "" "Once learned, you can convert any item's EMC into any other learned item."]
+			icon: "projecte:transmutation_tablet"
+			id: "pe00000000000001"
+			rewards: [{
+				id: "per0000000000001"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "pet0000000000001"
+				item: "projecte:transmutation_tablet"
+				type: "item"
+			}]
+			title: "Transmutation Tablet"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["pe00000000000001"]
+			description: ["The Philosopher's Stone transmutes blocks and items between related types." "" "Right-click on stone to cycle between cobblestone, stone, and grass." "" "Use it in crafting recipes to convert between ore types and materials."]
+			icon: "projecte:philosophers_stone"
+			id: "pe00000000000002"
+			rewards: [{
+				id: "per0000000000002"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "pet0000000000002"
+				item: "projecte:philosophers_stone"
+				type: "item"
+			}]
+			title: "Philosopher's Stone"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["pe00000000000002"]
+			description: ["The Collector MK1 passively generates EMC from light — just place it in sunlight." "" "It slowly fills internal EMC storage, which can be piped to other ProjectE devices." "" "Multiple collectors stack — the more you place, the faster your EMC income."]
+			icon: "projecte:collector_mk1"
+			id: "pe00000000000003"
+			rewards: [{
+				id: "per0000000000003"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "pet0000000000003"
+				item: "projecte:collector_mk1"
+				type: "item"
+			}]
+			title: "Collector MK1"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["pe00000000000003"]
+			description: ["The Condenser MK1 automatically produces items from stored EMC." "" "Place a target item in the lock slot and feed EMC from Collectors." "" "It will continuously produce that item as long as EMC is supplied."]
+			icon: "projecte:condenser_mk1"
+			id: "pe00000000000004"
+			rewards: [{
+				id: "per0000000000004"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "pet0000000000004"
+				item: "projecte:condenser_mk1"
+				type: "item"
+			}]
+			title: "Condenser MK1"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["pe00000000000004"]
+			description: ["Dark Matter is the first major EMC milestone — it requires a huge amount of EMC." "" "Craft it from Aeternalis Fuel at the Transmutation Tablet or produce it via Condensers." "" "Dark Matter unlocks powerful tools and is the base for Red Matter."]
+			icon: "projecte:dark_matter"
+			id: "pe00000000000005"
+			rewards: [{
+				id: "per0000000000005"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "pet0000000000005"
+				item: "projecte:dark_matter"
+				type: "item"
+			}]
+			title: "Dark Matter"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["pe00000000000005"]
+			description: ["The Dark Matter Pickaxe mines a 3x3 area and breaks blocks instantly at its tier." "" "It never breaks and can be charged to increase its mining area." "" "Press the charge key to cycle through modes — each level expands the mining radius."]
+			icon: "projecte:dark_matter_pickaxe"
+			id: "pe00000000000006"
+			rewards: [{
+				id: "per0000000000006"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "pet0000000000006"
+				item: "projecte:dark_matter_pickaxe"
+				type: "item"
+			}]
+			title: "DM Pickaxe"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["pe00000000000006"]
+			description: ["Red Matter is the endgame material — crafted from Dark Matter and more EMC." "" "It has an astronomical EMC cost but unlocks the most powerful ProjectE gear." "" "Once you can produce Red Matter, you have essentially mastered the EMC economy."]
+			icon: "projecte:red_matter"
+			id: "pe00000000000007"
+			rewards: [{
+				id: "per0000000000007"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "pet0000000000007"
+				item: "projecte:red_matter"
+				type: "item"
+			}]
+			title: "Red Matter"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["pe00000000000007"]
+			description: ["The Red Matter Pickaxe is the ultimate mining tool with vein-mining capabilities." "" "It mines even faster than DM and can clear entire ore veins in one swing." "" "Charge it up for massive area mining — nothing in the world can resist it."]
+			icon: "projecte:red_matter_pickaxe"
+			id: "pe00000000000008"
+			rewards: [{
+				id: "per0000000000008"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "pet0000000000008"
+				item: "projecte:red_matter_pickaxe"
+				type: "item"
+			}]
+			title: "RM Pickaxe"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["pe00000000000008"]
+			description: ["The Klein Star Ein is a portable EMC battery you carry in your inventory." "" "It stores EMC that your tools and abilities draw from automatically." "" "Feed it EMC via charging or by tossing items while holding it."]
+			icon: "projecte:klein_star_ein"
+			id: "pe00000000000009"
+			rewards: [{
+				id: "per0000000000009"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "pet0000000000009"
+				item: "projecte:klein_star_ein"
+				type: "item"
+			}]
+			title: "Klein Star Ein"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["pe00000000000009"]
+			description: ["The Klein Star Omega is the largest portable EMC storage available." "" "It holds an enormous amount of EMC for powering your entire ProjectE toolkit." "" "With a full Omega, you can transmute almost anything on the fly."]
+			icon: "projecte:klein_star_omega"
+			id: "pe0000000000000a"
+			rewards: [{
+				id: "per000000000000a"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "pet000000000000a"
+				item: "projecte:klein_star_omega"
+				type: "item"
+			}]
+			title: "Klein Star Omega"
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["pe0000000000000a"]
+			description: ["Gem Armor is ProjectE's ultimate armor set, crafted from Red Matter and gems." "" "Each piece grants special abilities: flight, fire immunity, and more." "" "With the full set equipped, you are nearly invincible."]
+			icon: "projecte:gem_helmet"
+			id: "pe0000000000000b"
+			rewards: [{
+				id: "per000000000000b"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "pet000000000000b"
+				item: "projecte:gem_helmet"
+				type: "item"
+			}]
+			title: "Gem Armor"
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["pe0000000000000b"]
+			description: ["The Condenser MK2 produces items from EMC much faster than MK1." "" "It has more output slots and higher throughput for mass production." "" "Essential for keeping up with late-game resource demands."]
+			icon: "projecte:condenser_mk2"
+			id: "pe0000000000000c"
+			rewards: [{
+				id: "per000000000000c"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "pet000000000000c"
+				item: "projecte:condenser_mk2"
+				type: "item"
+			}]
+			title: "Condenser MK2"
+			x: 3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["pe0000000000000c"]
+			description: ["The Collector MK3 is the fastest passive EMC generator available." "" "It produces EMC at an enormous rate compared to lower tiers." "" "A bank of MK3 Collectors can fund even the most expensive transmutations."]
+			icon: "projecte:collector_mk3"
+			id: "pe0000000000000d"
+			rewards: [{
+				id: "per000000000000d"
+				type: "xp"
+				xp: 125
+			}]
+			tasks: [{
+				id: "pet000000000000d"
+				item: "projecte:collector_mk3"
+				type: "item"
+			}]
+			title: "Collector MK3"
+			x: 3.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["pe0000000000000d"]
+			description: ["The Dark Matter Pedestal applies item effects in an area automatically." "" "Place an item on it and it activates that item's ability continuously." "" "For example, a Harvest Goddess Band on a pedestal auto-grows nearby crops."]
+			icon: "projecte:dm_pedestal"
+			id: "pe0000000000000e"
+			rewards: [{
+				id: "per000000000000e"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "pet000000000000e"
+				item: "projecte:dm_pedestal"
+				type: "item"
+			}]
+			title: "DM Pedestal"
+			x: 3.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["pe0000000000000e"]
+			description: ["The ultimate ProjectE setup: Collector MK3s feeding a Condenser MK2 in a closed loop." "" "Set the Condenser to produce high-EMC items, then feed them back for exponential growth." "" "You have mastered equivalent exchange — any resource is now trivially available."]
+			icon: "projecte:transmutation_table"
+			id: "pe0000000000000f"
+			rewards: [{
+				id: "per000000000000f"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "pet000000000000f"
+				title: "Set up Collector MK3 + Condenser MK2 auto-production"
+				type: "checkmark"
+			}]
+			title: "Infinite Loop"
+			x: 3.0d
+			y: -19.5d
+		}
+	]
+}

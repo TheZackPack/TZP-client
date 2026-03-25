@@ -1,0 +1,1 @@
+{"type":"tipsmod:simple","text":{"text":"KubeJS server scripts can gate recipes. If something looks wrong after an update, sync kubejs/server_scripts and restart.","color":"green"}}

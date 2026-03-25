@@ -1,0 +1,298 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tzp_path_farming"
+	group: "5b5b5b5b5b5b5b5b"
+	icon: "farmersdelight:cooking_pot"
+	id: "0aab0aab0aab0aab"
+	order_index: 10
+	progression_mode: "flexible"
+	title: "Path: Farming & Food"
+	quests: [
+		{
+			dependencies: ["e7a2c91d4b0f56e8"]
+			description: ["Wheat is the foundation of farming — punch grass for seeds, till soil, and plant." "" "Food keeps your hunger bar full, which is critical for health regeneration." "" "This path covers cooking, fishing, and fully automated crop production."]
+			icon: "minecraft:wheat"
+			id: "fa00000000000001"
+			rewards: [{
+				id: "far0000000000001"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "fat0000000000001"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "First Harvest"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["fa00000000000001"]
+			description: ["The Cutting Board is Farmer's Delight's entry-level tool." "" "Place food items on it and use a knife or axe to slice them into ingredients." "" "Many FD recipes require sliced or chopped components before cooking."]
+			icon: "farmersdelight:cutting_board"
+			id: "fa00000000000002"
+			rewards: [{
+				id: "far0000000000002"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "fat0000000000002"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			title: "Cutting Board"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["fa00000000000002"]
+			description: ["The Cooking Pot combines multiple ingredients into hearty meals." "" "Place it over a heat source (campfire, stove, magma), add ingredients, and wait." "" "Cooked meals restore far more hunger and saturation than raw or single-item foods."]
+			icon: "farmersdelight:cooking_pot"
+			id: "fa00000000000003"
+			rewards: [{
+				id: "far0000000000003"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "fat0000000000003"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Cooking Pot"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["fa00000000000003"]
+			description: ["The Skillet is a quick-cook tool for single ingredients." "" "Right-click with it in hand near a heat source to cook items on the fly." "" "Great for searing meats and quick snacks without a full Cooking Pot setup."]
+			icon: "farmersdelight:skillet"
+			id: "fa00000000000004"
+			rewards: [{
+				id: "far0000000000004"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "fat0000000000004"
+				item: "farmersdelight:skillet"
+				type: "item"
+			}]
+			title: "Skillet"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["fa00000000000004"]
+			description: ["Rich Soil accelerates crop growth for any plant placed above it." "" "Craft it from dirt and organic materials via Farmer's Delight recipes." "" "Use it under your most important crops to dramatically speed up harvests."]
+			icon: "farmersdelight:rich_soil"
+			id: "fa00000000000005"
+			rewards: [{
+				id: "far0000000000005"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "fat0000000000005"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			title: "Rich Soil"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["fa00000000000005"]
+			description: ["Canvas Rugs showcase the decorative side of Farmer's Delight." "" "They come in many colors and patterns for kitchen and dining room decoration." "" "FD is not just about food — it adds atmosphere to your builds too."]
+			icon: "farmersdelight:canvas_rug"
+			id: "fa00000000000006"
+			rewards: [{
+				id: "far0000000000006"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "fat0000000000006"
+				item: "farmersdelight:canvas_rug"
+				type: "item"
+			}]
+			title: "Canvas Rug"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["fa00000000000006"]
+			description: ["Feast blocks serve multiple portions of food for you and your friends." "" "Cook a Roast Chicken, Steak and Potatoes, or other feast in the Cooking Pot." "" "Place the feast block on a table and right-click to take servings."]
+			icon: "farmersdelight:roast_chicken_block"
+			id: "fa00000000000007"
+			rewards: [{
+				id: "far0000000000007"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "fat0000000000007"
+				title: "Cook a Feast block (Roast Chicken, Steak, etc.)"
+				type: "checkmark"
+			}]
+			title: "Feast"
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["fa00000000000001"]
+			description: ["Aquaculture's Iron Fishing Rod is more durable and efficient than vanilla rods." "" "It lasts much longer and can accept special hook and bait attachments." "" "Fishing is a great early-game food source and can yield rare loot."]
+			icon: "aquaculture:iron_fishing_rod"
+			id: "fa00000000000008"
+			rewards: [{
+				id: "far0000000000008"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "fat0000000000008"
+				item: "aquaculture:iron_fishing_rod"
+				type: "item"
+			}]
+			title: "Iron Fishing Rod"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["fa00000000000008"]
+			description: ["The Tackle Box stores all your fishing gear in one convenient inventory." "" "Keep hooks, bait, bobbers, and fishing rods organized." "" "Right-click to open it and equip your rod with attachments."]
+			icon: "aquaculture:tackle_box"
+			id: "fa00000000000009"
+			rewards: [{
+				id: "far0000000000009"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "fat0000000000009"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			title: "Tackle Box"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["fa00000000000009"]
+			description: ["Neptunium is an extremely rare material obtained from fishing treasure loot." "" "It requires patience and the best fishing gear to find." "" "Neptunium tools and armor are among the strongest fishing-related gear available."]
+			icon: "aquaculture:neptunium_ingot"
+			id: "fa0000000000000a"
+			rewards: [{
+				id: "far000000000000a"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "fat000000000000a"
+				item: "aquaculture:neptunium_ingot"
+				type: "item"
+			}]
+			title: "Neptunium Ingot"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["fa0000000000000a"]
+			description: ["Combine your Aquaculture fish with Farmer's Delight cooking." "" "Use the Cutting Board to fillet fish, then cook meals in the Cooking Pot." "" "Fish-based FD meals provide excellent hunger and saturation values."]
+			icon: "farmersdelight:cooking_pot"
+			id: "fa0000000000000b"
+			rewards: [{
+				id: "far000000000000b"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "fat000000000000b"
+				title: "Cook a fish-based Farmers Delight meal"
+				type: "checkmark"
+			}]
+			title: "Fish Feast"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["fa00000000000001"]
+			description: ["IE's Garden Cloche is a glass-enclosed automated crop grower." "" "Place soil, a seed, and pipe in water and FE to grow one crop type automatically." "" "It grows crops much faster than natural farming and outputs directly to pipes."]
+			icon: "immersiveengineering:cloche"
+			id: "fa0000000000000c"
+			rewards: [{
+				id: "far000000000000c"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "fat000000000000c"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			title: "IE Garden Cloche"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["fa0000000000000c"]
+			description: ["Industrial Foregoing's Plant Sower automatically plants seeds in a large area." "" "Place it above farmland and supply it with seeds and FE." "" "Covers a wide range of blocks so you can farm at industrial scale."]
+			icon: "industrialforegoing:plant_sower"
+			id: "fa0000000000000d"
+			rewards: [{
+				id: "far000000000000d"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "fat000000000000d"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			title: "IF Plant Sower"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["fa0000000000000d"]
+			description: ["The Plant Gatherer harvests mature crops in its working area." "" "Pair it with a Plant Sower for a fully automated plant-and-harvest loop." "" "Pipe the output into chests or your storage network for hands-free farming."]
+			icon: "industrialforegoing:plant_gatherer"
+			id: "fa0000000000000e"
+			rewards: [{
+				id: "far000000000000e"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "fat000000000000e"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			title: "IF Plant Gatherer"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["fa0000000000000e"]
+			description: ["Mystical Agriculture lets you grow resources like diamonds, iron, and ender pearls as crops." "" "Start with Inferium Seeds, then tier up through Prudentium, Tertium, and beyond." "" "A fully automated MA farm can produce virtually any resource in the game."]
+			icon: "mysticalagriculture:inferium_seeds"
+			id: "fa0000000000000f"
+			rewards: [{
+				id: "far000000000000f"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "fat000000000000f"
+				title: "Set up an automated Mystical Agriculture farm"
+				type: "checkmark"
+			}]
+			title: "MA Inferium Farm"
+			x: 3.0d
+			y: -6.5d
+		}
+	]
+}

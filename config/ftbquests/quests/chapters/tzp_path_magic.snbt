@@ -1,0 +1,1005 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "tzp_path_magic"
+	group: "5b5b5b5b5b5b5b5b"
+	icon: "apotheosis:gem"
+	id: "02ab02ab02ab02ab"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["e7a2c91d4b0f56e8"]
+			description: [
+				"Magic in TZP centers around growing resources (Mystical Agriculture), enchanting (Apotheosis), blood magic (EvilCraft), dimensional power (Draconic Evolution), and tiered progression (Gobber)."
+				""
+				"Pick your path \u2014 they all interconnect. Each branch rewards different playstyles, but endgame builds often pull from several."
+			]
+			icon: "mysticalagriculture:inferium_essence"
+			id: "m200000000000001"
+			rewards: [{
+				id: "m2r0000000000001"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "m2t0000000000001"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			title: "Essence of Magic"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["m200000000000001"]
+			description: [
+				"Grow or mine 32 Inferium Essence to prove your first farm works. Plant Inferium Seeds on farmland and harvest when mature."
+				""
+				"Tip: use a Watering Can early on to speed growth. Later, Essence Farmland will boost yields dramatically."
+			]
+			id: "m200000000000002"
+			rewards: [{
+				id: "m2r0000000000002"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				count: 32
+				id: "m2t0000000000002"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			title: "Inferium Farm"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["m200000000000001"]
+			description: [
+				"Mine Prosperity Ore underground to obtain Prosperity Shards. These are essential for crafting every seed in Mystical Agriculture."
+				""
+				"You will need a lot of these \u2014 consider setting up a quarry or fortune-mining early."
+			]
+			id: "m200000000000003"
+			rewards: [{
+				id: "m2r0000000000003"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "m2t0000000000003"
+				item: "mysticalagriculture:prosperity_shard"
+				type: "item"
+			}]
+			title: "Prosperity Shard"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["m200000000000002" "m200000000000003"]
+			description: [
+				"The Seed Crafter is the dedicated crafting station for all Mystical Agriculture seeds. Place Prosperity Shards and Essence in the grid to create resource seeds."
+				""
+				"Without this block, you cannot craft any crop seeds. It is the gateway to the entire mod."
+			]
+			id: "m200000000000004"
+			rewards: [{
+				id: "m2r0000000000004"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "m2t0000000000004"
+				item: "mysticalagriculture:seed_crafter"
+				type: "item"
+			}]
+			title: "Seed Crafter"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["m200000000000004"]
+			description: [
+				"Prudentium Seeds are tier 2. Craft them by combining 4 Inferium Essence into 1 Prudentium Essence, then use the Seed Crafter."
+				""
+				"Each tier requires 4x of the previous essence. Plan your farm size accordingly."
+			]
+			id: "m200000000000005"
+			rewards: [{
+				id: "m2r0000000000005"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "m2t0000000000005"
+				item: "mysticalagriculture:prudentium_seeds"
+				type: "item"
+			}]
+			title: "Prudentium Seeds"
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["m200000000000005"]
+			description: [
+				"Tertium Seeds are tier 3. The essence cost compounds: 4 Prudentium make 1 Tertium Essence. Automate your lower-tier farms before pushing higher."
+				""
+				"Many mid-game resource seeds require Tertium-tier crafting."
+			]
+			id: "m200000000000006"
+			rewards: [{
+				id: "m2r0000000000006"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "m2t0000000000006"
+				item: "mysticalagriculture:tertium_seeds"
+				type: "item"
+			}]
+			title: "Tertium Seeds"
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["m200000000000006"]
+			description: [
+				"Supremium Essence is a hard progression gate in this pack. Late-game Mekanism machines and several cross-mod recipes require it."
+				""
+				"Farm Supremium at scale with tiered Essence Farmland and watering cans. Expect to need stacks of this."
+			]
+			id: "m200000000000007"
+			rewards: [{
+				id: "m2r0000000000007"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "m2t0000000000007"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
+			title: "Supremium Essence"
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["m200000000000007"]
+			description: [
+				"Awakened Supremium is the final essence tier. It requires Supremium Essence plus rare catalysts. Check JEI for the exact recipe."
+				""
+				"This unlocks the most powerful MA armor and tools, rivaling Draconic Evolution gear."
+			]
+			id: "m200000000000008"
+			rewards: [{
+				id: "m2r0000000000008"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "m2t0000000000008"
+				item: "mysticalagriculture:awakened_supremium_essence"
+				type: "item"
+			}]
+			title: "Awakened Supremium"
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["m200000000000004"]
+			description: [
+				"The whole point of Mystical Agriculture: craft a resource crop seed (iron, diamond, gold, etc.) and grow infinite resources from farmland."
+				""
+				"Check JEI for which seeds are available. Each seed type has a tier requirement and unique recipe."
+			]
+			id: "m200000000000009"
+			rewards: [{
+				id: "m2r0000000000009"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "m2t0000000000009"
+				title: "Craft any resource crop seed (iron, diamond, etc.)"
+				type: "checkmark"
+			}]
+			title: "Resource Seed"
+			x: -4.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["m200000000000007"]
+			description: [
+				"Essence Farmland comes in tiers matching the essence tiers. Higher-tier farmland grows crops faster and is required for maximum efficiency."
+				""
+				"Supremium Farmland is the best \u2014 place it under your highest-tier seeds for dramatically faster harvests."
+			]
+			id: "m20000000000000a"
+			rewards: [{
+				id: "m2r000000000000a"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "m2t000000000000a"
+				item: "mysticalagriculture:supremium_farmland_block"
+				type: "item"
+			}]
+			title: "Essence Farmland"
+			x: -4.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["m200000000000009"]
+			description: [
+				"The Seed Reprocessor lets you break down unwanted seeds back into essence. Feed it seeds you no longer need and recover some of the crafting cost."
+				""
+				"Great for cleaning up failed experiments or surplus seed types."
+			]
+			id: "m20000000000000b"
+			rewards: [{
+				id: "m2r000000000000b"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "m2t000000000000b"
+				item: "mysticalagriculture:seed_reprocessor"
+				type: "item"
+			}]
+			title: "Seed Reprocessor"
+			x: -4.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["m200000000000001"]
+			description: [
+				"Apotheosis completely overhauls the vanilla Enchanting Table. Nearby bookshelves now affect enchant level, quality, and available enchantments."
+				""
+				"Place an Enchanting Table and surround it with shelves to begin exploring the new system. Check the Apotheosis guidebook for details."
+			]
+			id: "m20000000000000c"
+			rewards: [{
+				id: "m2r000000000000c"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "m2t000000000000c"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Enchanting Table"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["m20000000000000c"]
+			description: [
+				"The Hellshelf is the first advanced Apotheosis bookshelf. It increases maximum enchanting power beyond vanilla limits and unlocks fire-themed enchantments."
+				""
+				"Craft it with Nether materials. Mix shelf types around your table for different enchant pools."
+			]
+			id: "m20000000000000d"
+			rewards: [{
+				id: "m2r000000000000d"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "m2t000000000000d"
+				item: "apothic_enchanting:hellshelf"
+				type: "item"
+			}]
+			title: "Hellshelf"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["m20000000000000d"]
+			description: [
+				"The Seashelf is a water-themed advanced shelf. It adds different enchantment weightings compared to the Hellshelf, favoring aquatic and frost enchants."
+				""
+				"Combine Hellshelves and Seashelves for broader enchant coverage on your table."
+			]
+			id: "m20000000000000e"
+			rewards: [{
+				id: "m2r000000000000e"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "m2t000000000000e"
+				item: "apothic_enchanting:seashelf"
+				type: "item"
+			}]
+			title: "Seashelf"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["m20000000000000e"]
+			description: [
+				"The Endshelf unlocks the rarest enchantment pools. End-themed shelves push your enchanting power to its maximum and grant access to exclusive enchants."
+				""
+				"Requires Ender materials. This is the peak of Apotheosis enchanting infrastructure."
+			]
+			id: "m20000000000000f"
+			rewards: [{
+				id: "m2r000000000000f"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "m2t000000000000f"
+				item: "apothic_enchanting:endshelf"
+				type: "item"
+			}]
+			title: "Endshelf"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["m20000000000000f"]
+			description: [
+				"Apotheosis adds a gem socketing system. Find gems from mob drops or mining, then socket them into gear for permanent stat boosts."
+				""
+				"Each gem type gives different bonuses. Experiment with combinations to optimize your loadout."
+			]
+			id: "m200000000000010"
+			rewards: [{
+				id: "m2r0000000000010"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "m2t0000000000010"
+				title: "Socket an Apotheosis gem into a piece of gear"
+				type: "checkmark"
+			}]
+			title: "Gem Socketing"
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["m20000000000000c"]
+			description: [
+				"Apothic Spawners lets you modify vanilla spawners with items. Apply modifiers to change spawn rates, mob types, spawn counts, and range."
+				""
+				"Silk-touch a spawner first, then right-click modifiers onto it. Great for mob farms."
+			]
+			id: "m200000000000011"
+			rewards: [{
+				id: "m2r0000000000011"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "m2t0000000000011"
+				title: "Apply a modifier to a spawner"
+				type: "checkmark"
+			}]
+			title: "Spawner Modifier"
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["m20000000000000c"]
+			description: [
+				"Apotheosis adds affix gear \u2014 equipment with colored names and random magical properties. Find them as rare drops from dungeon chests and boss mobs."
+				""
+				"Affixes stack with enchantments, making these items extremely powerful base gear for further upgrades."
+			]
+			id: "m200000000000012"
+			rewards: [{
+				id: "m2r0000000000012"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "m2t0000000000012"
+				title: "Find a piece of gear with an affix (colored name)"
+				type: "checkmark"
+			}]
+			title: "Affix Gear"
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["m20000000000000c"]
+			description: [
+				"The Salvaging Table breaks down enchanted gear into raw materials and recovers some enchantment components. Feed it surplus enchanted loot."
+				""
+				"This is the best way to recycle gear from dungeon runs and mob farms without wasting the enchantments entirely."
+			]
+			id: "m200000000000013"
+			rewards: [{
+				id: "m2r0000000000013"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "m2t0000000000013"
+				item: "apothic_enchanting:salvaging_table"
+				type: "item"
+			}]
+			title: "Salvaging Table"
+			x: -1.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["m200000000000001"]
+			description: [
+				"The Blood Orb is EvilCraft's entry item. Hit mobs while holding it to collect their blood \u2014 the fuel for all EvilCraft machines and recipes."
+				""
+				"Keep it in your hotbar during combat. Blood is consumed by almost every EvilCraft recipe."
+			]
+			id: "m200000000000014"
+			rewards: [{
+				id: "m2r0000000000014"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "m2t0000000000014"
+				item: "evilcraft:blood_orb"
+				type: "item"
+			}]
+			title: "Blood Orb"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["m200000000000014"]
+			description: [
+				"The Blood Infuser is EvilCraft's core processing machine. It infuses items with stored blood to create advanced materials and components."
+				""
+				"Feed it blood via Blood Orbs or piped fluid. Many mid-tier recipes require this machine."
+			]
+			id: "m200000000000015"
+			rewards: [{
+				id: "m2r0000000000015"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "m2t0000000000015"
+				item: "evilcraft:blood_infuser"
+				type: "item"
+			}]
+			title: "Blood Infuser"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["m200000000000015"]
+			description: [
+				"Dark Gems are a mid-tier EvilCraft crafting material found underground. They are used in most advanced EvilCraft recipes."
+				""
+				"Mine them with an iron pickaxe or better. You will need many for the full EvilCraft progression."
+			]
+			id: "m200000000000016"
+			rewards: [{
+				id: "m2r0000000000016"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "m2t0000000000016"
+				item: "evilcraft:dark_gem"
+				type: "item"
+			}]
+			title: "Dark Gem"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["m200000000000016"]
+			description: [
+				"The Spirit Furnace cooks captured mob essence into their drops. Place a Box of Eternal Closure containing a mob inside and fuel it with blood."
+				""
+				"This is a powerful mob farm alternative \u2014 guaranteed drops without needing a physical spawner setup."
+			]
+			id: "m200000000000017"
+			rewards: [{
+				id: "m2r0000000000017"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "m2t0000000000017"
+				item: "evilcraft:spirit_furnace"
+				type: "item"
+			}]
+			title: "Spirit Furnace"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["m200000000000017"]
+			description: [
+				"The Box of Eternal Closure captures Vengeance Spirits \u2014 ghostly mobs that spawn when you kill other mobs. Capture them and use them in the Spirit Furnace."
+				""
+				"Right-click a Vengeance Spirit with the box to trap it. Higher-tier spirits yield rarer drops."
+			]
+			id: "m200000000000018"
+			rewards: [{
+				id: "m2r0000000000018"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "m2t0000000000018"
+				item: "evilcraft:box_of_eternal_closure"
+				type: "item"
+			}]
+			title: "Box of Eternal Closure"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["m200000000000018"]
+			description: [
+				"The Sanguinary Pedestal is a blood-powered crafting station for advanced EvilCraft spells and items. It requires a steady blood supply to operate."
+				""
+				"Automate blood delivery with pipes or place Blood Orbs nearby for manual feeding."
+			]
+			id: "m200000000000019"
+			rewards: [{
+				id: "m2r0000000000019"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "m2t0000000000019"
+				item: "evilcraft:sanguinary_pedestal"
+				type: "item"
+			}]
+			title: "Sanguinary Pedestal"
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["m200000000000019"]
+			description: [
+				"The Dark Power Gem is EvilCraft's endgame crafting material. It requires extensive blood processing and rare components to create."
+				""
+				"Used in the most powerful EvilCraft items and as a cross-mod crafting ingredient in late-game recipes."
+			]
+			id: "m20000000000001a"
+			rewards: [{
+				id: "m2r000000000001a"
+				type: "xp"
+				xp: 70
+			}]
+			tasks: [{
+				id: "m2t000000000001a"
+				item: "evilcraft:dark_power_gem"
+				type: "item"
+			}]
+			title: "Dark Power Gem"
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["m200000000000001"]
+			description: [
+				"Draconium Ingots are the base material for Draconic Evolution. Mine Draconium Ore in the End dimension or find small veins in the Overworld and Nether."
+				""
+				"You will need large quantities. Consider Mystical Agriculture Draconium Seeds once available."
+			]
+			id: "m20000000000001b"
+			rewards: [{
+				id: "m2r000000000001b"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "m2t000000000001b"
+				item: "draconicevolution:draconium_ingot"
+				type: "item"
+			}]
+			title: "Draconium Ingot"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["m20000000000001b"]
+			description: [
+				"The Wyvern Core is the tier 1 crafting component for Draconic Evolution. It is used in all Wyvern-tier equipment and machines."
+				""
+				"Craft it in a Fusion Crafting setup using Draconium Ingots and other materials. Check JEI for the exact multiblock layout."
+			]
+			id: "m20000000000001c"
+			rewards: [{
+				id: "m2r000000000001c"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "m2t000000000001c"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			title: "Wyvern Core"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["m20000000000001c"]
+			description: [
+				"The Wyvern Chestplate is tier 1 powered armor from Draconic Evolution. It provides strong protection and must be charged with RF/FE energy."
+				""
+				"Pair it with an Energy Core or Flux Network to keep it powered. It outperforms Netherite significantly."
+			]
+			id: "m20000000000001d"
+			rewards: [{
+				id: "m2r000000000001d"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "m2t000000000001d"
+				item: "draconicevolution:wyvern_chestplate"
+				type: "item"
+			}]
+			title: "Wyvern Chestplate"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["m20000000000001d"]
+			description: [
+				"The Draconic Core is the tier 2 crafting component. It requires Wyvern Cores and additional rare materials in the Fusion Crafter."
+				""
+				"Draconic-tier equipment is a major power spike. Ensure you have a stable energy supply before upgrading."
+			]
+			id: "m20000000000001e"
+			rewards: [{
+				id: "m2r000000000001e"
+				type: "xp"
+				xp: 70
+			}]
+			tasks: [{
+				id: "m2t000000000001e"
+				item: "draconicevolution:draconic_core"
+				type: "item"
+			}]
+			title: "Draconic Core"
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["m20000000000001e"]
+			description: [
+				"The Draconic Chestplate is tier 2 powered armor. It adds flight, massive damage resistance, and configurable shield capacity."
+				""
+				"This is near-endgame gear. Only Chaotic tier surpasses it, and that requires the Chaos Guardian."
+			]
+			id: "m20000000000001f"
+			rewards: [{
+				id: "m2r000000000001f"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "m2t000000000001f"
+				item: "draconicevolution:draconic_chestplate"
+				type: "item"
+			}]
+			title: "Draconic Chestplate"
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["m20000000000001f"]
+			description: [
+				"The Mob Grinder is a Draconic Evolution block that kills all mobs in its AoE. Place it in a mob farm for hands-free killing with full drop collection."
+				""
+				"It scales with upgrades and can cover a large area. Pair it with modded spawners for maximum efficiency."
+			]
+			id: "m200000000000020"
+			rewards: [{
+				id: "m2r0000000000020"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "m2t0000000000020"
+				item: "draconicevolution:grinder"
+				type: "item"
+			}]
+			title: "Mob Grinder"
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["m200000000000020"]
+			description: [
+				"The Energy Core is a Draconic Evolution multiblock that stores massive amounts of RF/FE energy. Build it with Draconium blocks and Redstone blocks in a specific pattern."
+				""
+				"Start with tier 1 and expand. Endgame tiers store billions of RF \u2014 enough to power an entire base indefinitely."
+			]
+			id: "m200000000000021"
+			rewards: [{
+				id: "m2r0000000000021"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "m2t0000000000021"
+				title: "Build a Draconic Evolution Energy Core multiblock"
+				type: "checkmark"
+			}]
+			title: "Energy Core"
+			x: 5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["m200000000000021"]
+			description: [
+				"Awakened Draconium is the endgame Draconic Evolution material. It requires a Dragon Heart (dropped by the Ender Dragon) and Fusion Crafting."
+				""
+				"This unlocks Chaotic-tier equipment and the path to the Chaos Guardian \u2014 the hardest boss in the pack."
+			]
+			id: "m200000000000022"
+			rewards: [{
+				id: "m2r0000000000022"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "m2t0000000000022"
+				item: "draconicevolution:awakened_draconium_ingot"
+				type: "item"
+			}]
+			title: "Awakened Draconium"
+			x: 5.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["m200000000000001"]
+			description: [
+				"Gobber Globs are the entry material for the Gobber mod. Mine Gobber Ore in the Overworld to get started."
+				""
+				"Gobber adds three tiers of materials (Overworld, Nether, End) with powerful rings, armor, and tools at each level."
+			]
+			id: "m200000000000023"
+			rewards: [{
+				id: "m2r0000000000023"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "m2t0000000000023"
+				item: "gobber:gobber_glob"
+				type: "item"
+			}]
+			title: "Gobber Glob"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["m200000000000023"]
+			description: [
+				"Smelt Gobber Globs into Gobber Ingots. These are the tier 1 crafting material for Gobber tools, armor, and rings."
+				""
+				"Gobber gear is simple to craft compared to other mods, making it a quick power boost in the midgame."
+			]
+			id: "m200000000000024"
+			rewards: [{
+				id: "m2r0000000000024"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "m2t0000000000024"
+				item: "gobber:gobber_ingot"
+				type: "item"
+			}]
+			title: "Gobber Ingot"
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["m200000000000024"]
+			description: [
+				"Gobber Rings provide powerful passive effects: speed, flight, magnet, night vision, and more. Craft any ring to unlock this quest."
+				""
+				"Rings are one of Gobber's biggest draws. Check JEI for the full list and pick the effect you need most."
+			]
+			id: "m200000000000025"
+			rewards: [{
+				id: "m2r0000000000025"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "m2t0000000000025"
+				title: "Craft any Gobber ring"
+				type: "checkmark"
+			}]
+			title: "Gobber Ring"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["m200000000000025"]
+			description: [
+				"Nether Gobber Ingots are the tier 2 material. Mine Nether Gobber Ore in the Nether and smelt the globs."
+				""
+				"Nether-tier Gobber gear is a significant upgrade and bridges the gap to endgame equipment."
+			]
+			id: "m200000000000026"
+			rewards: [{
+				id: "m2r0000000000026"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "m2t0000000000026"
+				item: "gobber:gobber_nether_ingot"
+				type: "item"
+			}]
+			title: "Nether Gobber"
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["m200000000000026"]
+			description: [
+				"End Gobber Ingots are the tier 3 material. Mine End Gobber Ore in the End dimension and smelt the globs."
+				""
+				"End-tier materials unlock the strongest Gobber equipment in the pack."
+			]
+			id: "m200000000000027"
+			rewards: [{
+				id: "m2r0000000000027"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "m2t0000000000027"
+				item: "gobber:gobber_end_ingot"
+				type: "item"
+			}]
+			title: "End Gobber"
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["m200000000000027"]
+			description: [
+				"End Gobber Armor is the endgame Gobber armor set. It provides excellent protection, built-in effects, and durability that rivals Draconic Evolution gear."
+				""
+				"Craft the full set for maximum benefit. The set bonus stacks with individual piece effects."
+			]
+			id: "m200000000000028"
+			rewards: [{
+				id: "m2r0000000000028"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "m2t0000000000028"
+				item: "gobber:gobber_armor_end_helmet"
+				type: "item"
+			}]
+			title: "End Gobber Armor"
+			x: 8.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["m200000000000001"]
+			description: [
+				"Reliquary adds powerful items crafted from mob drops. Start by collecting rare materials from different mobs \u2014 Zombie Hearts, Skeleton Skulls, Creeper Glands, and more."
+				""
+				"Kill a variety of mobs and check your inventory for Reliquary-specific drops."
+			]
+			id: "m200000000000029"
+			rewards: [{
+				id: "m2r0000000000029"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "m2t0000000000029"
+				title: "Collect 3 different Reliquary mob materials"
+				type: "checkmark"
+			}]
+			title: "Mob Drop Hunting"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["m200000000000029"]
+			description: [
+				"The Alkahestry Tome lets you transmute items into other items using Redstone as fuel. It is Reliquary's version of equivalent exchange."
+				""
+				"Right-click with the tome to open the transmutation interface. Great for converting surplus mob drops into useful materials."
+			]
+			id: "m20000000000002a"
+			rewards: [{
+				id: "m2r000000000002a"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "m2t000000000002a"
+				item: "reliquary:alkahestry_tome"
+				type: "item"
+			}]
+			title: "Alkahestry Tome"
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["m20000000000002a"]
+			description: [
+				"The Hero's Medallion stores experience points as a portable XP bank. Right-click to toggle absorption mode \u2014 it will automatically collect nearby XP orbs."
+				""
+				"Essential for enchanting sessions. Fill it up at a mob farm, then spend XP at your enchanting table."
+			]
+			id: "m20000000000002b"
+			rewards: [{
+				id: "m2r000000000002b"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "m2t000000000002b"
+				item: "reliquary:hero_medallion"
+				type: "item"
+			}]
+			title: "Hero's Medallion"
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["m20000000000002b"]
+			description: [
+				"Mob Charms prevent specific mob types from spawning near you. Craft a charm for the mob that annoys you most \u2014 Creepers, Skeletons, Phantoms, etc."
+				""
+				"Keep the charm in your inventory for it to work. Each charm type blocks one mob species."
+			]
+			id: "m20000000000002c"
+			rewards: [{
+				id: "m2r000000000002c"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "m2t000000000002c"
+				title: "Craft a Mob Charm"
+				type: "checkmark"
+			}]
+			title: "Mob Charm"
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["m20000000000002c"]
+			description: [
+				"The Infernal Chalice stores lava as a portable fluid container. Right-click a lava source to fill it, and right-click again to place lava."
+				""
+				"Holds a massive amount of lava. Perfect for Nether trips and fueling smelting setups without buckets."
+			]
+			id: "m20000000000002d"
+			rewards: [{
+				id: "m2r000000000002d"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "m2t000000000002d"
+				item: "reliquary:infernal_chalice"
+				type: "item"
+			}]
+			title: "Infernal Chalice"
+			x: 11.0d
+			y: -8.0d
+		}
+	]
+}

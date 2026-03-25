@@ -1,0 +1,298 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tzp_path_energy"
+	group: "5b5b5b5b5b5b5b5b"
+	icon: "mekanism:basic_energy_cube"
+	id: "08ab08ab08ab08ab"
+	order_index: 8
+	progression_mode: "flexible"
+	title: "Path: Energy & Power"
+	quests: [
+		{
+			dependencies: ["e7a2c91d4b0f56e8"]
+			description: ["The Heat Generator is Mekanism's simplest power source." "" "Place it down and feed it lava or let it passively generate from heat." "" "This is your entry point into Forge Energy (FE) — the universal power unit."]
+			icon: "mekanism:heat_generator"
+			id: "p800000000000001"
+			rewards: [{
+				id: "p8r0000000000001"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "p8t0000000000001"
+				item: "mekanism:heat_generator"
+				type: "item"
+			}]
+			title: "First Spark"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["p800000000000001"]
+			description: ["Create's Water Wheel generates Stress Units (SU) from flowing water." "" "Place it in a river or create an artificial waterfall with source blocks." "" "SU powers Create machines like Mechanical Presses and Mixers — no FE needed."]
+			icon: "create:water_wheel"
+			id: "p800000000000002"
+			rewards: [{
+				id: "p8r0000000000002"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "p8t0000000000002"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Create Water Wheel"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["p800000000000001"]
+			description: ["The Solar Generator produces FE passively during daytime." "" "Place it on an exposed rooftop with clear sky access above." "" "It generates no power at night or in rain — combine with batteries for 24/7 supply."]
+			icon: "mekanism:basic_solar_generator"
+			id: "p800000000000003"
+			rewards: [{
+				id: "p8r0000000000003"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "p8t0000000000003"
+				item: "mekanism:basic_solar_generator"
+				type: "item"
+			}]
+			title: "Solar Generator"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["p800000000000003"]
+			description: ["IE's Thermoelectric Generator produces FE from temperature differentials." "" "Place hot blocks (lava, magma) on one side and cold blocks (ice, packed ice) on the other." "" "The bigger the temperature difference, the more power you generate."]
+			icon: "immersiveengineering:thermoelectric_generator"
+			id: "p800000000000004"
+			rewards: [{
+				id: "p8r0000000000004"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "p8t0000000000004"
+				item: "immersiveengineering:thermoelectric_generator"
+				type: "item"
+			}]
+			title: "IE Thermoelectric Gen"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["p800000000000004"]
+			description: ["The Bio Generator burns Ethylene gas for solid mid-tier FE output." "" "Feed Bio Fuel into a Pressurized Reaction Chamber to produce Ethylene." "" "Automate crop farming to keep a steady supply of bio fuel ingredients."]
+			icon: "mekanismgenerators:bio_generator"
+			id: "p800000000000005"
+			rewards: [{
+				id: "p8r0000000000005"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "p8t0000000000005"
+				item: "mekanismgenerators:bio_generator"
+				type: "item"
+			}]
+			title: "Ethylene Generator"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["p800000000000001"]
+			description: ["Extreme Reactors lets you build custom-sized fission reactors." "" "Place a reactor frame, add Yellorium fuel rods, and control rods to manage output." "" "Bigger reactors produce more FE but consume fuel faster — balance size vs efficiency."]
+			icon: "bigreactors:basic_reactor_casing"
+			id: "p800000000000006"
+			rewards: [{
+				id: "p8r0000000000006"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "p8t0000000000006"
+				title: "Build your first Extreme Reactors reactor"
+				type: "checkmark"
+			}]
+			title: "Yellorium Reactor"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["p800000000000006"]
+			description: ["The IE Diesel Generator is a multiblock that burns Biodiesel or Diesel for high FE." "" "Build it from steel scaffolding and engineering blocks in a specific pattern." "" "Pair it with an IE Refinery to process plant oil and ethanol into Biodiesel."]
+			icon: "immersiveengineering:diesel_generator"
+			id: "p800000000000007"
+			rewards: [{
+				id: "p8r0000000000007"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "p8t0000000000007"
+				title: "Build a Diesel Generator multiblock"
+				type: "checkmark"
+			}]
+			title: "IE Diesel Generator"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["p800000000000007"]
+			description: ["Mekanism's Wind Generator produces FE based on its Y-level height." "" "The higher you place it, the more power it generates — build tall towers." "" "Unlike solar, wind generators work at night and in rain, making them reliable."]
+			icon: "mekanismgenerators:wind_generator"
+			id: "p800000000000008"
+			rewards: [{
+				id: "p8r0000000000008"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "p8t0000000000008"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			title: "Wind Generator"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["p800000000000001"]
+			description: ["Mekanism's Fission Reactor splits Fissile Fuel to produce massive heat." "" "Route that heat through a Boiler and Turbine to generate enormous FE." "" "WARNING: Fission reactors can melt down if coolant runs out — always have safety systems."]
+			icon: "mekanism:fission_reactor_casing"
+			id: "p800000000000009"
+			rewards: [{
+				id: "p8r0000000000009"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "p8t0000000000009"
+				title: "Build a Mekanism Fission Reactor"
+				type: "checkmark"
+			}]
+			title: "Mek Fission Reactor"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["p800000000000009"]
+			description: ["The Fusion Reactor is Mekanism's ultimate power source." "" "It fuses Deuterium and Tritium plasma at extreme temperatures for virtually unlimited FE." "" "Requires a complex setup: laser amplifier ignition, hohlraum injection, and fuel processing."]
+			icon: "mekanism:fusion_reactor_frame"
+			id: "p80000000000000a"
+			rewards: [{
+				id: "p8r000000000000a"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "p8t000000000000a"
+				title: "Build a Mekanism Fusion Reactor"
+				type: "checkmark"
+			}]
+			title: "Mek Fusion Reactor"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["p80000000000000a"]
+			description: ["The Draconic Evolution Reactor harnesses Chaos Shards for extreme power." "" "It requires Awakened Draconium and careful containment field management." "" "If the containment fails, the explosion is devastating — monitor it closely."]
+			icon: "draconicevolution:reactor_core"
+			id: "p80000000000000b"
+			rewards: [{
+				id: "p8r000000000000b"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "p8t000000000000b"
+				title: "Build a Draconic Evolution Reactor"
+				type: "checkmark"
+			}]
+			title: "Draconic Reactor"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["p80000000000000b"]
+			description: ["The Draconic Energy Core stores enormous amounts of RF/FE." "" "Build it in tiers — each tier dramatically increases capacity." "" "Perfect for buffering output from your most powerful generators."]
+			icon: "draconicevolution:energy_core"
+			id: "p80000000000000c"
+			rewards: [{
+				id: "p8r000000000000c"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "p8t000000000000c"
+				title: "Build a Draconic Energy Core"
+				type: "checkmark"
+			}]
+			title: "Energy Core"
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["p800000000000001"]
+			description: ["Flux Networks lets you transfer FE wirelessly across any distance or dimension." "" "Craft a Flux Controller, then place Flux Points (output) and Flux Plugs (input) on machines." "" "All connected devices share one wireless network — no cables needed."]
+			icon: "fluxnetworks:flux_controller"
+			id: "p80000000000000d"
+			rewards: [{
+				id: "p8r000000000000d"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "p8t000000000000d"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			title: "Flux Network"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["p80000000000000d"]
+			description: ["Mekanism's Universal Cable is a reliable wired FE conduit." "" "It auto-connects to any FE-compatible machine and supports high transfer rates." "" "Use cables for short-range connections where wireless would be overkill."]
+			icon: "mekanism:basic_universal_cable"
+			id: "p80000000000000e"
+			rewards: [{
+				id: "p8r000000000000e"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "p8t000000000000e"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			title: "Universal Cable"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["p80000000000000e"]
+			description: ["Ender IO Energy Conduits fit multiple conduit types in a single block space." "" "You can run energy, items, and fluids through the same conduit bundle." "" "Use filters and channel coloring to control exactly where power flows."]
+			icon: "enderio:energy_conduit"
+			id: "p80000000000000f"
+			rewards: [{
+				id: "p8r000000000000f"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "p8t000000000000f"
+				item: "enderio:energy_conduit"
+				type: "item"
+			}]
+			title: "Ender IO Energy Conduit"
+			x: 6.0d
+			y: -5.0d
+		}
+	]
+}

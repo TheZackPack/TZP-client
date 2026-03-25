@@ -1,0 +1,355 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tzp_path_explore"
+	group: "5b5b5b5b5b5b5b5b"
+	icon: "minecraft:map"
+	id: "03ab03ab03ab03ab"
+	order_index: 3
+	progression_mode: "flexible"
+	title: "Path: Exploration"
+	quests: [
+		{
+			dependencies: ["e7a2c91d4b0f56e8"]
+			description: ["Craft a Warp Stone to teleport between Waystones you have activated." "" "Waystones appear naturally in villages and throughout the world." "" "Activating a Waystone lets you fast-travel back to it from anywhere."]
+			icon: "waystones:warp_stone"
+			id: "e300000000000001"
+			rewards: [{
+				id: "e3r0000000000001"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "e3t0000000000001"
+				item: "waystones:warp_stone"
+				type: "item"
+			}]
+			title: "Wayfinding"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["e300000000000001"]
+			description: ["Nature's Compass points you toward any biome you choose." "" "Right-click to open the biome search GUI, then select your target." "" "Essential for finding rare biomes like cherry groves or mushroom islands."]
+			icon: "naturescompass:naturescompass"
+			id: "e300000000000002"
+			rewards: [{
+				id: "e3r0000000000002"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "e3t0000000000002"
+				item: "naturescompass:naturescompass"
+				type: "item"
+			}]
+			title: "Nature's Compass"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["e300000000000002"]
+			description: ["Biomes O' Plenty adds dozens of new biomes to the Overworld." "" "Use your Nature's Compass to locate one, then travel there." "" "Look for unique trees, flowers, and terrain that vanilla Minecraft lacks."]
+			icon: "minecraft:oak_sapling"
+			id: "e300000000000003"
+			rewards: [{
+				id: "e3r0000000000003"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "e3t0000000000003"
+				title: "Visit a Biomes O' Plenty biome"
+				type: "checkmark"
+			}]
+			title: "Visit a BoP Biome"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["e300000000000003"]
+			description: ["When Dungeons Arise adds massive procedural structures to worldgen." "" "These are much larger than vanilla dungeons — castles, towers, and ruins." "" "Explore carefully: the loot is excellent but the enemies are fierce."]
+			icon: "minecraft:mossy_stone_bricks"
+			id: "e300000000000004"
+			rewards: [{
+				id: "e3r0000000000004"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "e3t0000000000004"
+				title: "Find a large structure from When Dungeons Arise"
+				type: "checkmark"
+			}]
+			title: "When Dungeons Arise"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["e300000000000004"]
+			description: ["Ocean Monuments are underwater temples guarded by Elder Guardians." "" "Bring water breathing potions, a good weapon, and sponges to clear rooms." "" "Defeating all three Elders removes Mining Fatigue and grants access to the gold core."]
+			icon: "minecraft:prismarine"
+			id: "e300000000000005"
+			rewards: [{
+				id: "e3r0000000000005"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "e3t0000000000005"
+				title: "Find an Ocean Monument"
+				type: "checkmark"
+			}]
+			title: "Ocean Monument"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["e300000000000005"]
+			description: ["The Elytra is found in End City ships — you must defeat the Dragon first." "" "Equip it in your chestplate slot and use firework rockets to fly." "" "This is the ultimate exploration tool: the entire world opens up once you can fly."]
+			icon: "minecraft:elytra"
+			id: "e300000000000006"
+			rewards: [{
+				id: "e3r0000000000006"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "e3t0000000000006"
+				item: "minecraft:elytra"
+				type: "item"
+			}]
+			title: "Elytra"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["e300000000000001"]
+			description: ["Build a Nether portal with obsidian (4x5 frame) and light it with flint & steel." "" "The Nether is essential for blaze rods, quartz, and fast travel." "" "Every block you walk in the Nether equals 8 blocks in the Overworld."]
+			icon: "minecraft:nether_brick"
+			id: "e300000000000007"
+			rewards: [{
+				id: "e3r0000000000007"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "e3t0000000000007"
+				item: "minecraft:nether_brick"
+				type: "item"
+			}]
+			title: "Enter the Nether"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["e300000000000007"]
+			description: ["Nether Fortresses contain Blazes, which drop Blaze Rods on death." "" "Blaze Rods are required to craft Blaze Powder for brewing and Eyes of Ender." "" "Fortresses also have Wither Skeleton spawns — collect skulls for the Wither boss."]
+			icon: "minecraft:blaze_rod"
+			id: "e300000000000008"
+			rewards: [{
+				id: "e3r0000000000008"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "e3t0000000000008"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "Nether Fortress"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["e300000000000008"]
+			description: ["Bastion Remnants are Piglin strongholds with excellent treasure loot." "" "Netherite Scrap is found in bastion chests or by mining Ancient Debris at Y=15." "" "Bring gold armor so Piglins stay neutral while you loot."]
+			icon: "minecraft:netherite_scrap"
+			id: "e300000000000009"
+			rewards: [{
+				id: "e3r0000000000009"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "e3t0000000000009"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			title: "Bastion Remnant"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["e300000000000009"]
+			description: ["Combine 4 Netherite Scrap + 4 Gold Ingots at a crafting table to make a Netherite Ingot." "" "Use a Smithing Table to upgrade diamond gear to netherite tier." "" "Netherite items float in lava and have the highest durability in vanilla Minecraft."]
+			icon: "minecraft:netherite_ingot"
+			id: "e30000000000000a"
+			rewards: [{
+				id: "e3r000000000000a"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "e3t000000000000a"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Netherite Ingot"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["e300000000000001"]
+			description: ["Throw Eyes of Ender to find a Stronghold, then activate the End Portal inside." "" "The End dimension contains the Ender Dragon boss and End Cities." "" "Bring plenty of arrows, blocks for pillaring, and beds are useless here."]
+			icon: "minecraft:end_stone"
+			id: "e30000000000000b"
+			rewards: [{
+				id: "e3r000000000000b"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "e3t000000000000b"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			title: "The End"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["e30000000000000b"]
+			description: ["The Dragon Egg spawns on the exit portal after defeating the Ender Dragon." "" "Use a piston to push it off the portal, or place a torch below and break the block it sits on." "" "It is the rarest item in vanilla Minecraft — a trophy of your victory."]
+			icon: "minecraft:dragon_egg"
+			id: "e30000000000000c"
+			rewards: [{
+				id: "e3r000000000000c"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "e3t000000000000c"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Dragon Egg"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["e30000000000000c"]
+			description: ["Shulkers live in End Cities and drop Shulker Shells when killed." "" "Combine 2 Shulker Shells + 1 Chest to craft a Shulker Box." "" "Shulker Boxes keep their contents when broken — portable storage that changes everything."]
+			icon: "minecraft:shulker_box"
+			id: "e30000000000000d"
+			rewards: [{
+				id: "e3r000000000000d"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "e3t000000000000d"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			title: "Shulker Box"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["e300000000000001"]
+			description: ["The Undergarden is a vast cavern dimension beneath the Overworld." "" "Build a portal frame from Depthrock and activate it with a Catalyst." "" "This dimension has unique ores, mobs, and biomes found nowhere else."]
+			icon: "undergarden:depthrock"
+			id: "e30000000000000e"
+			rewards: [{
+				id: "e3r000000000000e"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "e3t000000000000e"
+				title: "Build an Undergarden portal and enter the dimension"
+				type: "checkmark"
+			}]
+			title: "Enter the Undergarden"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["e30000000000000e"]
+			description: ["Cloggrum is the Undergarden's equivalent of iron — plentiful and reliable." "" "Mine Cloggrum Ore in the Undergarden and smelt it into ingots." "" "Use it to craft Undergarden-tier tools and armor as your first UG gear set."]
+			icon: "undergarden:cloggrum_ingot"
+			id: "e30000000000000f"
+			rewards: [{
+				id: "e3r000000000000f"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "e3t000000000000f"
+				item: "undergarden:cloggrum_ingot"
+				type: "item"
+			}]
+			title: "Cloggrum Ingot"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["e30000000000000f"]
+			description: ["Froststeel is the Undergarden's diamond-tier material — rare and powerful." "" "Found deeper in the dimension, often near icy cavern biomes." "" "Froststeel tools and armor are a significant upgrade over Cloggrum."]
+			icon: "undergarden:froststeel_ingot"
+			id: "e300000000000010"
+			rewards: [{
+				id: "e3r0000000000010"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "e3t0000000000010"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			title: "Froststeel Ingot"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["e300000000000010"]
+			description: ["Utherium is a magical ore unique to the Undergarden." "" "It has special properties and is used in advanced Undergarden crafting recipes." "" "Mine it carefully — Utherium ore clusters are uncommon and well-guarded."]
+			icon: "undergarden:utherium_ingot"
+			id: "e300000000000011"
+			rewards: [{
+				id: "e3r0000000000011"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "e3t0000000000011"
+				item: "undergarden:utherium_ingot"
+				type: "item"
+			}]
+			title: "Utherium Ingot"
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["e300000000000011"]
+			description: ["The Forgotten Ingot is crafted from materials dropped by the Undergarden's boss." "" "Defeat the Forgotten Guardian to obtain the necessary components." "" "Forgotten gear represents the pinnacle of Undergarden progression."]
+			icon: "undergarden:forgotten_ingot"
+			id: "e300000000000012"
+			rewards: [{
+				id: "e3r0000000000012"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "e3t0000000000012"
+				item: "undergarden:forgotten_ingot"
+				type: "item"
+			}]
+			title: "Forgotten Ingot"
+			x: 6.0d
+			y: -8.0d
+		}
+	]
+}

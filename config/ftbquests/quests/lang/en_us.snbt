@@ -1,0 +1,100 @@
+{
+	chapter.01AB01AB01AB01AB.title: "Path: Tech"
+	chapter.02AB02AB02AB02AB.title: "Path: Magic"
+	chapter.03AB03AB03AB03AB.title: "Path: Exploration"
+	chapter.04AB04AB04AB04AB.title: "Path: Building"
+	chapter.6DD3964D508D8338.title: "Onboarding"
+	chapter_group.4864581EB83332FE.title: "Getting started"
+	chapter_group.5B5B5B5B5B5B5B5B.title: "Paths"
+	quest.11CD11CD11CD11CD.quest_desc: [
+		"Create is a strong first tech mod: visible gears, stress, and simple automation. Craft a Hand Crank and spin it on a shaft to feel how kinetic networks work."
+		""
+		"From here, JEI is your map to Mekanism, Immersive Engineering, Industrial Foregoing, RFTools, XNet, and the rest of the tech stack."
+	]
+	quest.11CD11CD11CD11CD.title: "Tech path — Create"
+	quest.11CD11CD11CD11CE.quest_desc: [
+		"Power and storage split many mods: Mekanism (gases + FE), Applied Energistics 2, Refined Storage, Sophisticated Storage, Flux Networks, and more."
+		""
+		"Pick one line to learn deeply; Almost Unified keeps many ingots and tags consistent across recipes and loot."
+	]
+	quest.11CD11CD11CD11CE.title: "Bigger tech (optional)"
+	quest.1E22E680F71730BE.quest_desc: [
+		"KubeJS gates some cross-mod recipes (see kubejs/server_scripts on TZP-server). Restart after script changes."
+		""
+		"Pack fixes live in the tzp_datapack_fixes datapack — copy it into each world's datapacks folder if a world predates the pack."
+	]
+	quest.1E22E680F71730BE.title: "Pack layer"
+	quest.22CD22CD22CD22CD.quest_desc: [
+		"Mystical Agriculture turns crops into resources. Mine Inferium Ore or follow JEI to get your first Inferium Essence — it also ties into late cross-mod recipes in this pack."
+		""
+		"Apotheosis (enchanting shelves, gems, spawners), EvilCraft, Reliquary, and Gobber add parallel magic power — check GuideME / Patchouli for each mod that ships a book."
+	]
+	quest.22CD22CD22CD22CD.title: "Magic path — MA seed"
+	quest.22CD22CD22CD22CE.quest_desc: ["Apothic Enchanting changes how shelves and affixes work. When you are ready, craft a basic shelf line (see JEI for Hell/Sea shelves) to upgrade your enchanting setup."]
+	quest.22CD22CD22CD22CE.title: "Apotheosis & enchanting"
+	quest.29E544C452511828.quest_desc: ["Craft any dyeable bed, then sleep when you can set spawn safely."]
+	quest.29E544C452511828.title: "Shelter & spawn"
+	quest.2E433FC8D0857DF2.quest_desc: ["Sophisticated Backpacks, drawers, and digital storage come later — a chest is enough to start."]
+	quest.2E433FC8D0857DF2.title: "Storage"
+	quest.324D34E12DB2DE5E.quest_desc: [
+		"Use JEI to look up anything you see in the pack. Use Jade on blocks and machines for mod-specific data."
+		""
+		"Mark this when you have tried both at least once."
+	]
+	quest.324D34E12DB2DE5E.title: "Recipe & world info"
+	quest.33CD33CD33CD33CD.quest_desc: [
+		"Waystones add reusable travel anchors. Craft a Warp Stone (see JEI) to start linking places without creative flight."
+		""
+		"JourneyMap is on the client; Nature's Compass finds biomes; When Dungeons Arise, YUNG's caves, BoP, Undergarden, and Towns & Towers expand what you can explore."
+	]
+	quest.33CD33CD33CD33CD.title: "Exploration — wayfinding"
+	quest.33CD33CD33CD33CE.quest_desc: ["Use Nature's Compass to hunt specific biomes (BoP and vanilla). Pair it with Waystones so long trips stay manageable."]
+	quest.33CD33CD33CD33CE.title: "Biome hunting"
+	quest.44CD44CD44CD44CD.quest_desc: [
+		"MineColonies uses Structurize tools for previews and blueprints. Craft the Build Tool (golden scepter) to start placing colony structures."
+		""
+		"Supplementaries, Domum Ornamentum, Refurbished Furniture, and Fetzi's Asian Deco add decoration blocks — mix and match with vanilla building."
+	]
+	quest.44CD44CD44CD44CD.title: "Building — Structurize"
+	quest.44CD44CD44CD44CE.quest_desc: ["When you want NPC colonies, grab a Supply Camp/Ship from MineColonies (JEI) and found a town. This chapter stays optional — many players only use the build tools."]
+	quest.44CD44CD44CD44CE.title: "MineColonies (optional)"
+	quest.50FD49AAC3951685.quest_desc: ["Craft the Quest Book: Book + any stone tagged c:stones (see JEI). You can also bind a key in Controls for FTB Quests."]
+	quest.50FD49AAC3951685.title: "Quest book in hand"
+	quest.528BE1CA61227FC5.quest_desc: ["Punch trees or harvest any overworld logs. If JEI is unclear, hover log types in your inventory."]
+	quest.528BE1CA61227FC5.title: "Gather wood"
+	quest.5409D90068606408.quest_desc: [
+		"Almost Unified picks preferred outputs for shared tags so recipes and loot line up. Ore generation is still defined by each worldgen mod."
+		""
+		"ProjectE uses a curated custom_emc.json — keep server and client copies identical."
+	]
+	quest.5409D90068606408.title: "Unification & EMC"
+	quest.623A61F3208BC3B0.quest_desc: [
+		"TZP (The Zack Pack) is a kitchen-sink NeoForge 1.21.1 profile: tech, magic, exploration, colonies, and automation."
+		""
+		"How to find your way:"
+		"• JEI — recipes and uses (hover an item: R uses, U recipe)."
+		"• Jade — look at blocks and entities (check Controls for your toggle key)."
+		"• GuideME and Patchouli — in-game mod manuals where authors provided them."
+		"• Tips — loading-screen hints from this pack."
+		"• Better Advancements — improved advancement screen for vanilla-style goals."
+		""
+		"Use this quest book for optional guided goals; nothing here is required to enjoy the pack."
+	]
+	quest.623A61F3208BC3B0.title: "Welcome to TZP"
+	quest.6379DF5B7B0F4BDE.quest_desc: ["Open a crafting grid (inventory 2x2 or a table) and put together basic tools."]
+	quest.6379DF5B7B0F4BDE.title: "Crafting basics"
+	quest.74D7291260657230.quest_desc: [
+		"Starter chapters are unlocked. Pick Tech, Magic, Exploration, or Building — or ignore this book and play sandbox."
+		""
+		"Almost Unified aligns tags and loot; ProjectE uses curated EMC (see Tips). Pack scripts live in KubeJS on the server mirror."
+	]
+	quest.74D7291260657230.title: "Choose your next steps"
+	task.2168973E41CD30BD.title: "Paths unlocked"
+	task.2A847BD81D806FD8.title: "Scripts & datapacks"
+	task.32B31D4F10CF8E32.title: "Read the intro"
+	task.379D618C63FCB21E.title: "Colonies when ready"
+	task.4A1968E2672037D7.title: "Noted the tech landscape"
+	task.5B29CC214F154EBA.title: "Economy & metals"
+	task.5CEA2D250E555976.title: "Used JEI & Jade"
+	task.7257EC892AF4362C.title: "Ready to explore Apotheosis"
+}

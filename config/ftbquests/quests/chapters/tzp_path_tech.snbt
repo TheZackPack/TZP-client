@@ -1,0 +1,1374 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "tzp_path_tech"
+	group: "5b5b5b5b5b5b5b5b"
+	icon: "create:wrench"
+	id: "01ab01ab01ab01ab"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["e7a2c91d4b0f56e8"]
+			description: [
+				"TZP has over a dozen tech mods covering power generation, ore processing, digital storage, logistics, and automation."
+				""
+				"Each branch below introduces a major mod — you don't need to do them all, but exploring multiple paths unlocks powerful cross-mod synergies. JEI (press R on items) is your best friend for finding recipes across mods."
+				""
+				"Pick a branch that sounds fun and dive in. You can always come back to try others later."
+			]
+			icon: "create:wrench"
+			id: "t100000000000001"
+			rewards: [{
+				id: "t1r0000000000001"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "t1t0000000000001"
+				title: "Open JEI and search for a mod item"
+				type: "checkmark"
+			}]
+			title: "Welcome to Tech"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["t100000000000001"]
+			description: [
+				"Create uses rotational power instead of electricity. The Hand Crank is the simplest way to generate Stress Units (SU) — right-click it to spin connected shafts."
+				""
+				"It won't power much, but it teaches the core concept: every Create machine needs rotation delivered via shafts and cogwheels. Think of SU like a power budget."
+			]
+			icon: "create:hand_crank"
+			id: "t100000000000002"
+			rewards: [{
+				id: "t1r0000000000002"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t0000000000002"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Hand Crank"
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["t100000000000002"]
+			description: [
+				"The Water Wheel is your first real hands-free power source. Place it on a shaft next to flowing water — the more water blocks touching it, the more SU it generates."
+				""
+				"A single wheel with good flow gives 256 SU, enough to run several early machines. Build a river dam or pour water from above for best results."
+			]
+			icon: "create:water_wheel"
+			id: "t100000000000003"
+			rewards: [{
+				id: "t1r0000000000003"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t0000000000003"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Water Wheel"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["t100000000000003"]
+			description: [
+				"The Mechanical Press and Basin are Create's core crafting duo. Place a Basin under a Press on a shaft — the Press stamps items in the Basin into sheets, alloys, and more."
+				""
+				"Check JEI for Basin + Press recipes. You'll use this combo constantly for making Brass, sheets for casings, and dozens of other materials."
+			]
+			icon: "create:mechanical_press"
+			id: "t100000000000004"
+			rewards: [{
+				id: "t1r0000000000004"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "t1t0000000000004"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Mechanical Press & Basin"
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["t100000000000004"]
+			description: [
+				"The Millstone crushes ores and materials when given rotational power. Feed it raw ores to get double the output compared to a furnace."
+				""
+				"It is slower than the Crushing Wheels but much cheaper to build. Great early-game ore doubling before you move to Mekanism's Enrichment Chamber."
+			]
+			icon: "create:millstone"
+			id: "t100000000000005"
+			rewards: [{
+				id: "t1r0000000000005"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t0000000000005"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Millstone"
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["t100000000000005"]
+			description: [
+				"The Deployer simulates a player's hand. It can right-click, left-click, and use held items — making it essential for recipes that require manual interaction."
+				""
+				"Many Create recipes need a Deployer to apply items to things on belts or in the world. It is also key for Sequenced Assembly, Create's advanced crafting system."
+			]
+			icon: "create:deployer"
+			id: "t100000000000006"
+			rewards: [{
+				id: "t1r0000000000006"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "t1t0000000000006"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Deployer"
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["t100000000000006"]
+			description: [
+				"The Mechanical Arm picks up items from one location and places them in another. You can configure multiple input and output points by right-clicking."
+				""
+				"Unlike belts, arms can reach across gaps and target specific inventories. Perfect for feeding multiple machines from a central chest or sorting outputs."
+			]
+			icon: "create:mechanical_arm"
+			id: "t100000000000007"
+			rewards: [{
+				id: "t1r0000000000007"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "t1t0000000000007"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "Mechanical Arm"
+			x: -9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["t100000000000007"]
+			description: [
+				"Mechanical Belts are Create's main item transport. Craft a Belt Connector with leather, then right-click two shafts to link them. Add Funnels to insert or extract items from adjacent inventories."
+				""
+				"Belts plus Funnels replace basic hoppers and are much faster. They form the backbone of any serious Create factory."
+			]
+			icon: "create:belt_connector"
+			id: "t100000000000008"
+			rewards: [{
+				id: "t1r0000000000008"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "t1t0000000000008"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Belt & Funnel"
+			x: -9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["t100000000000008"]
+			description: [
+				"The Cart Assembler glues blocks onto a Minecart to create moving contraptions. Place it on rails, put your structure on top, and power with redstone."
+				""
+				"This unlocks flying machines, mobile drills, portable farms, and more. Combine with Mechanical Bearings and Rope Pulleys for even crazier builds."
+			]
+			icon: "create:cart_assembler"
+			id: "t100000000000009"
+			rewards: [{
+				id: "t1r0000000000009"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "t1t0000000000009"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			title: "Cart Assembler"
+			x: -9.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["t100000000000001"]
+			description: [
+				"The Heat Generator is Mekanism's starter power source. It burns coal, wood, or any furnace fuel — or place it on lava for passive heat-based FE generation."
+				""
+				"Lava mode is slower but free and infinite. This generator bridges you to Mekanism's machine ecosystem, which runs on Forge Energy (FE)."
+			]
+			icon: "mekanism:heat_generator"
+			id: "t10000000000000a"
+			rewards: [{
+				id: "t1r000000000000a"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t000000000000a"
+				item: "mekanism:heat_generator"
+				type: "item"
+			}]
+			title: "Heat Generator"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["t10000000000000a"]
+			description: [
+				"The Metallurgic Infuser combines materials with an infuse type (carbon, redstone, diamond, etc.) to create advanced materials. Its most important recipe is Steel."
+				""
+				"To make Steel: infuse Iron Ingots with carbon (from coal or charcoal). Steel is used in almost every Mekanism machine, so automate this early."
+			]
+			icon: "mekanism:metallurgic_infuser"
+			id: "t10000000000000b"
+			rewards: [{
+				id: "t1r000000000000b"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "t1t000000000000b"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "Metallurgic Infuser"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["t10000000000000b"]
+			description: [
+				"The Enrichment Chamber doubles your raw ores into two dust per ore, which smelt into two ingots. This is Mekanism's bread-and-butter ore doubling."
+				""
+				"It also enriches other materials — redstone ore into enriched redstone, diamond ore into two diamonds, and more. A must-have machine from early to late game."
+			]
+			icon: "mekanism:enrichment_chamber"
+			id: "t10000000000000c"
+			rewards: [{
+				id: "t1r000000000000c"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "t1t000000000000c"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "Enrichment Chamber"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["t10000000000000c"]
+			description: [
+				"The Basic Energy Cube stores Forge Energy (FE) and can charge items in its inventory. Think of it as a battery for your Mekanism setup."
+				""
+				"Upgrade to Advanced, Elite, and Ultimate tiers as your power needs grow. Place between generators and machines to buffer energy during demand spikes."
+			]
+			icon: "mekanism:basic_energy_cube"
+			id: "t10000000000000d"
+			rewards: [{
+				id: "t1r000000000000d"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t000000000000d"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			title: "Basic Energy Cube"
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["t10000000000000d"]
+			description: [
+				"Universal Cables transfer FE between generators, machines, and energy storage. They auto-connect to any FE-compatible block from any mod."
+				""
+				"Right-click with a Configurator to change cable modes. Basic cables handle moderate throughput — upgrade to Advanced or Elite for high-power setups."
+			]
+			icon: "mekanism:basic_universal_cable"
+			id: "t10000000000000e"
+			rewards: [{
+				id: "t1r000000000000e"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "t1t000000000000e"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			title: "Universal Cable"
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["t10000000000000e"]
+			description: [
+				"Logistical Transporters are Mekanism's item pipes. They move items between inventories and can be color-coded and filtered for sorting."
+				""
+				"Use a Configurator to set sides to pull or push. Combine with Logistical Sorters for advanced item routing. These scale well into late game."
+			]
+			icon: "mekanism:basic_logistical_transporter"
+			id: "t10000000000000f"
+			rewards: [{
+				id: "t1r000000000000f"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t000000000000f"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			title: "Logistical Transporter"
+			x: -6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["t10000000000000f"]
+			description: [
+				"The Basic Enriching Factory processes three items simultaneously in a single machine. It is a direct upgrade to the Enrichment Chamber."
+				""
+				"Factories come in Basic (3 slots), Advanced (5), and Elite (7) tiers. Upgrade them with tier installers. This is where Mekanism's throughput really takes off."
+			]
+			icon: "mekanism:basic_enriching_factory"
+			id: "t100000000000010"
+			rewards: [{
+				id: "t1r0000000000010"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "t1t0000000000010"
+				item: "mekanism:basic_enriching_factory"
+				type: "item"
+			}]
+			title: "Basic Factory"
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["t100000000000010"]
+			description: [
+				"The Digital Miner teleports ores directly from the ground into its inventory. Configure filters to target specific ores and set a mining radius."
+				""
+				"It replaces silk-touch mining runs entirely. Pair with an Enrichment Chamber to double everything it pulls up. Needs significant FE to run."
+			]
+			icon: "mekanism:digital_miner"
+			id: "t100000000000011"
+			rewards: [{
+				id: "t1r0000000000011"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "t1t0000000000011"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			title: "Digital Miner"
+			x: -6.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["t100000000000011"]
+			description: [
+				"The Chemical Dissolution Chamber dissolves ores into chemical slurries, the first step toward 5x ore processing. This is Mekanism's legendary endgame ore chain."
+				""
+				"The full 5x chain is: Dissolution Chamber, Washer, Crystallizer, Injection Chamber, and Purification Chamber. In TZP, supremium is needed via a custom KubeJS recipe. Worth the grind."
+			]
+			icon: "mekanism:chemical_dissolution_chamber"
+			id: "t100000000000012"
+			rewards: [{
+				id: "t1r0000000000012"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "t1t0000000000012"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			title: "Chemical Dissolution Chamber"
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["t100000000000012"]
+			description: [
+				"The MekaSuit is Mekanism's endgame powered armor. Each piece has built-in modules for flight, auto-feeding, radiation shielding, and more."
+				""
+				"Craft and install modules via the Modification Station. A fully kitted MekaSuit rivals Creative-mode power. It requires massive energy and resources — a true pack capstone."
+			]
+			icon: "mekanism:mekasuit_helmet"
+			id: "t100000000000013"
+			rewards: [{
+				id: "t1r0000000000013"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "t1t0000000000013"
+				item: "mekanism:mekasuit_helmet"
+				type: "item"
+			}]
+			title: "MekaSuit Helmet"
+			x: -6.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["t100000000000001"]
+			description: [
+				"Certus Quartz is the foundation of Applied Energistics 2. Mine it underground — it looks like a pale crystal embedded in stone."
+				""
+				"You can grow more Certus by placing Certus Quartz Seeds in water. You'll need a lot of it, so start a small farm early. Check JEI for seed crafting."
+			]
+			icon: "ae2:certus_quartz_crystal"
+			id: "t100000000000014"
+			rewards: [{
+				id: "t1r0000000000014"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "t1t0000000000014"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "Certus Quartz"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["t100000000000014"]
+			description: [
+				"The Charger uses energy to convert Certus Quartz into Charged Certus Quartz. You need Charged Certus to craft Fluix Crystals — a key AE2 material."
+				""
+				"Power it with any FE source (a Mekanism generator works great). Throw Charged Certus + Nether Quartz + Redstone into water to create Fluix."
+			]
+			icon: "ae2:charger"
+			id: "t100000000000015"
+			rewards: [{
+				id: "t1r0000000000015"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t0000000000015"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			title: "Charger"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["t100000000000015"]
+			description: [
+				"The Inscriber stamps raw materials into circuits using Press plates. You need four presses: Logic, Calculation, Engineering, and Silicon."
+				""
+				"Find presses in Meteorites (use a Meteorite Compass to locate them). Each press is reusable. Circuits are needed for every AE2 machine and storage component."
+			]
+			icon: "ae2:inscriber"
+			id: "t100000000000016"
+			rewards: [{
+				id: "t1r0000000000016"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "t1t0000000000016"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "Inscriber"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["t100000000000016"]
+			description: [
+				"The ME Controller is the brain of your AE2 network. It provides channels (up to 32 per face) that allow devices to communicate."
+				""
+				"Without a Controller, you are limited to 8 devices total. Place it centrally and run ME cables outward to your terminals, drives, and crafting setup."
+			]
+			icon: "ae2:me_controller"
+			id: "t100000000000017"
+			rewards: [{
+				id: "t1r0000000000017"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "t1t0000000000017"
+				item: "ae2:me_controller"
+				type: "item"
+			}]
+			title: "ME Controller"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["t100000000000017"]
+			description: [
+				"The ME Drive holds Storage Cells that digitally store thousands of item types. Insert cells (1k, 4k, 16k, 64k) into the drive to add capacity."
+				""
+				"Each cell stores a limited number of item types and total count. Use multiple drives or higher-tier cells as your collection grows. This replaces rooms of chests."
+			]
+			icon: "ae2:drive"
+			id: "t100000000000018"
+			rewards: [{
+				id: "t1r0000000000018"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "t1t0000000000018"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			title: "ME Drive"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["t100000000000018"]
+			description: [
+				"The Pattern Provider connects your AE2 network to external machines for autocrafting. Encode patterns on a Pattern Encoding Terminal, then insert them here."
+				""
+				"When you request a craft, the Provider pushes ingredients into an adjacent machine and pulls back the result. This is how you automate smelting, pressing, and mod-machine recipes."
+			]
+			icon: "ae2:pattern_provider"
+			id: "t100000000000019"
+			rewards: [{
+				id: "t1r0000000000019"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "t1t0000000000019"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			title: "Pattern Provider"
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["t100000000000019"]
+			description: [
+				"The Wireless Crafting Terminal lets you access your entire ME network from anywhere in the same dimension. Craft, browse, and manage items without running back to base."
+				""
+				"Requires a Wireless Access Point on your network and an Infinite Booster for unlimited range. This is the ultimate convenience upgrade."
+			]
+			icon: "ae2wtlib:wireless_crafting_terminal"
+			id: "t10000000000001a"
+			rewards: [{
+				id: "t1r000000000001a"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "t1t000000000001a"
+				item: "ae2wtlib:wireless_crafting_terminal"
+				type: "item"
+			}]
+			title: "Wireless Terminal"
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["t100000000000001"]
+			description: [
+				"The Engineer's Workbench is IE's crafting station. Many Immersive Engineering recipes require this bench instead of a normal crafting table."
+				""
+				"It also serves as a blueprint holder — insert Engineer's Blueprints to unlock special recipes like mineral mix components and electrode blueprints."
+			]
+			icon: "immersiveengineering:workbench"
+			id: "t10000000000001b"
+			rewards: [{
+				id: "t1r000000000001b"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "t1t000000000001b"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			title: "Engineer's Workbench"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["t10000000000001b"]
+			description: [
+				"The Coke Oven is a 3x3x3 multiblock that slowly converts Coal into Coal Cite and Creosote Oil. Coal Coke burns twice as long and is needed for the Blast Furnace."
+				""
+				"Build it from Coke Bricks (made from Clay and Sandstone). Creosote Oil is used to make Treated Wood, IE's core building material. Build two ovens to keep up with demand."
+			]
+			icon: "immersiveengineering:coke_oven"
+			id: "t10000000000001c"
+			rewards: [{
+				id: "t1r000000000001c"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t000000000001c"
+				title: "Build a Coke Oven multiblock"
+				type: "checkmark"
+			}]
+			title: "Coke Oven"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["t10000000000001c"]
+			description: [
+				"Steel is Immersive Engineering's core material. Smelt Iron Ingots with Coal Coke in the Blast Furnace multiblock (similar build to the Coke Oven but with Blast Bricks)."
+				""
+				"Steel is used in nearly every IE machine, structure, and wire connector. It is also cross-compatible with Mekanism Steel in many recipes."
+			]
+			icon: "immersiveengineering:ingot_steel"
+			id: "t10000000000001d"
+			rewards: [{
+				id: "t1r000000000001d"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "t1t000000000001d"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			title: "Steel Ingot"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["t10000000000001d"]
+			description: [
+				"IE transfers power through visible wires strung between connectors. Craft Wire Coils, place connectors on machines or relay posts, and right-click both ends with the coil."
+				""
+				"Copper wire is low-voltage, Electrum is medium, and Steel is high-voltage. Each tier carries more FE/t. The visual wires are one of IE's signature features."
+			]
+			icon: "immersiveengineering:wirecoil_copper"
+			id: "t10000000000001e"
+			rewards: [{
+				id: "t1r000000000001e"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t000000000001e"
+				item: "immersiveengineering:wirecoil_copper"
+				type: "item"
+			}]
+			title: "Wire Coils"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["t10000000000001e"]
+			description: [
+				"IE Conveyor Belts move items along their surface, similar to Create belts but powered by FE. They are cheap and tileable."
+				""
+				"Variants include vertical conveyors, dropping conveyors, and splitting conveyors. They work great alongside Create belts and can feed into any mod's machines."
+			]
+			icon: "immersiveengineering:conveyor_basic"
+			id: "t10000000000001f"
+			rewards: [{
+				id: "t1r000000000001f"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "t1t000000000001f"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
+			title: "Conveyor Belt"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["t10000000000001f"]
+			description: [
+				"The Garden Cloche is a single-block automated crop grower. Insert a seed, soil, water, and power — it grows and harvests crops automatically."
+				""
+				"It works with Mystical Agriculture seeds, making it incredibly powerful for resource generation. Stack a wall of Cloches for passive income of any farmable material."
+			]
+			icon: "immersiveengineering:cloche"
+			id: "t100000000000020"
+			rewards: [{
+				id: "t1r0000000000020"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "t1t0000000000020"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			title: "Garden Cloche"
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["t100000000000020"]
+			description: [
+				"The Diesel Generator is a large multiblock that burns Biodiesel or other liquid fuels for strong FE output. Build it from Steel and Heavy Engineering blocks."
+				""
+				"Pair with a Refinery (makes Biodiesel from Plant Oil + Ethanol) and a Fermenter + Squeezer for a fully automated bio-fuel chain. One of IE's best power sources."
+			]
+			icon: "immersiveengineering:diesel_generator"
+			id: "t100000000000021"
+			rewards: [{
+				id: "t1r0000000000021"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "t1t0000000000021"
+				title: "Build a Diesel Generator multiblock"
+				type: "checkmark"
+			}]
+			title: "Diesel Generator"
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["t100000000000021"]
+			description: [
+				"The Arc Furnace is IE's endgame smelting multiblock. It processes ores, alloys, and recycling recipes at high speed using massive FE input."
+				""
+				"It can smelt multiple recipes simultaneously and handles alloy recipes that other furnaces cannot. Feed it with conveyors for a satisfying industrial setup."
+			]
+			icon: "immersiveengineering:arc_furnace"
+			id: "t100000000000022"
+			rewards: [{
+				id: "t1r0000000000022"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "t1t0000000000022"
+				title: "Build an Arc Furnace multiblock"
+				type: "checkmark"
+			}]
+			title: "Arc Furnace"
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["t100000000000001"]
+			description: [
+				"The Machine Frame (Pity tier) is the base crafting component for all Industrial Foregoing machines. Craft it from iron, redstone, and glass."
+				""
+				"IF machines are simple, single-block, and powerful. They excel at farming, mob processing, and resource generation. This frame is used in almost every IF recipe."
+			]
+			icon: "industrialforegoing:machine_frame_pity"
+			id: "t100000000000023"
+			rewards: [{
+				id: "t1r0000000000023"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "t1t0000000000023"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "Machine Frame"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["t100000000000023"]
+			description: [
+				"The Plant Sower automatically plants seeds and saplings in its working area. It scans for empty farmland or dirt and places whatever is in its inventory."
+				""
+				"Pair it with a Plant Gatherer for a fully automated farm. It handles wheat, carrots, potatoes, Mystical Agriculture seeds, and most modded crops."
+			]
+			icon: "industrialforegoing:plant_sower"
+			id: "t100000000000024"
+			rewards: [{
+				id: "t1r0000000000024"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t0000000000024"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			title: "Plant Sower"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["t100000000000024"]
+			description: [
+				"The Plant Gatherer harvests mature crops in its working area. It collects drops and replants if seeds are available."
+				""
+				"Together with the Plant Sower, this creates a zero-maintenance farm. Add Range Addons to increase the working area. Pipe outputs into storage or processing."
+			]
+			icon: "industrialforegoing:plant_gatherer"
+			id: "t100000000000025"
+			rewards: [{
+				id: "t1r0000000000025"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t0000000000025"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			title: "Plant Gatherer"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["t100000000000025"]
+			description: [
+				"The Mob Crusher kills all mobs in its working area and collects their drops and XP as Essence fluid. No swords or player interaction needed."
+				""
+				"Pipe Essence into a Mob Slaughter Factory to produce Pink Slime, or into XP storage. This is the core of any automated mob farm in TZP."
+			]
+			icon: "industrialforegoing:mob_crusher"
+			id: "t100000000000026"
+			rewards: [{
+				id: "t1r0000000000026"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "t1t0000000000026"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			title: "Mob Crusher"
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["t100000000000026"]
+			description: [
+				"The Resourceful Furnace smelts items like a normal furnace but stores the XP as Essence fluid instead of dropping it when you pull items out."
+				""
+				"Pipe the Essence into tanks or directly into Enchanting machines. Great for passive XP generation from auto-smelting setups."
+			]
+			icon: "industrialforegoing:resourceful_furnace"
+			id: "t100000000000027"
+			rewards: [{
+				id: "t1r0000000000027"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t0000000000027"
+				item: "industrialforegoing:resourceful_furnace"
+				type: "item"
+			}]
+			title: "Resourceful Furnace"
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["t100000000000027"]
+			description: [
+				"The Mob Duplicator spawns copies of any mob captured in a Mob Imprisonment Tool. It needs Essence fluid and FE to operate."
+				""
+				"Use it with a Mob Crusher for infinite mob drops. Capture a Blaze, Enderman, or Wither Skeleton for valuable automated farming. Exact copy means exact loot tables."
+			]
+			icon: "industrialforegoing:mob_duplicator"
+			id: "t100000000000028"
+			rewards: [{
+				id: "t1r0000000000028"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "t1t0000000000028"
+				item: "industrialforegoing:mob_duplicator"
+				type: "item"
+			}]
+			title: "Mob Duplicator"
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["t100000000000028"]
+			description: [
+				"The Laser Drill generates ores from nothing using focused laser beams. Place Laser Bases around a Laser Drill Core and supply massive FE."
+				""
+				"Add colored Laser Lenses to bias which ores spawn. This is a pack endgame machine — once running, you never need to mine again. Extremely power-hungry."
+			]
+			icon: "industrialforegoing:laser_drill"
+			id: "t100000000000029"
+			rewards: [{
+				id: "t1r0000000000029"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "t1t0000000000029"
+				item: "industrialforegoing:laser_drill"
+				type: "item"
+			}]
+			title: "Laser Drill"
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["t100000000000001"]
+			description: [
+				"Grains of Infinity are Ender IO's entry material. Make them by dropping a Bedrock block onto fire (or use a Grindstone recipe if available in TZP)."
+				""
+				"These tiny grains are used in nearly every Ender IO machine recipe. Stock up — you will need hundreds as you progress through the mod."
+			]
+			icon: "enderio:grains_of_infinity"
+			id: "t10000000000002a"
+			rewards: [{
+				id: "t1r000000000002a"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "t1t000000000002a"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			title: "Grains of Infinity"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["t10000000000002a"]
+			description: [
+				"The Simple Alloy Smelter combines two inputs into Ender IO's special alloys. It is slower than the full Alloy Smelter but cheaper to craft."
+				""
+				"Use it to make Electrical Steel, Energetic Alloy, Vibrant Alloy, and more. These alloys unlock all of EIO's machines and conduits."
+			]
+			icon: "enderio:simple_alloy_smelter"
+			id: "t10000000000002b"
+			rewards: [{
+				id: "t1r000000000002b"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t000000000002b"
+				item: "enderio:simple_alloy_smelter"
+				type: "item"
+			}]
+			title: "Simple Alloy Smelter"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["t10000000000002b"]
+			description: [
+				"Energetic Alloy is a mid-tier EIO alloy made from Gold, Redstone, and Glowstone in an Alloy Smelter. It is used in energy conduits, capacitors, and machines."
+				""
+				"Upgrading to Vibrant Alloy (Energetic Alloy + Ender Pearl) unlocks the highest-tier EIO equipment. Keep a steady supply of both alloys."
+			]
+			icon: "enderio:energetic_alloy_ingot"
+			id: "t10000000000002c"
+			rewards: [{
+				id: "t1r000000000002c"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t000000000002c"
+				item: "enderio:energetic_alloy_ingot"
+				type: "item"
+			}]
+			title: "Energetic Alloy"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["t10000000000002c"]
+			description: [
+				"Item Conduits transfer items between inventories with built-in filtering and round-robin distribution. They are compact, fitting multiple conduit types in one block space."
+				""
+				"Right-click a conduit connection point to configure insert/extract, filters, and priority. EIO conduits are the most space-efficient logistics in the pack."
+			]
+			icon: "enderio:item_conduit"
+			id: "t10000000000002d"
+			rewards: [{
+				id: "t1r000000000002d"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "t1t000000000002d"
+				item: "enderio:item_conduit"
+				type: "item"
+			}]
+			title: "Item Conduit"
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["t10000000000002d"]
+			description: [
+				"Energy Conduits transfer Forge Energy between machines and generators. Like item conduits, they share block space with other conduit types."
+				""
+				"Higher-tier conduits (Enhanced, Ender) carry more FE/t. A single conduit bundle can carry items, fluids, energy, and redstone signals simultaneously."
+			]
+			icon: "enderio:energy_conduit"
+			id: "t10000000000002e"
+			rewards: [{
+				id: "t1r000000000002e"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t000000000002e"
+				item: "enderio:energy_conduit"
+				type: "item"
+			}]
+			title: "Energy Conduit"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["t10000000000002e"]
+			description: [
+				"Fluid Conduits transfer liquids between tanks, machines, and fluid-using blocks. They share conduit bundles with item and energy conduits."
+				""
+				"Configure them to push or pull, set priorities, and filter specific fluids. Pressurized and Ender Fluid Conduits handle higher throughput for demanding setups."
+			]
+			icon: "enderio:fluid_conduit"
+			id: "t10000000000002f"
+			rewards: [{
+				id: "t1r000000000002f"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t000000000002f"
+				item: "enderio:fluid_conduit"
+				type: "item"
+			}]
+			title: "Fluid Conduit"
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["t10000000000002f"]
+			description: [
+				"Dark Steel Armor is Ender IO's upgradeable armor set. Each piece can be enhanced with special upgrades like Glider, Speed Boost, Night Vision, and more at a Dark Steel Anvil."
+				""
+				"It is strong enough for endgame use and the upgrade system lets you customize it to your playstyle. Elytra-style flight is possible with the right upgrades."
+			]
+			icon: "enderio:dark_steel_chestplate"
+			id: "t100000000000030"
+			rewards: [{
+				id: "t1r0000000000030"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "t1t0000000000030"
+				item: "enderio:dark_steel_chestplate"
+				type: "item"
+			}]
+			title: "Dark Steel Armor"
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["t100000000000001"]
+			description: [
+				"The RS Controller is the heart of a Refined Storage network. It stores energy and provides the central connection point for all RS devices."
+				""
+				"Refined Storage is simpler than AE2 — no channels, no inscribers. Just connect devices with cables and they work. Great if you want digital storage without complexity."
+			]
+			icon: "refinedstorage:controller"
+			id: "t100000000000031"
+			rewards: [{
+				id: "t1r0000000000031"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t0000000000031"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "RS Controller"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["t100000000000031"]
+			description: [
+				"The 1k Storage Disk holds up to 1,000 items. Insert it into a Disk Drive connected to your RS network to start storing items digitally."
+				""
+				"Upgrade to 4k, 16k, and 64k disks as your needs grow. Unlike AE2, there is no item-type limit per disk — just a raw count limit."
+			]
+			icon: "refinedstorage:1k_storage_disk"
+			id: "t100000000000032"
+			rewards: [{
+				id: "t1r0000000000032"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t0000000000032"
+				item: "refinedstorage:1k_storage_disk"
+				type: "item"
+			}]
+			title: "1k Storage Disk"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["t100000000000032"]
+			description: [
+				"The Crafting Grid is your main interface with the RS network. It shows all stored items and provides a built-in crafting table."
+				""
+				"Search, sort, and craft from your entire digital inventory. JEI integration lets you click recipes to auto-fill the grid. Place it where you spend the most time."
+			]
+			icon: "refinedstorage:crafting_grid"
+			id: "t100000000000033"
+			rewards: [{
+				id: "t1r0000000000033"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "t1t0000000000033"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			title: "Crafting Grid"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["t100000000000033"]
+			description: [
+				"Importers pull items from adjacent inventories into your RS network. Exporters push specific items from the network into machines or chests."
+				""
+				"Use these to connect your RS storage to furnaces, machines from other mods, and trash cans. Add filters to control exactly what moves where."
+			]
+			icon: "refinedstorage:importer"
+			id: "t100000000000034"
+			rewards: [{
+				id: "t1r0000000000034"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t0000000000034"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			title: "Importer & Exporter"
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["t100000000000034"]
+			description: [
+				"The Crafter enables autocrafting in Refined Storage. Insert patterns (made on a Pattern Grid) and the Crafter will automatically craft items when requested."
+				""
+				"Chain multiple Crafters together for complex recipe trees. RS autocrafting is more straightforward than AE2 — no channels to worry about, just patterns and Crafters."
+			]
+			icon: "refinedstorage:crafter"
+			id: "t100000000000035"
+			rewards: [{
+				id: "t1r0000000000035"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "t1t0000000000035"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			title: "Crafter"
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["t100000000000001"]
+			description: [
+				"Flux Networks enables wireless, cross-dimensional energy transfer. The Flux Core is the base crafting material — made from Obsidian, Redstone, and Ender Pearls."
+				""
+				"Create a Flux Network, place Flux Plugs on generators and Flux Points on machines, and energy flows wirelessly. No cables needed across any distance."
+			]
+			icon: "fluxnetworks:flux_core"
+			id: "t100000000000036"
+			rewards: [{
+				id: "t1r0000000000036"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "t1t0000000000036"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			title: "Flux Core"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["t100000000000001"]
+			description: [
+				"Compact Machines lets you build entire rooms inside a single block. The Tiny machine gives a 3x3x3 interior space — larger tiers go up to 13x13x13."
+				""
+				"Use tunnels on the machine walls to pass items, fluids, energy, and redstone in and out. Perfect for hiding complex builds or reducing lag from large factories."
+			]
+			icon: "compactmachines:machine_tiny"
+			id: "t100000000000037"
+			rewards: [{
+				id: "t1r0000000000037"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "t1t0000000000037"
+				item: "compactmachines:machine_tiny"
+				type: "item"
+			}]
+			title: "Compact Machine"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["t100000000000001"]
+			description: [
+				"The XNet Controller manages up to 8 channels of items, fluids, energy, and information through a single cable network. One controller replaces dozens of pipes."
+				""
+				"Configure channels via the controller GUI — set extract/insert sides, filters, and round-robin. XNet is the most efficient way to connect many machines with minimal cable."
+			]
+			icon: "xnet:controller"
+			id: "t100000000000038"
+			rewards: [{
+				id: "t1r0000000000038"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "t1t0000000000038"
+				item: "xnet:controller"
+				type: "item"
+			}]
+			title: "XNet Controller"
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["t100000000000001"]
+			description: [
+				"Extreme Reactors lets you build custom-sized nuclear reactors for massive FE generation. The Reactor Casing forms the outer shell of the multiblock."
+				""
+				"Fill the interior with Fuel Rods (Yellorium) and coolant blocks (Cryotheum, Enderium, or water). Bigger reactors generate more power but need more fuel. Design matters — experiment with layouts."
+			]
+			icon: "bigreactors:reactor_casing"
+			id: "t100000000000039"
+			rewards: [{
+				id: "t1r0000000000039"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "t1t0000000000039"
+				item: "bigreactors:reactor_casing"
+				type: "item"
+			}]
+			title: "Reactor Casing"
+			x: 12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["t100000000000001"]
+			description: [
+				"Red Alloy Wire from Project Red carries redstone signals like vanilla dust but through thin wires that can run along walls, ceilings, and floors."
+				""
+				"Signals travel up to 255 blocks without repeaters. Combine with Project Red logic gates for compact, clean redstone circuits that replace messy dust trails."
+			]
+			icon: "projectred_transmission:red_alloy_wire"
+			id: "t10000000000003a"
+			rewards: [{
+				id: "t1r000000000003a"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "t1t000000000003a"
+				item: "projectred_transmission:red_alloy_wire"
+				type: "item"
+			}]
+			title: "Red Alloy Wire"
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["t100000000000001"]
+			description: [
+				"Integrated Dynamics uses Logic Cables and Variable Cards to read, transform, and act on data from the world. Think of it as a programmable pipe system."
+				""
+				"Read inventory contents, fluid levels, energy states, and more — then use Logic Programmers to create conditions and trigger actions. Powerful once you learn the system."
+			]
+			icon: "integrateddynamics:cable"
+			id: "t10000000000003b"
+			rewards: [{
+				id: "t1r000000000003b"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "t1t000000000003b"
+				item: "integrateddynamics:cable"
+				type: "item"
+			}]
+			title: "Logic Cable"
+			x: 12.0d
+			y: -9.5d
+		}
+	]
+}

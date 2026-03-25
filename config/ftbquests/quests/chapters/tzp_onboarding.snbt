@@ -1,0 +1,254 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "tzp_onboarding"
+	group: "4864581eb83332fe"
+	icon: "minecraft:campfire"
+	id: "d4e5f678901234ab"
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"TZP (The Zack Pack) is a kitchen-sink NeoForge 1.21.1 profile: tech, magic, exploration, colonies, and automation."
+				""
+				"How to find your way:"
+				"• JEI — recipes and uses (hover an item: R uses, U recipe)."
+				"• Jade — look at blocks and entities (check Controls for your toggle key)."
+				"• GuideME and Patchouli — in-game mod manuals where authors provided them."
+				"• Tips — loading-screen hints from this pack."
+				"• Better Advancements — improved advancement screen for vanilla-style goals."
+				""
+				"Use this quest book for optional guided goals; nothing here is required to enjoy the pack."
+			]
+			icon: "minecraft:writable_book"
+			id: "f1e2d3c4b5a69788"
+			rewards: [{
+				id: "a011111111111111"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "b011111111111111"
+				title: "Read the intro"
+				type: "checkmark"
+			}]
+			title: "Welcome to TZP"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["f1e2d3c4b5a69788"]
+			description: [
+				"Punch trees or harvest any overworld logs. If JEI is unclear, hover log types in your inventory."
+			]
+			icon: "minecraft:oak_log"
+			id: "e2d3c4b5a6978801"
+			rewards: [{
+				id: "a022222222222222"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 16L
+				id: "b022222222222222"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Gather wood"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["e2d3c4b5a6978801"]
+			description: [
+				"Open a crafting grid (inventory 2x2 or a table) and put together basic tools."
+			]
+			icon: "minecraft:stone_pickaxe"
+			id: "d3c4b5a69788010a"
+			rewards: [{
+				id: "a033333333333333"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "c033333333333331"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "c033333333333332"
+					item: "minecraft:stone_pickaxe"
+					type: "item"
+				}
+			]
+			title: "Crafting basics"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["d3c4b5a69788010a"]
+			description: [
+				"Sophisticated Backpacks, drawers, and digital storage come later — a chest is enough to start."
+			]
+			icon: "minecraft:chest"
+			id: "c4b5a69788010203"
+			rewards: [{
+				id: "a044444444444444"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "b044444444444444"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "Storage"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["c4b5a69788010203"]
+			description: [
+				"Craft any dyeable bed, then sleep when you can set spawn safely."
+			]
+			icon: "minecraft:white_bed"
+			id: "b5a6978801020304"
+			rewards: [{
+				id: "a055555555555555"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "b055555555555555"
+				item: "minecraft:white_bed"
+				type: "item"
+			}]
+			title: "Shelter & spawn"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["b5a6978801020304"]
+			description: [
+				"Use JEI to look up anything you see in the pack. Use Jade on blocks and machines for mod-specific data."
+				""
+				"Mark this when you have tried both at least once."
+			]
+			icon: "minecraft:spyglass"
+			id: "a697880102030405"
+			rewards: [{
+				id: "a066666666666666"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "b066666666666666"
+				title: "Used JEI & Jade"
+				type: "checkmark"
+			}]
+			title: "Recipe & world info"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["a697880102030405"]
+			description: [
+				"Craft the Quest Book: Book + any stone tagged c:stones (see JEI). You can also bind a key in Controls for FTB Quests."
+			]
+			icon: "ftbquests:book"
+			id: "c978010203040506"
+			rewards: [{
+				id: "a077777777777777"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "b077777777777777"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			title: "Quest book in hand"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["c978010203040506"]
+			description: [
+				"Starter chapters are unlocked. Pick Tech, Magic, Exploration, or Building — or ignore this book and play sandbox."
+				""
+				"Almost Unified aligns tags and loot; ProjectE uses curated EMC (see Tips). Pack scripts live in KubeJS on the server mirror."
+			]
+			icon: "minecraft:compass"
+			id: "e7a2c91d4b0f56e8"
+			rewards: [{
+				id: "a088888888888888"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "b088888888888888"
+				title: "Paths unlocked"
+				type: "checkmark"
+			}]
+			title: "Choose your next steps"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["f1e2d3c4b5a69788"]
+			description: [
+				"Almost Unified picks preferred outputs for shared tags so recipes and loot line up. Ore generation is still defined by each worldgen mod."
+				""
+				"ProjectE uses a curated custom_emc.json — keep server and client copies identical."
+			]
+			icon: "minecraft:gold_ingot"
+			id: "b6585ce89008740c"
+			rewards: [{
+				id: "a099999999999999"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "b099999999999999"
+				title: "Economy & metals"
+				type: "checkmark"
+			}]
+			title: "Unification & EMC"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["f1e2d3c4b5a69788"]
+			description: [
+				"KubeJS gates some cross-mod recipes (see kubejs/server_scripts on TZP-server). Restart after script changes."
+				""
+				"Pack fixes live in the tzp_datapack_fixes datapack — copy it into each world's datapacks folder if a world predates the pack."
+			]
+			icon: "minecraft:knowledge_book"
+			id: "1e22e680f71730be"
+			rewards: [{
+				id: "accccccccccccccc"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "dddddddddddddddd"
+				title: "Scripts & datapacks"
+				type: "checkmark"
+			}]
+			title: "Pack layer"
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+	title: "Onboarding"
+}

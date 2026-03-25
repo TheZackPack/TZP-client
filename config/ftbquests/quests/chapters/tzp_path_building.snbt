@@ -1,0 +1,77 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "tzp_path_building"
+	group: "5b5b5b5b5b5b5b5b"
+	icon: "structurize:sceptergold"
+	id: "04ab04ab04ab04ab"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["e7a2c91d4b0f56e8"]
+			description: [
+				"Structurize provides the Build Tool (golden scepter) for placing MineColonies blueprints and custom schematic structures. Craft it first before founding any colony."
+				""
+				"Supplementaries, Domum Ornamentum, Refurbished Furniture, and Fetzi's Asian Deco add decoration blocks — mix and match freely."
+			]
+			icon: "structurize:sceptergold"
+			id: "44cd44cd44cd44cd"
+			rewards: [{
+				id: "4r00000000000000"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "4t00000000000000"
+				item: "structurize:sceptergold"
+				type: "item"
+			}]
+			title: "Building — Structurize"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44cd44cd44cd44cd"]
+			description: [
+				"Supplementaries adds flags, lanterns, rope, item frames, sconces, and dozens of decorative and utility blocks. Explore JEI under the Supplementaries tab to see the full set."
+			]
+			id: "4400000000000001"
+			rewards: [{
+				id: "4r00000000000001"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "4t00000000000001"
+				title: "Place a Supplementaries decoration block"
+				type: "checkmark"
+			}]
+			title: "Supplementaries"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["44cd44cd44cd44cd"]
+			description: [
+				"Domum Ornamentum lets you combine any two block textures into custom architectural blocks — pillars, arches, shingles, and more. Use the Architect's Cutter to craft combinations."
+			]
+			id: "4400000000000002"
+			rewards: [{
+				id: "4r00000000000002"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "4t00000000000002"
+				title: "Craft a Domum Ornamentum block"
+				type: "checkmark"
+			}]
+			title: "Domum Ornamentum"
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+	title: "Path: Building"
+}

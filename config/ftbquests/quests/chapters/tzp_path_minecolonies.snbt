@@ -1,0 +1,431 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tzp_path_minecolonies"
+	group: "5b5b5b5b5b5b5b5b"
+	icon: "minecolonies:supplycampdeployer"
+	id: "05ab05ab05ab05ab"
+	order_index: 5
+	progression_mode: "flexible"
+	title: "Path: MineColonies"
+	quests: [
+		{
+			dependencies: ["e7a2c91d4b0f56e8"]
+			description: ["The Supply Ship is how you start a MineColonies colony." "" "Craft a Supply Ship Deployer and place it in water to spawn your supply ship." "" "Inside you will find a Town Hall block and starter supplies to begin building."]
+			icon: "minecolonies:supplyshipdeployer"
+			id: "mc00000000000001"
+			rewards: [{
+				id: "mcr0000000000001"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "mct0000000000001"
+				item: "minecolonies:supplyshipdeployer"
+				type: "item"
+			}]
+			title: "Supply Ship"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["mc00000000000001"]
+			description: ["Place the Town Hall block to officially found your colony." "" "The Town Hall is the heart of your settlement — it manages citizens and buildings." "" "Choose your location carefully; the colony will grow outward from this point."]
+			icon: "minecolonies:blockhuttownhall"
+			id: "mc00000000000002"
+			rewards: [{
+				id: "mcr0000000000002"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "mct0000000000002"
+				title: "Place the Town Hall and found your colony"
+				type: "checkmark"
+			}]
+			title: "Found the Colony"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["mc00000000000002"]
+			description: ["The Builder is the most important colonist — they construct all other buildings." "" "Place a Builder's Hut, assign a citizen, and queue their own hut as the first build." "" "Without a Builder, no other structures can be constructed or upgraded."]
+			icon: "minecolonies:builderhutblock"
+			id: "mc00000000000003"
+			rewards: [{
+				id: "mcr0000000000003"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "mct0000000000003"
+				title: "Assign a Builder and queue their hut construction"
+				type: "checkmark"
+			}]
+			title: "Builder's Hut"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["mc00000000000003"]
+			description: ["Upgrading the Town Hall to Level 2 unlocks more citizens and building types." "" "Your Builder will handle the upgrade — just queue it and supply materials." "" "Each Town Hall level increases your maximum population and available buildings."]
+			icon: "minecolonies:blockhuttownhall"
+			id: "mc00000000000004"
+			rewards: [{
+				id: "mcr0000000000004"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "mct0000000000004"
+				title: "Upgrade Town Hall to Level 2"
+				type: "checkmark"
+			}]
+			title: "Town Hall Level 2"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["mc00000000000004"]
+			description: ["The Miner's Hut assigns a colonist to dig a mine shaft and collect ores." "" "They mine automatically, bringing back stone, coal, iron, and more." "" "Upgrade the hut to increase mining depth and ore variety."]
+			icon: "minecolonies:minerack"
+			id: "mc00000000000005"
+			rewards: [{
+				id: "mcr0000000000005"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "mct0000000000005"
+				item: "minecolonies:minerack"
+				type: "item"
+			}]
+			title: "Miner's Hut"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["mc00000000000004"]
+			description: ["The Farmer grows crops to feed your colony's citizens." "" "Assign farm fields using the scarecrow block and the farmer will plant and harvest." "" "A functioning farm is essential — hungry citizens become unhappy and unproductive."]
+			icon: "minecolonies:farmerhutblock"
+			id: "mc00000000000006"
+			rewards: [{
+				id: "mcr0000000000006"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "mct0000000000006"
+				item: "minecolonies:farmerhutblock"
+				type: "item"
+			}]
+			title: "Farmer's Hut"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["mc00000000000004"]
+			description: ["The Lumberjack chops trees and replants saplings automatically." "" "They supply wood for building and fuel — essential for colony growth." "" "Place their hut near a forest or plant trees nearby for efficiency."]
+			icon: "minecolonies:lumberjackhutblock"
+			id: "mc00000000000007"
+			rewards: [{
+				id: "mcr0000000000007"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "mct0000000000007"
+				item: "minecolonies:lumberjackhutblock"
+				type: "item"
+			}]
+			title: "Lumberjack"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["mc00000000000006"]
+			description: ["The Restaurant cooks raw food into meals and distributes them to citizens." "" "Without a Restaurant, citizens eat raw food which restores less hunger." "" "Assign a Cook and they will automatically process farm output into proper meals."]
+			icon: "minecolonies:restauranthutblock"
+			id: "mc00000000000008"
+			rewards: [{
+				id: "mcr0000000000008"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "mct0000000000008"
+				title: "Build a Restaurant for automated feeding"
+				type: "checkmark"
+			}]
+			title: "Restaurant"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["mc00000000000005"]
+			description: ["The Warehouse is your colony's centralized storage hub." "" "Deliverymen move items between the Warehouse and worker huts automatically." "" "Build this early to prevent resource bottlenecks in construction."]
+			icon: "minecolonies:warehouseblock"
+			id: "mc00000000000009"
+			rewards: [{
+				id: "mcr0000000000009"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "mct0000000000009"
+				title: "Build a Warehouse for centralized storage"
+				type: "checkmark"
+			}]
+			title: "Warehouse"
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["mc00000000000007"]
+			description: ["The Postbox lets you request items from your colony's Warehouse." "" "Place it and right-click to browse available items and request deliveries." "" "Couriers will deliver requested items directly to the Postbox for pickup."]
+			icon: "minecolonies:postbox"
+			id: "mc0000000000000a"
+			rewards: [{
+				id: "mcr000000000000a"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "mct000000000000a"
+				item: "minecolonies:postbox"
+				type: "item"
+			}]
+			title: "Courier/Postbox"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["mc00000000000009"]
+			description: ["Guard Towers station a Knight or Ranger to patrol and defend your colony." "" "Guards fight hostile mobs that wander into your colony's borders." "" "Place the tower at a strategic location and assign a citizen with combat skills."]
+			icon: "minecolonies:guardtowerblock"
+			id: "mc0000000000000b"
+			rewards: [{
+				id: "mcr000000000000b"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "mct000000000000b"
+				item: "minecolonies:guardtowerblock"
+				type: "item"
+			}]
+			title: "Guard Tower"
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["mc0000000000000b"]
+			description: ["Barracks house multiple guard squads and unlock advanced military options." "" "Each Barracks level allows more guards and stronger equipment." "" "A strong military is essential for surviving colony raids at higher town hall levels."]
+			icon: "minecolonies:barracksblock"
+			id: "mc0000000000000c"
+			rewards: [{
+				id: "mcr000000000000c"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "mct000000000000c"
+				item: "minecolonies:barracksblock"
+				type: "item"
+			}]
+			title: "Barracks"
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["mc0000000000000c"]
+			description: ["Raids are hostile mob attacks that target your colony periodically." "" "Your guards will fight them off — make sure they are well-equipped." "" "Surviving a raid proves your colony's defenses are solid."]
+			icon: "minecraft:iron_sword"
+			id: "mc0000000000000d"
+			rewards: [{
+				id: "mcr000000000000d"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "mct000000000000d"
+				title: "Survive a colony raid"
+				type: "checkmark"
+			}]
+			title: "Survive a Raid"
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["mc00000000000008"]
+			description: ["The Library lets citizens study and gain experience levels faster." "" "Higher-level citizens work faster and produce better results." "" "Assign citizens with high Intelligence stats for the best learning speed."]
+			icon: "minecolonies:libraryblock"
+			id: "mc0000000000000e"
+			rewards: [{
+				id: "mcr000000000000e"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "mct000000000000e"
+				item: "minecolonies:libraryblock"
+				type: "item"
+			}]
+			title: "Library"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["mc0000000000000e"]
+			description: ["The University unlocks the MineColonies research tree." "" "Research provides colony-wide bonuses like faster building, better combat, and more." "" "Each research branch focuses on a different aspect of colony management."]
+			icon: "minecolonies:universityblock"
+			id: "mc0000000000000f"
+			rewards: [{
+				id: "mcr000000000000f"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "mct000000000000f"
+				item: "minecolonies:universityblock"
+				type: "item"
+			}]
+			title: "University"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["mc0000000000000f"]
+			description: ["Research unlocks permanent bonuses for your entire colony." "" "Open the University GUI to browse the tech tree and queue a research project." "" "Early researches are cheap — start with the ones that boost your most-used workers."]
+			icon: "minecraft:book"
+			id: "mc00000000000010"
+			rewards: [{
+				id: "mcr0000000000010"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "mct0000000000010"
+				title: "Complete a research project at the University"
+				type: "checkmark"
+			}]
+			title: "Complete a Research"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["mc0000000000000a"]
+			description: ["The Enchanter creates enchanted books for your colony's workers and you." "" "They combine experience and items to produce enchantments." "" "Higher-level Enchanters can create more powerful enchanted books."]
+			icon: "minecolonies:enchanterhutblock"
+			id: "mc00000000000011"
+			rewards: [{
+				id: "mcr0000000000011"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "mct0000000000011"
+				item: "minecolonies:enchanterhutblock"
+				type: "item"
+			}]
+			title: "Enchanter"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["mc00000000000011"]
+			description: ["The Blacksmith crafts tools and armor for your colony's workers." "" "Workers need proper tools to function — the Blacksmith keeps them supplied." "" "Higher-level Blacksmiths can produce better-tier equipment automatically."]
+			icon: "minecolonies:blacksmithhutblock"
+			id: "mc00000000000012"
+			rewards: [{
+				id: "mcr0000000000012"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "mct0000000000012"
+				item: "minecolonies:blacksmithhutblock"
+				type: "item"
+			}]
+			title: "Blacksmith"
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["mc00000000000012"]
+			description: ["The Hospital heals injured or sick citizens automatically." "" "Citizens can get hurt during raids or from environmental hazards." "" "Without a Hospital, injured citizens recover very slowly and may die."]
+			icon: "minecolonies:hospitalblock"
+			id: "mc00000000000013"
+			rewards: [{
+				id: "mcr0000000000013"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "mct0000000000013"
+				item: "minecolonies:hospitalblock"
+				type: "item"
+			}]
+			title: "Hospital"
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["mc0000000000000d", "mc00000000000010", "mc00000000000013"]
+			description: ["Colony happiness reflects how well you are managing all aspects of your settlement." "" "Ensure citizens have food, housing, guards, and social buildings." "" "Check the Town Hall GUI for happiness details and address any complaints."]
+			icon: "minecraft:cake"
+			id: "mc00000000000014"
+			rewards: [{
+				id: "mcr0000000000014"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "mct0000000000014"
+				title: "Reach 85% colony happiness"
+				type: "checkmark"
+			}]
+			title: "Citizen Happiness"
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["mc00000000000014"]
+			description: ["A thriving colony of 25 citizens means you have mastered housing, food, and jobs." "" "Build enough Citizen Huts and keep happiness high to attract new residents." "" "Each new citizen can be assigned to a specialized worker role."]
+			icon: "minecolonies:blockhuttownhall"
+			id: "mc00000000000015"
+			rewards: [{
+				id: "mcr0000000000015"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "mct0000000000015"
+				title: "Reach 25 citizens in your colony"
+				type: "checkmark"
+			}]
+			title: "Thriving Colony"
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["mc00000000000015"]
+			description: ["Connect your colony's Warehouse output to a tech mod's automation system." "" "Pipe Miner output into Mekanism ore processing, or feed farms into AE2 storage." "" "This is the ultimate crossover — your living colony powering your tech infrastructure."]
+			icon: "mekanism:basic_logistical_transporter"
+			id: "mc00000000000016"
+			rewards: [{
+				id: "mcr0000000000016"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "mct0000000000016"
+				title: "Connect colony output to an automated system"
+				type: "checkmark"
+			}]
+			title: "Colony + Tech"
+			x: 0.0d
+			y: -16.5d
+		}
+	]
+}
