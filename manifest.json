@@ -2,7 +2,7 @@
   "version": "1.1.0",
   "minecraft": "1.21.1",
   "neoforge": "21.1.220",
-  "generated": "2026-03-25T21:26:24.842340+00:00",
+  "generated": "2026-03-25T23:12:31.361885+00:00",
   "files": [
     {
       "path": "mods/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
@@ -1359,12 +1359,6 @@
       "hash": "sha256:abfe79685d4d74888072befedc60b4d19c641c8cf32b48f1b332f11d0aba9a6e",
       "size": 11,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/almostunified/.gitignore"
-    },
-    {
-      "path": "config/almostunified/debug.json",
-      "hash": "sha256:435ad46870d033c8652097d64c6ec592907e5ab6f1877240532a6a1743d4fca5",
-      "size": 196,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/almostunified/debug.json"
     },
     {
       "path": "config/almostunified/duplicates.json",

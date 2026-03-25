@@ -12,6 +12,7 @@ Usage:
 import hashlib
 import json
 import os
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -20,8 +21,24 @@ PACK_DIR = Path(__file__).resolve().parent
 PACK_JSON = PACK_DIR / "pack.json"
 MANIFEST_OUT = PACK_DIR / "manifest.json"
 
-# Base URL for file downloads — set via CLI arg or default to local file server
-DEFAULT_BASE_URL = "http://localhost:8580/files"
+# Base URL for file downloads — override via CLI arg for local testing
+DEFAULT_BASE_URL = "https://raw.githubusercontent.com/TheZackPack/TZP-client/main"
+
+
+def tracked_paths(base: Path, *roots: str) -> set[str]:
+    """Return Git-tracked file paths under the requested roots."""
+    try:
+        output = subprocess.run(
+            ["git", "ls-files", *roots],
+            cwd=base,
+            check=True,
+            capture_output=True,
+            text=True,
+        ).stdout
+    except (OSError, subprocess.CalledProcessError):
+        return set()
+
+    return {line.strip() for line in output.splitlines() if line.strip()}
 
 
 def sha256_file(path: Path) -> str:
@@ -37,11 +54,14 @@ def scan_directory(base: Path, subdir: str) -> list[dict]:
     target = base / subdir
     if not target.is_dir():
         return []
+    tracked = tracked_paths(base, subdir)
     entries = []
     for root, _dirs, files in os.walk(target):
         for name in sorted(files):
             filepath = Path(root) / name
             rel = filepath.relative_to(base).as_posix()
+            if tracked and rel not in tracked:
+                continue
             entries.append({
                 "path": rel,
                 "hash": sha256_file(filepath),
