@@ -1319,8 +1319,8 @@
     },
     {
       "path": "config/almanac-common.toml",
-      "sha256": "60804e0ec79a4117e82b9a4c8506077e916a5dc1a0f9bd7eebea977cce9b6a94",
-      "size": 566,
+      "sha256": "7f2ae099f2979971d65ccdccfe5c350bcf07dff682a2930ad2fea7b76b40fb31",
+      "size": 553,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/almanac-common.toml"
     },
     {
