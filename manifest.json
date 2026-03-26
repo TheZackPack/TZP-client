@@ -746,12 +746,6 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/handcrafted-neoforge-1.21.1-4.0.3.jar"
     },
     {
-      "path": "mods/hexerei-0.5.0.3.jar",
-      "sha256": "743e80cb0526fa5fffdb660c5c3230df47d664fb268e48ca888771c4cf594240",
-      "size": 10428010,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/hexerei-0.5.0.3.jar"
-    },
-    {
       "path": "mods/industrialforegoing-1.21-3.6.38.jar",
       "sha256": "e242dc05af2bc1e1316e1a8f7807ccc037b13e2594ce3967b77639a21deaf0a4",
       "size": 4630924,
