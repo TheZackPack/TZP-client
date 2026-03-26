@@ -1512,13 +1512,6 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/almostunified/.gitignore"
     },
     {
-      "path": "config/almostunified/debug.json",
-      "hash": "sha256:435ad46870d033c8652097d64c6ec592907e5ab6f1877240532a6a1743d4fca5",
-      "size": 196,
-      "required": true,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/almostunified/debug.json"
-    },
-    {
       "path": "config/almostunified/duplicates.json",
       "hash": "sha256:b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08",
       "size": 724,
