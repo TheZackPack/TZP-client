@@ -860,12 +860,6 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/mekagenjei-1.2.jar"
     },
     {
-      "path": "mods/mekanism_turrets-2.0.9.jar",
-      "sha256": "7b2a69387777731aef875070af9121fba785fb02e56e2bb7628822779edf8c61",
-      "size": 149395,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/mekanism_turrets-2.0.9.jar"
-    },
-    {
       "path": "mods/melody_neoforge_1.0.10_MC_1.21.jar",
       "sha256": "6b973a4564703c531fc0eae09db08b07a38091e0a743c687b8d2049457e84871",
       "size": 36096,
