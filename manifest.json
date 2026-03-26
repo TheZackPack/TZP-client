@@ -1,8 +1,8 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.9",
   "minecraft": "1.21.1",
   "neoforge": "21.1.220",
-  "generated": "2026-03-25T23:12:31.361885+00:00",
+  "generated": "2026-03-26T05:38:14.395293+00:00",
   "files": [
     {
       "path": "mods/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
@@ -61,6 +61,13 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Aquaculture-1.21.1-2.7.19.jar"
     },
     {
+      "path": "mods/BOMD-NeoForge-1.21-1.3.2.jar",
+      "hash": "sha256:66cad715a52397352f04faff3a78c0352b68f3d1212651013d60d1854caa6ec6",
+      "size": 1951866,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/BOMD-NeoForge-1.21-1.3.2.jar"
+    },
+    {
       "path": "mods/BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
       "hash": "sha256:60b548bef04a2f0e1da686ee9035c2e3d4ed0459a17d7a4836fc26af6de6b60e",
       "size": 98641,
@@ -94,6 +101,13 @@
       "size": 547450,
       "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/CBMultipart-1.21.1-3.5.0.155.jar"
+    },
+    {
+      "path": "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+      "hash": "sha256:5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d",
+      "size": 250545,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar"
     },
     {
       "path": "mods/Clumps-neoforge-1.21.1-19.0.0.1.jar",
@@ -157,6 +171,13 @@
       "size": 156364,
       "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Engineers Delight 1.21.1 neoforge R.1.8.jar"
+    },
+    {
+      "path": "mods/ExplorersCompass-1.21.1-3.0.3-neoforge.jar",
+      "hash": "sha256:e092f671e7e7447e6ed7da6444da93d62d97c438f3e895d0ac3105cbce7958d8",
+      "size": 159182,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ExplorersCompass-1.21.1-3.0.3-neoforge.jar"
     },
     {
       "path": "mods/ExtremeReactors2-1.21.1-2.4.28.jar",
@@ -404,6 +425,34 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar"
     },
     {
+      "path": "mods/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
+      "hash": "sha256:2c3191ad447092cc7873a06e92f16bd3e2ff9dc31e93268b8893d06dd89e1fd6",
+      "size": 905839,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar"
+    },
+    {
+      "path": "mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+      "hash": "sha256:61816c3b7c9d92c6b44f93dce87ceb0a22827f20285d5d9c4d10d519d734de04",
+      "size": 782160,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar"
+    },
+    {
+      "path": "mods/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+      "hash": "sha256:5450a64a7036237f449496837e08f3e5b3aa1d7974a10df43944172def75d8ff",
+      "size": 609639,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar"
+    },
+    {
+      "path": "mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+      "hash": "sha256:a9cab2fc01538368862365691f7d215309801aed0b390351681b6b60a1db7b58",
+      "size": 461244,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar"
+    },
+    {
       "path": "mods/ZeroCore2-1.21.1-2.4.21.jar",
       "hash": "sha256:54ac755031b05c3a5b6ddfa22dabc45fb3775481041503dcecd75e5e86627779",
       "size": 1551013,
@@ -458,6 +507,13 @@
       "size": 584004,
       "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/architectury-13.0.8-neoforge.jar"
+    },
+    {
+      "path": "mods/ars_nouveau-1.21.1-5.11.3.jar",
+      "hash": "sha256:91f5e1556957ebe204d6c6818ebdf0dc56ce03ad9ad01ecbf6f6bb0154dfbb37",
+      "size": 20689115,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ars_nouveau-1.21.1-5.11.3.jar"
     },
     {
       "path": "mods/artifacts-neoforge-13.2.0.jar",
@@ -530,6 +586,13 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/carryon-neoforge-1.21.1-2.2.4.4.jar"
     },
     {
+      "path": "mods/chipped-neoforge-1.21.1-4.0.2.jar",
+      "hash": "sha256:18ac6fd6b30db4922ccc6ee8bea5b113f69587505b7529834f37ace506427291",
+      "size": 15020578,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/chipped-neoforge-1.21.1-4.0.2.jar"
+    },
+    {
       "path": "mods/cloth-config-15.0.140-neoforge.jar",
       "hash": "sha256:65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4",
       "size": 1163890,
@@ -591,6 +654,13 @@
       "size": 539899,
       "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/cristellib-neoforge-1.21.1-3.0.3.jar"
+    },
+    {
+      "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
+      "hash": "sha256:a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+      "size": 410690,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/curios-neoforge-9.5.1+1.21.1.jar"
     },
     {
       "path": "mods/cyclopscore-1.21.1-neoforge-1.29.0.jar",
@@ -684,6 +754,13 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/framework-neoforge-1.21.1-0.13.11.jar"
     },
     {
+      "path": "mods/friendsandfoes-neoforge-4.0.23+mc1.21.1.jar",
+      "hash": "sha256:9fce7512691302b4512b30bf33fd1d4fc5b4c91abe7cbbe8cbce9e38afd6bd14",
+      "size": 4988437,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/friendsandfoes-neoforge-4.0.23+mc1.21.1.jar"
+    },
+    {
       "path": "mods/ftb-library-neoforge-2101.1.31.jar",
       "hash": "sha256:3d44705187cf938842e06d484a93e0491b82b0689785e6da4f7cabe40bd88aeb",
       "size": 1411181,
@@ -752,6 +829,13 @@
       "size": 7132842,
       "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/handcrafted-neoforge-1.21.1-4.0.3.jar"
+    },
+    {
+      "path": "mods/hexerei-0.5.0.3.jar",
+      "hash": "sha256:743e80cb0526fa5fffdb660c5c3230df47d664fb268e48ca888771c4cf594240",
+      "size": 10428010,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/hexerei-0.5.0.3.jar"
     },
     {
       "path": "mods/industrialforegoing-1.21-3.6.38.jar",
@@ -843,6 +927,13 @@
       "size": 774148,
       "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/lithium-neoforge-0.15.3+mc1.21.1.jar"
+    },
+    {
+      "path": "mods/lootr-neoforge-1.21.1-1.11.37.118.jar",
+      "hash": "sha256:1326956204d2509e19b87614223a4b9f3d83823d2a9f595db86b6b569d03111c",
+      "size": 970642,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/lootr-neoforge-1.21.1-1.11.37.118.jar"
     },
     {
       "path": "mods/mcjtylib-1.21-9.0.20.jar",
@@ -1013,6 +1104,13 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/prickle-neoforge-1.21.1-21.1.11.jar"
     },
     {
+      "path": "mods/railways-0.1.0+neoforge-mc1.21.1.jar",
+      "hash": "sha256:da0f0ba8d00252027914db7afce6a1115bac1244ef3ca4ff04c35f77ae9606ac",
+      "size": 11847726,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/railways-0.1.0+neoforge-mc1.21.1.jar"
+    },
+    {
       "path": "mods/realmrpg_skeletons-1.1.0-neoforge-1.21.1.jar",
       "hash": "sha256:8a688c2dbd03abd51b48fd09e1ec29de3afe54511cef8046a58c3396c6227388",
       "size": 645589,
@@ -1153,6 +1251,13 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/titanium-1.21-4.0.37.jar"
     },
     {
+      "path": "mods/toastysmobs-2.5.0-neoforge-1.21.1.jar",
+      "hash": "sha256:9821cd403d2ea972b9254dbd857ad3a36592dcbc586b2b978a09dbbec4fea288",
+      "size": 1085689,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/toastysmobs-2.5.0-neoforge-1.21.1.jar"
+    },
+    {
       "path": "mods/tombstone-neoforge-1.21.1-9.4.8.jar",
       "hash": "sha256:9175de0d2934149f5d7e1c1a5a94b846a04a6e7a560df87570987f2f77b8d970",
       "size": 2304453,
@@ -1181,6 +1286,20 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/trashslot-neoforge-1.21.1-21.1.6.jar"
     },
     {
+      "path": "mods/travelerscompass-neoforge-1.21.1-4.0.04.jar",
+      "hash": "sha256:91213925bab28919811c117344e08f268dc3a498881b4054cad6d7db253e2ad9",
+      "size": 520390,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/travelerscompass-neoforge-1.21.1-4.0.04.jar"
+    },
+    {
+      "path": "mods/twilightforest-1.21.1-4.8.3345-universal.jar",
+      "hash": "sha256:493da16d10210f9f53a3c33b3d8fcb4ae9b14016ee420d753c894562bd9aba35",
+      "size": 27154121,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/twilightforest-1.21.1-4.8.3345-universal.jar"
+    },
+    {
       "path": "mods/undergardendelight-1.2.1-neoforge-1.21.1.jar",
       "hash": "sha256:78aef34c3b592501dd0e73956443bb4d4784eb01b5ecddaec9f24cab374ea5d9",
       "size": 287295,
@@ -1207,6 +1326,13 @@
       "size": 609288,
       "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/xnet-1.21-7.0.6.jar"
+    },
+    {
+      "path": "mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+      "hash": "sha256:b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f",
+      "size": 1118651,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar"
     }
   ],
   "configs": [
@@ -1214,2280 +1340,2667 @@
       "path": "config/EnderStorage.cfg",
       "hash": "sha256:50f8a5bee199a9f544ad1c87441e424ad768195b3fa95eb1d8372de18c7da346",
       "size": 522,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/EnderStorage.cfg"
     },
     {
       "path": "config/Mekanism/client.toml",
       "hash": "sha256:5a3febd891fbed6961403ad21b32ff89e7165fdb2c5e82c43d6d5fc2d99b7cc0",
       "size": 8556,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/Mekanism/client.toml"
     },
     {
       "path": "config/Mekanism/common.toml",
       "hash": "sha256:135c4f3482c6581b8d48843a004a88e15389c4932540d19560fb2ed11f5c5803",
       "size": 1063,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/Mekanism/common.toml"
     },
     {
       "path": "config/Mekanism/gear.toml",
       "hash": "sha256:7deb0ab9ebc8b5237f06cbc478ef78bf78b57b8894469fd9d30acde6d9a21fda",
       "size": 13058,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/Mekanism/gear.toml"
     },
     {
       "path": "config/Mekanism/general.toml",
       "hash": "sha256:1771b4e337597f1a433831a213ae518f463623f99540b372470bebef141dff7b",
       "size": 13125,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/Mekanism/general.toml"
     },
     {
       "path": "config/Mekanism/generator-storage.toml",
       "hash": "sha256:06fca6360fadb0e6365bd5bc36f55a0e0445b6c6f0ba02f3eee23d0ec24e5aa7",
       "size": 637,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/Mekanism/generator-storage.toml"
     },
     {
       "path": "config/Mekanism/generators-gear.toml",
       "hash": "sha256:11cb5b34de4345bad8af6d2d3563e839bea30f86e71a7d6507c1369d3c5f2d6b",
       "size": 760,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/Mekanism/generators-gear.toml"
     },
     {
       "path": "config/Mekanism/generators.toml",
       "hash": "sha256:a2503802a5e7f3ca6fea639521a5032ef59f05895408ad8c510c290d1aa65f22",
       "size": 8283,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/Mekanism/generators.toml"
     },
     {
       "path": "config/Mekanism/machine-storage.toml",
       "hash": "sha256:1175048ed4c343bf3b4923f9ec936e21b62036f63f27fb668daa4522613b1178",
       "size": 4736,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/Mekanism/machine-storage.toml"
     },
     {
       "path": "config/Mekanism/machine-usage.toml",
       "hash": "sha256:b8d372d1600d659c148f5e238b7054c321537f7de2dfad24801de286abce1f77",
       "size": 4629,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/Mekanism/machine-usage.toml"
     },
     {
       "path": "config/Mekanism/startup.toml",
       "hash": "sha256:97f1eccffa97ae4b0638fa14314b214f7884f12b45ce1188b05b4f9c02bdeca2",
       "size": 1733,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/Mekanism/startup.toml"
     },
     {
       "path": "config/Mekanism/tiers.toml",
       "hash": "sha256:a62413e8c2db427d7e2db72fc6d16d1ce3285a5a84a4913a9877378319552277",
       "size": 11832,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/Mekanism/tiers.toml"
     },
     {
       "path": "config/Mekanism/world.toml",
       "hash": "sha256:bd928491488fc80eb803150fc83dff0487fe3218fc638dbe683dc597f91cd11f",
       "size": 20557,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/Mekanism/world.toml"
     },
     {
       "path": "config/MouseTweaks.cfg",
       "hash": "sha256:4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4",
       "size": 135,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/MouseTweaks.cfg"
     },
     {
       "path": "config/ProjectE/client.toml",
       "hash": "sha256:956ff6653ab0cf9d1c5d2f174b2ccdb5bbed229a7dc9708f03e45b41a531cb0a",
       "size": 769,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ProjectE/client.toml"
     },
     {
       "path": "config/ProjectE/common.toml",
       "hash": "sha256:46b4f53eb479672ac9836dccbd669d54f7b948766637aa48305ca3c953cd0e85",
       "size": 356,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ProjectE/common.toml"
     },
     {
       "path": "config/ProjectE/custom_emc.json",
       "hash": "sha256:34a39fd0a07e496370cdbf5bb60146b61cf73fcffc44b7ea48b4575ab58d3562",
       "size": 12886,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ProjectE/custom_emc.json"
     },
     {
       "path": "config/ProjectE/mapping.toml",
       "hash": "sha256:0715b2fb9437be1e225d92912cee8130eba6f62c5a3f7a90153eff997bde8698",
       "size": 12332,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ProjectE/mapping.toml"
     },
     {
       "path": "config/ProjectE/server.toml",
       "hash": "sha256:5b4f9802c51836656497f3335c52ebee061178a170d74933526edf8eb251260f",
       "size": 4819,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ProjectE/server.toml"
     },
     {
       "path": "config/advancementplaques.toml",
       "hash": "sha256:2d03748a8ee70e6a836435cd5d3bef0cc97007207f9a163586bff5411730edd7",
       "size": 3196,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/advancementplaques.toml"
     },
     {
       "path": "config/ae2-client.toml",
       "hash": "sha256:44ef758c12d31f42aba3a158747a478d5c1879e8bff9700744f4238294caeb33",
       "size": 2286,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ae2-client.toml"
     },
     {
       "path": "config/ae2-common.toml",
       "hash": "sha256:0b13fbe2bd57729f040dc9574e6fc826b30b8bfc75da69d244440a9fdd8477c7",
       "size": 5876,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ae2-common.toml"
     },
     {
       "path": "config/ae2wtlib.toml",
       "hash": "sha256:18894f2fb101d59d2740d60c8a630fda90edfc59700acad1ae012ceade58a5d5",
       "size": 25,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ae2wtlib.toml"
     },
     {
       "path": "config/almanac-common.toml",
       "hash": "sha256:60804e0ec79a4117e82b9a4c8506077e916a5dc1a0f9bd7eebea977cce9b6a94",
       "size": 566,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/almanac-common.toml"
     },
     {
       "path": "config/almostunified/.gitignore",
       "hash": "sha256:abfe79685d4d74888072befedc60b4d19c641c8cf32b48f1b332f11d0aba9a6e",
       "size": 11,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/almostunified/.gitignore"
+    },
+    {
+      "path": "config/almostunified/debug.json",
+      "hash": "sha256:435ad46870d033c8652097d64c6ec592907e5ab6f1877240532a6a1743d4fca5",
+      "size": 196,
+      "required": true,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/almostunified/debug.json"
     },
     {
       "path": "config/almostunified/duplicates.json",
       "hash": "sha256:b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08",
       "size": 724,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/almostunified/duplicates.json"
     },
     {
       "path": "config/almostunified/placeholders.json",
       "hash": "sha256:43733b207b9f0238c7a5bec47f19e8fd5bec80499b286e0ac4994671702dfed9",
       "size": 675,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/almostunified/placeholders.json"
     },
     {
       "path": "config/almostunified/startup.json",
       "hash": "sha256:37f013c49586db025c17f9fa6657c6f239e0169ebc97ef682ff114a2ede43c5e",
       "size": 60,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/almostunified/startup.json"
     },
     {
       "path": "config/almostunified/tags.json",
       "hash": "sha256:3f0d92c8abaf95a68ff79bb2ef9169fd598500070de7e5a616b755f9c5123e6f",
       "size": 192,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/almostunified/tags.json"
     },
     {
       "path": "config/almostunified/unification/materials.json",
       "hash": "sha256:c3d243c92d3136a088313f79d2df8895473b29da093da88fb48842e93179b877",
       "size": 848,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/almostunified/unification/materials.json"
     },
     {
       "path": "config/apotheosis/apotheosis.cfg",
       "hash": "sha256:292a1ea268fc03a13eac9b01d93cebd0481178eb3d6faf1af6344a8d8d86fb18",
       "size": 4130,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/apotheosis/apotheosis.cfg"
     },
     {
       "path": "config/apotheosis/apothic_attributes.cfg",
       "hash": "sha256:0ce3691bf114d731d9af982f809af2ca88c6cdb2173597f2d82513cdd5610a41",
       "size": 5162,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/apotheosis/apothic_attributes.cfg"
     },
     {
       "path": "config/apotheosis/apothic_enchanting.cfg",
       "hash": "sha256:d44a28ad5ba29bd441c06aa30938bc6ccac38d844a7517a9c965c99b67657abd",
       "size": 698,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/apotheosis/apothic_enchanting.cfg"
     },
     {
       "path": "config/apotheosis/enchantments.cfg",
       "hash": "sha256:7080d9b403db2ceb00da4b66185870628d49e0d4be5d735c0b7f9dbe4d763d19",
       "size": 80789,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/apotheosis/enchantments.cfg"
     },
     {
       "path": "config/apotheosis/name_generation.cfg",
       "hash": "sha256:4e788e333c33c3cf4f332d35a0222b3a0b934743945db7fb218a775926c25909",
       "size": 62267,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/apotheosis/name_generation.cfg"
     },
     {
       "path": "config/apothic_spawners.cfg",
       "hash": "sha256:1f0b4a979feeaeda865d4e70ccb085656e56f89cda8f13f9d9df8ff38fa89515",
       "size": 1113,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/apothic_spawners.cfg"
     },
     {
       "path": "config/appleskin-client.toml",
       "hash": "sha256:6a3624ed584e6d2c4323957c3ca3d17bf2c01c7bbb73b9ee487378ff69d88aba",
       "size": 1353,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/appleskin-client.toml"
     },
     {
       "path": "config/aquaculture-common.toml",
       "hash": "sha256:d1612983c820e2b48163ade6b618eed62b4910c35edd820aaac6128ab412e841",
       "size": 755,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/aquaculture-common.toml"
     },
     {
       "path": "config/artifacts/client.toml",
       "hash": "sha256:fea09c9256febaf3cc2dc9f09a44624d9a2896ed7b0ea7766c02dd597d964c74",
       "size": 799,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/artifacts/client.toml"
     },
     {
       "path": "config/artifacts/general.toml",
       "hash": "sha256:f262c61f4f63bfd3c3e2fa5ed30176b9d447755725ff0dfe08b84df26faca607",
       "size": 2268,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/artifacts/general.toml"
     },
     {
       "path": "config/artifacts/items.toml",
       "hash": "sha256:0d4971e2356a4ceabc4c4b2d69c81c2d3fbcf4b46e384423098f3856dcd2689c",
       "size": 19505,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/artifacts/items.toml"
     },
     {
       "path": "config/attributefix/apothic_attributes/armor_pierce.json",
       "hash": "sha256:6a50a28a3820a8085fb2d43b0b3ba718ff8d9e0df9800e855d540c3c7a82d862",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/armor_pierce.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/armor_shred.json",
       "hash": "sha256:803b5a64c395b01f6efd12222624c7422cc548890c74d62f105daa670500e438",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/armor_shred.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/arrow_damage.json",
       "hash": "sha256:93b4adf5c49377098f3767e46dea7ab8228ad0edd2d0f59904ff9e12a429e8c0",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/arrow_damage.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/arrow_velocity.json",
       "hash": "sha256:93b4adf5c49377098f3767e46dea7ab8228ad0edd2d0f59904ff9e12a429e8c0",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/arrow_velocity.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/cold_damage.json",
       "hash": "sha256:6a50a28a3820a8085fb2d43b0b3ba718ff8d9e0df9800e855d540c3c7a82d862",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/cold_damage.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/crit_chance.json",
       "hash": "sha256:93b4adf5c49377098f3767e46dea7ab8228ad0edd2d0f59904ff9e12a429e8c0",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/crit_chance.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/crit_damage.json",
       "hash": "sha256:c53319e27427fef88d5df7db100e255158c6f088d53b67cc4c2a7f8d0a152693",
       "size": 383,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/crit_damage.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/current_hp_damage.json",
       "hash": "sha256:17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/current_hp_damage.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/dodge_chance.json",
       "hash": "sha256:17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/dodge_chance.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/draw_speed.json",
       "hash": "sha256:bb3d3e9c91455de6702c80400f82cd48760dd76ea9e71498ea4939c675e3b0f4",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/draw_speed.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/experience_gained.json",
       "hash": "sha256:6a50a28a3820a8085fb2d43b0b3ba718ff8d9e0df9800e855d540c3c7a82d862",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/experience_gained.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/fire_damage.json",
       "hash": "sha256:6a50a28a3820a8085fb2d43b0b3ba718ff8d9e0df9800e855d540c3c7a82d862",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/fire_damage.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/ghost_health.json",
       "hash": "sha256:6a50a28a3820a8085fb2d43b0b3ba718ff8d9e0df9800e855d540c3c7a82d862",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/ghost_health.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/healing_received.json",
       "hash": "sha256:6a50a28a3820a8085fb2d43b0b3ba718ff8d9e0df9800e855d540c3c7a82d862",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/healing_received.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/life_steal.json",
       "hash": "sha256:93b4adf5c49377098f3767e46dea7ab8228ad0edd2d0f59904ff9e12a429e8c0",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/life_steal.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/mining_speed.json",
       "hash": "sha256:93b4adf5c49377098f3767e46dea7ab8228ad0edd2d0f59904ff9e12a429e8c0",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/mining_speed.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/overheal.json",
       "hash": "sha256:93b4adf5c49377098f3767e46dea7ab8228ad0edd2d0f59904ff9e12a429e8c0",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/overheal.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/projectile_damage.json",
       "hash": "sha256:93b4adf5c49377098f3767e46dea7ab8228ad0edd2d0f59904ff9e12a429e8c0",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/projectile_damage.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/prot_pierce.json",
       "hash": "sha256:a34b1473712893aa4dd1a7ae1a7a0a6faf7232e546e1c112871054694c8fed35",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/prot_pierce.json"
     },
     {
       "path": "config/attributefix/apothic_attributes/prot_shred.json",
       "hash": "sha256:17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/apothic_attributes/prot_shred.json"
     },
     {
       "path": "config/attributefix/artifacts/generic.attack_burning_duration.json",
       "hash": "sha256:2b35471191429cb7b18be98f70f23a3ea36ddf0d984a5a3f6a492ce3b3a1dba5",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/artifacts/generic.attack_burning_duration.json"
     },
     {
       "path": "config/attributefix/artifacts/generic.drinking_speed.json",
       "hash": "sha256:ea105c9bb954b8cc9e60749b9a304a1ff80fa0c80873099c569e94c6ea5d6c67",
       "size": 417,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/artifacts/generic.drinking_speed.json"
     },
     {
       "path": "config/attributefix/artifacts/generic.eating_speed.json",
       "hash": "sha256:ea105c9bb954b8cc9e60749b9a304a1ff80fa0c80873099c569e94c6ea5d6c67",
       "size": 417,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/artifacts/generic.eating_speed.json"
     },
     {
       "path": "config/attributefix/artifacts/generic.flatulence.json",
       "hash": "sha256:17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/artifacts/generic.flatulence.json"
     },
     {
       "path": "config/attributefix/artifacts/generic.invincibility_ticks.json",
       "hash": "sha256:f2b86540287515290388f49a96e00e5e9ae90abe7332b9beeb44870d0e30c206",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/artifacts/generic.invincibility_ticks.json"
     },
     {
       "path": "config/attributefix/artifacts/generic.mount_speed.json",
       "hash": "sha256:c568f31255bb84ce497127463bdeaa91d597a4336320d84bf669e630ccf169ea",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/artifacts/generic.mount_speed.json"
     },
     {
       "path": "config/attributefix/artifacts/generic.movement_speed_on_snow.json",
       "hash": "sha256:6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/artifacts/generic.movement_speed_on_snow.json"
     },
     {
       "path": "config/attributefix/artifacts/generic.slip_resistance.json",
       "hash": "sha256:17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/artifacts/generic.slip_resistance.json"
     },
     {
       "path": "config/attributefix/artifacts/generic.sprinting_speed.json",
       "hash": "sha256:c568f31255bb84ce497127463bdeaa91d597a4336320d84bf669e630ccf169ea",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/artifacts/generic.sprinting_speed.json"
     },
     {
       "path": "config/attributefix/artifacts/generic.sprinting_step_height.json",
       "hash": "sha256:93b4adf5c49377098f3767e46dea7ab8228ad0edd2d0f59904ff9e12a429e8c0",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/artifacts/generic.sprinting_step_height.json"
     },
     {
       "path": "config/attributefix/artifacts/player.entity_experience.json",
       "hash": "sha256:137e8a8052b2264bc1c881b91b97011e4c33726819f4c434753ad5480ee3d19f",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/artifacts/player.entity_experience.json"
     },
     {
       "path": "config/attributefix/artifacts/player.villager_reputation.json",
       "hash": "sha256:6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/artifacts/player.villager_reputation.json"
     },
     {
       "path": "config/attributefix/ftbultimine/cooldown_modifier.json",
       "hash": "sha256:838f25c55c1adc889f5c14b94ddf7434c5eccf521dc8c3c93d46a0804d3f0633",
       "size": 457,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/ftbultimine/cooldown_modifier.json"
     },
     {
       "path": "config/attributefix/ftbultimine/exhaustion_modifier.json",
       "hash": "sha256:838f25c55c1adc889f5c14b94ddf7434c5eccf521dc8c3c93d46a0804d3f0633",
       "size": 457,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/ftbultimine/exhaustion_modifier.json"
     },
     {
       "path": "config/attributefix/ftbultimine/experience_modifier.json",
       "hash": "sha256:838f25c55c1adc889f5c14b94ddf7434c5eccf521dc8c3c93d46a0804d3f0633",
       "size": 457,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/ftbultimine/experience_modifier.json"
     },
     {
       "path": "config/attributefix/ftbultimine/max_blocks_modifier.json",
       "hash": "sha256:838f25c55c1adc889f5c14b94ddf7434c5eccf521dc8c3c93d46a0804d3f0633",
       "size": 457,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/ftbultimine/max_blocks_modifier.json"
     },
     {
       "path": "config/attributefix/minecolonies/mc_mob_damage.json",
       "hash": "sha256:8487e75bbbf7f53dd917e68b4c9ca8ad233888f97bd32715ab1f1684cd1684c3",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecolonies/mc_mob_damage.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.armor.json",
       "hash": "sha256:b6aa33f20fbc7bb14c930dfcfd93591f37f2ccf12df0b6da9551f7a6fad1e439",
       "size": 389,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.armor.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.armor_toughness.json",
       "hash": "sha256:b6aa33f20fbc7bb14c930dfcfd93591f37f2ccf12df0b6da9551f7a6fad1e439",
       "size": 389,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.armor_toughness.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.attack_damage.json",
       "hash": "sha256:b6aa33f20fbc7bb14c930dfcfd93591f37f2ccf12df0b6da9551f7a6fad1e439",
       "size": 389,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.attack_damage.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.attack_knockback.json",
       "hash": "sha256:b6aa33f20fbc7bb14c930dfcfd93591f37f2ccf12df0b6da9551f7a6fad1e439",
       "size": 389,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.attack_knockback.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.attack_speed.json",
       "hash": "sha256:6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.attack_speed.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.burning_time.json",
       "hash": "sha256:6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.burning_time.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.explosion_knockback_resistance.json",
       "hash": "sha256:17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.explosion_knockback_resistance.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.fall_damage_multiplier.json",
       "hash": "sha256:6217856e9bb2355a468bbe03fe24bc97bae91f8deb54e9df42f8a4021cde99e6",
       "size": 383,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.fall_damage_multiplier.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.flying_speed.json",
       "hash": "sha256:6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.flying_speed.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.follow_range.json",
       "hash": "sha256:43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.follow_range.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.gravity.json",
       "hash": "sha256:84207d0866413a367d92222bd193912a418615f5eb9da342057bafec30173a79",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.gravity.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.jump_strength.json",
       "hash": "sha256:220b18479d9b6497fc95e3b2ffcca5014d93eca33153fab8f343151c9a553bde",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.jump_strength.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.knockback_resistance.json",
       "hash": "sha256:17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.knockback_resistance.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.luck.json",
       "hash": "sha256:6bce4756f23cedf273e963254625fa594a32208f99de05db1abd1e77ec671372",
       "size": 393,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.luck.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.max_absorption.json",
       "hash": "sha256:43aa2701d17e26c045533a5b0500fa8c0639d4e62adcccd389ba3426378a80c0",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.max_absorption.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.max_health.json",
       "hash": "sha256:9d0ae1c8fda340e80aac17df9999ec1e9c7396a2327f63a40ea8006991201305",
       "size": 389,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.max_health.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.movement_efficiency.json",
       "hash": "sha256:17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.movement_efficiency.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.movement_speed.json",
       "hash": "sha256:6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.movement_speed.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.oxygen_bonus.json",
       "hash": "sha256:6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.oxygen_bonus.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.safe_fall_distance.json",
       "hash": "sha256:6bce4756f23cedf273e963254625fa594a32208f99de05db1abd1e77ec671372",
       "size": 393,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.safe_fall_distance.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.scale.json",
       "hash": "sha256:0e28210686e7f216d46ba0fee2508c263c7c39e26fb6d8380404789d3185e73a",
       "size": 387,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.scale.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.step_height.json",
       "hash": "sha256:93b4adf5c49377098f3767e46dea7ab8228ad0edd2d0f59904ff9e12a429e8c0",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.step_height.json"
     },
     {
       "path": "config/attributefix/minecraft/generic.water_movement_efficiency.json",
       "hash": "sha256:17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/generic.water_movement_efficiency.json"
     },
     {
       "path": "config/attributefix/minecraft/player.block_break_speed.json",
       "hash": "sha256:6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/player.block_break_speed.json"
     },
     {
       "path": "config/attributefix/minecraft/player.block_interaction_range.json",
       "hash": "sha256:137e8a8052b2264bc1c881b91b97011e4c33726819f4c434753ad5480ee3d19f",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/player.block_interaction_range.json"
     },
     {
       "path": "config/attributefix/minecraft/player.entity_interaction_range.json",
       "hash": "sha256:137e8a8052b2264bc1c881b91b97011e4c33726819f4c434753ad5480ee3d19f",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/player.entity_interaction_range.json"
     },
     {
       "path": "config/attributefix/minecraft/player.mining_efficiency.json",
       "hash": "sha256:6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/player.mining_efficiency.json"
     },
     {
       "path": "config/attributefix/minecraft/player.sneaking_speed.json",
       "hash": "sha256:17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/player.sneaking_speed.json"
     },
     {
       "path": "config/attributefix/minecraft/player.submerged_mining_speed.json",
       "hash": "sha256:f874427dd6754eff702ef41fd35649493094ddd0c79e01623a2cc9ccfe8ce8d7",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/player.submerged_mining_speed.json"
     },
     {
       "path": "config/attributefix/minecraft/player.sweeping_damage_ratio.json",
       "hash": "sha256:17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/player.sweeping_damage_ratio.json"
     },
     {
       "path": "config/attributefix/minecraft/zombie.spawn_reinforcements.json",
       "hash": "sha256:17ef1233e3020b53a3835793bc771c00114af5b167f57cb03506098dbc49e535",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/minecraft/zombie.spawn_reinforcements.json"
     },
     {
       "path": "config/attributefix/neoforge/nametag_distance.json",
       "hash": "sha256:137e8a8052b2264bc1c881b91b97011e4c33726819f4c434753ad5480ee3d19f",
       "size": 381,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/neoforge/nametag_distance.json"
     },
     {
       "path": "config/attributefix/neoforge/swim_speed.json",
       "hash": "sha256:6b9b3d0281e3d07f12580d39983e2ac2eac90f30c739d743b84d55024c3651ed",
       "size": 385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/attributefix/neoforge/swim_speed.json"
     },
     {
       "path": "config/bcc-common.toml",
       "hash": "sha256:f428f5de3137267cacb9d74792897123f986a1ebdc268bedee7f449916b25ad0",
       "size": 380,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/bcc-common.toml"
     },
     {
       "path": "config/betteradvancements-client.toml",
       "hash": "sha256:0e3056c284380d1cac4126e3393bffee0da492b814413e10ca90dac85bee32c3",
       "size": 914,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/betteradvancements-client.toml"
     },
     {
       "path": "config/bettercaves/README.txt",
       "hash": "sha256:e6f25132180339d5b7f53c1f5473f28cdf743f76292bc8f87142e4b0300e0f2c",
       "size": 546,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/bettercaves/README.txt"
     },
     {
       "path": "config/bettercaves/neoforge-1_21_1/README.txt",
       "hash": "sha256:1dc29f3ad9f62887f2667aeaed28c3fd3a2520055382ecb3636e3cb9ea563baa",
       "size": 743,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/bettercaves/neoforge-1_21_1/README.txt"
     },
     {
       "path": "config/bettercaves/neoforge-1_21_1/liquidregions.json",
       "hash": "sha256:ad0e43cd1d8fff16d76ff6036699bd67598ff8bc18220b7e8e951245c92cf139",
       "size": 168,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/bettercaves/neoforge-1_21_1/liquidregions.json"
     },
     {
       "path": "config/bettercombat/client.json5",
       "hash": "sha256:2d853633deff976b16e7e973c168134886fe8c06ec5108a077d835db97b5ff18",
       "size": 721,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/bettercombat/client.json5"
     },
     {
       "path": "config/bettercombat/fallback_compatibility.json",
       "hash": "sha256:754feb4474a3f4d9fe6bd08f38c248fd5a796ed51f38d7d5704680250f3a34ca",
       "size": 2995,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/bettercombat/fallback_compatibility.json"
     },
     {
       "path": "config/bettercombat/server.json5",
       "hash": "sha256:b4d8fd935d23f528a177e95c8a45be52fa5f3e4cd2671802be1f44c80aef724a",
       "size": 5792,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/bettercombat/server.json5"
     },
     {
       "path": "config/bettercombat/weapon_trails.json",
       "hash": "sha256:fd14cc025b6d6c54bc2ddff136f0298c0ba132dbe98c2c9c845b47b8286fc45c",
       "size": 7127,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/bettercombat/weapon_trails.json"
     },
     {
       "path": "config/biomesoplenty/biome_toggles.json",
       "hash": "sha256:adcd92e2dd2d6ca3528b4ded3a159fce6f4a3951e815d60494dc277d12289106",
       "size": 2192,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/biomesoplenty/biome_toggles.json"
     },
     {
       "path": "config/biomesoplenty/gameplay.toml",
       "hash": "sha256:659a0e32bcbb7c13496cde1bcbc8f72291a2f5baef118f6ad23c46fa0edae8f4",
       "size": 106,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/biomesoplenty/gameplay.toml"
     },
     {
       "path": "config/biomesoplenty/generation.toml",
       "hash": "sha256:098b1c811db93f79cf9dd5403f1bfdbf3e09d7cad06bea58edc6f7045846057b",
       "size": 506,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/biomesoplenty/generation.toml"
     },
     {
       "path": "config/blueprint-client.toml",
       "hash": "sha256:be05bad1aa4234dc14e1b4f69b4476d7457a6be60c4844c521195978ad8562a7",
       "size": 879,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/blueprint-client.toml"
     },
     {
       "path": "config/blueprint-common.toml",
       "hash": "sha256:fd498503a74d6c82561869da4e86d8fb886dc2ac182a2086886314aca26bb7be",
       "size": 516,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/blueprint-common.toml"
     },
     {
       "path": "config/brandon3055/BrandonsCore.cfg",
       "hash": "sha256:1d56ce851586b9e31b0bc40ceacce9a5f05d6568d40d05fbc6c7608d3001a7bb",
       "size": 739,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/brandon3055/BrandonsCore.cfg"
     },
     {
       "path": "config/brandon3055/DraconicEvolution.cfg",
       "hash": "sha256:e1fa24834dec3f39a1b486b0dc995bf6e49a979e23e4831dc3eff4bd00d460a6",
       "size": 16699,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/brandon3055/DraconicEvolution.cfg"
     },
     {
       "path": "config/brandon3055/ModuleStats.cfg",
       "hash": "sha256:f0a816673cd675d134f591070451b521fb3cc2f0aee86b0b110b1fa3cfa49772",
       "size": 8897,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/brandon3055/ModuleStats.cfg"
     },
     {
       "path": "config/brandon3055/contributors.json",
       "hash": "sha256:d311913d75def301b290ef9eaf11705ee10495f6611fbd0063882dd4f1d48bc7",
       "size": 5696,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/brandon3055/contributors.json"
     },
     {
       "path": "config/brandon3055/contributors.json.etag",
       "hash": "sha256:a2906a55fe7df5e7cd1bfa4d4726e12381dc49519ebc3211ff5d8a339c0cdbf7",
       "size": 13,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/brandon3055/contributors.json.etag"
     },
     {
       "path": "config/brandon3055/hud_settings.json",
       "hash": "sha256:12f7829b4f2a7073226189b5d090797ec5c1a6a35ce5767fd22e4afe62cbc646",
       "size": 349,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/brandon3055/hud_settings.json"
     },
     {
       "path": "config/carryon-client.toml",
       "hash": "sha256:c3cbcb17ade590daf230373d51457732bc8d9dd1039f7947b6bf564e38df1d9c",
       "size": 582,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/carryon-client.toml"
     },
     {
       "path": "config/carryon-common.toml",
       "hash": "sha256:42a74707152e19ecd923e92e84d03a8c8dc7f42a22f4ae241defd7070ea349cd",
       "size": 8413,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/carryon-common.toml"
     },
     {
       "path": "config/ccl.cfg",
       "hash": "sha256:d0accd9879a8d31db8bdb55163dbb1b1668890a4558ac0689f807c6e207d1d99",
       "size": 437,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ccl.cfg"
     },
     {
       "path": "config/collective.json5",
       "hash": "sha256:b6243b955bf123f86c947510d9f8f3a4b5f7b8fe3775d834f458d60a3223847f",
       "size": 827,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/collective.json5"
     },
     {
       "path": "config/comforts-common.toml",
       "hash": "sha256:d1ff6e8f5aa2b77d6708b9d4a566d2de96e6f1ec594139742162b1dfdf92c476",
       "size": 185,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/comforts-common.toml"
     },
     {
       "path": "config/comforts-server.toml",
       "hash": "sha256:00097d03bb5a4016c869695ecce545a38391c7089d8bd9f80cd6feccbae9738e",
       "size": 1814,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/comforts-server.toml"
     },
     {
       "path": "config/commoncapabilities-common.toml",
       "hash": "sha256:5f24dac0c8fe975ed447a73822d41395c239f47bc7087bfd7ff62b7311eefc26",
       "size": 761,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/commoncapabilities-common.toml"
     },
     {
       "path": "config/compactmachines-client.toml",
       "hash": "sha256:5dd7427d6021190fa5701476065b08362949b18400fb1dfcab7b434038b9d955",
       "size": 79,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/compactmachines-client.toml"
     },
     {
       "path": "config/create-client.toml",
       "hash": "sha256:da7f746b8a21a40618a7d4bfd0f3364b3cf1f46fc16cf9109fbbc8e54f93cf43",
       "size": 4555,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/create-client.toml"
     },
     {
       "path": "config/create-common.toml",
       "hash": "sha256:1c632f62c30f4e1223669267196d2ff1a2c03e400bf565ff4fe81e20c7cd2bdf",
       "size": 146,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/create-common.toml"
     },
     {
       "path": "config/create-server.toml",
       "hash": "sha256:3e64dfc68ede741a8f1ee3b62976d74f5a0962f4b7fdff9ab06bd70bf7ad5cc4",
       "size": 16278,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/create-server.toml"
     },
     {
       "path": "config/create-stuff-additions.toml",
       "hash": "sha256:62932ecda1e4235a0ae69d15b4cef9dbc10b1debfa21b25f26a6e1b4b0356219",
       "size": 805,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/create-stuff-additions.toml"
     },
     {
       "path": "config/creeperoverhaul.jsonc",
       "hash": "sha256:d8088bd461dd7666552c4174bac6549e55112728e07aa3addd0e32a805c230fc",
       "size": 1913,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/creeperoverhaul.jsonc"
     },
     {
       "path": "config/crepperoverhaul-client.jsonc",
       "hash": "sha256:8ebd8ce17fd98dc18dde0d3271b9237fbc98d9664647940308c9a4d7804dc200",
       "size": 389,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/crepperoverhaul-client.jsonc"
     },
     {
       "path": "config/cristellib/ae2/structure_placement_config.json5",
       "hash": "sha256:be965a0db27e885105cd7461d7bee9294f430f4198cc3a38f14ec549686a0ad5",
       "size": 123,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/ae2/structure_placement_config.json5"
     },
     {
       "path": "config/cristellib/ae2/structure_toggle_config.json5",
       "hash": "sha256:1d900647f5a76b713371e4c4bb995890f04f1141aabfdf585c22d611cf7b14dc",
       "size": 87,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/ae2/structure_toggle_config.json5"
     },
     {
       "path": "config/cristellib/apotheosis/structure_placement_config.json5",
       "hash": "sha256:a305799ec680f9069271afc9c2e2f1a07438cea08aa24b7de9a6422ffba3d81b",
       "size": 120,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/apotheosis/structure_placement_config.json5"
     },
     {
       "path": "config/cristellib/apotheosis/structure_toggle_config.json5",
       "hash": "sha256:7c8d65af01dd02b77cecb45c3d712b43c7f89fc180296b1cc2d789e25cf3b120",
       "size": 153,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/apotheosis/structure_toggle_config.json5"
     },
     {
       "path": "config/cristellib/auto_config_settings.json5",
       "hash": "sha256:799173b66094a241753f41af672ddf22921ca206cb88f1966d31960c89c3f99a",
       "size": 895,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/auto_config_settings.json5"
     },
     {
       "path": "config/cristellib/built_in_packs.json5",
       "hash": "sha256:f1be3df3751749fc4f475c886553f4b6b998c1a9f68f7ec33ddebe6909bffb14",
       "size": 419,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/built_in_packs.json5"
     },
     {
       "path": "config/cristellib/dungeons_arise/structure_placement_config.json5",
       "hash": "sha256:4b3e54811d5e41677688e9f829bb203ed345d98dfacb6e100ed1a06ef9bbd27b",
       "size": 214,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/dungeons_arise/structure_placement_config.json5"
     },
     {
       "path": "config/cristellib/dungeons_arise/structure_toggle_config.json5",
       "hash": "sha256:22500f20f1176e972ecfcb8b3431b608f25f300c1d8cc8394d35946840c0fc1a",
       "size": 1060,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/dungeons_arise/structure_toggle_config.json5"
     },
     {
       "path": "config/cristellib/evilcraft/structure_placement_config.json5",
       "hash": "sha256:ee51ef42714692ef8079d540008509c37cff81d2e0b65e492ad35923b49e8f6b",
       "size": 127,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/evilcraft/structure_placement_config.json5"
     },
     {
       "path": "config/cristellib/evilcraft/structure_toggle_config.json5",
       "hash": "sha256:c8442489e16a5e5e5472c7c62c765707b4b2bd031a1e52237a48ee58d60e7734",
       "size": 92,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/evilcraft/structure_toggle_config.json5"
     },
     {
       "path": "config/cristellib/evilcraftcompat/structure_placement_config.json5",
       "hash": "sha256:ee51ef42714692ef8079d540008509c37cff81d2e0b65e492ad35923b49e8f6b",
       "size": 127,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/evilcraftcompat/structure_placement_config.json5"
     },
     {
       "path": "config/cristellib/evilcraftcompat/structure_toggle_config.json5",
       "hash": "sha256:c8442489e16a5e5e5472c7c62c765707b4b2bd031a1e52237a48ee58d60e7734",
       "size": 92,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/evilcraftcompat/structure_toggle_config.json5"
     },
     {
       "path": "config/cristellib/farmers_structures/structure_placement_config.json5",
       "hash": "sha256:e85ca8a89ed9a096b731101c44f8a000ca008ecbd292d08c2d1583bd852e42af",
       "size": 1836,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/farmers_structures/structure_placement_config.json5"
     },
     {
       "path": "config/cristellib/farmers_structures/structure_toggle_config.json5",
       "hash": "sha256:675211ef327b8599cda6ceb55ea29926f89c59043c2807730bc530cc475786e2",
       "size": 1144,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/farmers_structures/structure_toggle_config.json5"
     },
     {
       "path": "config/cristellib/minecolonies/structure_placement_config.json5",
       "hash": "sha256:eb632995c94c9defb3290df4f9a5e8e83ae5a80a93059da36fd6944d35529b2b",
       "size": 444,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/minecolonies/structure_placement_config.json5"
     },
     {
       "path": "config/cristellib/minecolonies/structure_toggle_config.json5",
       "hash": "sha256:0c057db33c2af15be24c6fb2b9cc4c641783b445285531b263456ec23f8f8a2e",
       "size": 595,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/minecolonies/structure_toggle_config.json5"
     },
     {
       "path": "config/cristellib/mowziesmobs/structure_placement_config.json5",
       "hash": "sha256:39d0dbee12f7ad3788cf2c7dfed6208f158b353b6b58af61b91eee6d7aaf8817",
       "size": 369,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/mowziesmobs/structure_placement_config.json5"
     },
     {
       "path": "config/cristellib/mowziesmobs/structure_toggle_config.json5",
       "hash": "sha256:ed19259693f2a542b7732909fde8be6a820b5ba0148a20012d7e3ce3e9adb21b",
       "size": 246,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/mowziesmobs/structure_toggle_config.json5"
     },
     {
       "path": "config/cristellib/mushroomquest/structure_placement_config.json5",
       "hash": "sha256:88e46db1b0201e5ce284a7d0e415a237607267c4fd6aae7c674c12a49e9abc34",
       "size": 134,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/mushroomquest/structure_placement_config.json5"
     },
     {
       "path": "config/cristellib/mushroomquest/structure_toggle_config.json5",
       "hash": "sha256:db40e218e901a7fc6d536485b472d673e1f674baa0a4ce91b2b2576cdd8c0dc9",
       "size": 109,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/mushroomquest/structure_toggle_config.json5"
     },
     {
       "path": "config/cristellib/supplementaries/structure_placement_config.json5",
       "hash": "sha256:1175d80fb7e6cd18430c09e50b32c2a888202f2d51368741441dd8e0e1ea05b4",
       "size": 125,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/supplementaries/structure_placement_config.json5"
     },
     {
       "path": "config/cristellib/supplementaries/structure_toggle_config.json5",
       "hash": "sha256:1715fab1db080ca0bd264dce0cb2f8de8218d6e2989d085b0a3cb72b0f8c6225",
       "size": 125,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/supplementaries/structure_toggle_config.json5"
     },
     {
       "path": "config/cristellib/tombstone/structure_placement_config.json5",
       "hash": "sha256:91b4060e1374f12f46cb5587f8b01fc64de86d8f2b855988ffc91ad0b65d3f8d",
       "size": 128,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/tombstone/structure_placement_config.json5"
     },
     {
       "path": "config/cristellib/tombstone/structure_toggle_config.json5",
       "hash": "sha256:c99f6a233f3922f8d581c6caf42f0796f3f97feaec963add7f8728e50fcc9b98",
       "size": 137,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/tombstone/structure_toggle_config.json5"
     },
     {
       "path": "config/cristellib/undergarden/structure_placement_config.json5",
       "hash": "sha256:454ffa75bab1f9806e61895bedc3aa5f6f0d122ea013ea7e30e13f6213357fcb",
       "size": 406,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/undergarden/structure_placement_config.json5"
     },
     {
       "path": "config/cristellib/undergarden/structure_toggle_config.json5",
       "hash": "sha256:f8d8304e690a1a851a58af20f42fbdf23ec87af613630be91a429630128cf567",
       "size": 237,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cristellib/undergarden/structure_toggle_config.json5"
     },
     {
       "path": "config/cucumber-client.toml",
       "hash": "sha256:2f20918e4eb0a97d3ac834c418b160ec132f55211e2fc72e192993938f09443e",
       "size": 182,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cucumber-client.toml"
     },
     {
       "path": "config/cucumber-common.toml",
       "hash": "sha256:72e22f95d284342744f4bd1ae7f9df6eeb86ff3c7dc76d9319ae455f0884f69f",
       "size": 388,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cucumber-common.toml"
     },
     {
       "path": "config/cucumber-tags.json",
       "hash": "sha256:d8165d39c4a12b09d880ac0fbd59ca0e361cf7dfd9bfa6ba2f270343cd085051",
       "size": 543,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cucumber-tags.json"
     },
     {
       "path": "config/custom-micromaterials.cfg",
       "hash": "sha256:e135509de6da12c503afab230207e0306ecc8925f80e9ec1df4ce1dd3edb8a25",
       "size": 592,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/custom-micromaterials.cfg"
     },
     {
       "path": "config/cyclopscore-common.toml",
       "hash": "sha256:ca5f84880487d708ffbb27e07e7c73f708d9414f01f0eb40df8c4d72ef4e7df1",
       "size": 268,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/cyclopscore-common.toml"
     },
     {
       "path": "config/dramaticdoors-startup.toml",
       "hash": "sha256:ee4c4f849b571ddce8328359c809d74fe83b341607a10be55d0faa3fb90289b4",
       "size": 609,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/dramaticdoors-startup.toml"
     },
     {
       "path": "config/elevatorid-server.toml",
       "hash": "sha256:3861e1c9b5383e73030e33a4e00c34f64bce7a0f3f38dfb2be9c5ddedd2a7123",
       "size": 718,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/elevatorid-server.toml"
     },
     {
       "path": "config/embeddium-fingerprint.json",
       "hash": "sha256:3bccc71836957ac3fb1b51b00c8b1353cac44966d245c4b8ba52c1330dc770e3",
       "size": 427,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/embeddium-fingerprint.json"
     },
     {
       "path": "config/embeddium-mixins.properties",
       "hash": "sha256:708750dc530ed52462185c7b1421291db8b292a350e164daaad437ba6f4fe4ef",
       "size": 268,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/embeddium-mixins.properties"
     },
     {
       "path": "config/embeddium-options.json",
       "hash": "sha256:acd6056c2b6d440c6379629a3aa680f83528fc64dcb4073d88f6cf620f7cc375",
       "size": 849,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/embeddium-options.json"
     },
     {
       "path": "config/enchdesc.json",
       "hash": "sha256:7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b",
       "size": 2059,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/enchdesc.json"
     },
     {
       "path": "config/enderio/base-client.toml",
       "hash": "sha256:2a76f1920c9ec106e0487c9bc25c5860e188f3cb69cba930c10b7019451ec09f",
       "size": 61,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/enderio/base-client.toml"
     },
     {
       "path": "config/enderio/base-common.toml",
       "hash": "sha256:4b0c8a4c78e6fc0191c54789f958f593f9b6e94746aa4deb4fdca3b2cf2a65bf",
       "size": 2018,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/enderio/base-common.toml"
     },
     {
       "path": "config/enderio/conduits-common.toml",
       "hash": "sha256:0749a5fce22bb6347251ecb7381d883ad39b0ccb197e702ff5b19b836002b28c",
       "size": 260,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/enderio/conduits-common.toml"
     },
     {
       "path": "config/enderio/machines-client.toml",
       "hash": "sha256:2a2837a93e86109b3b30ea272e33f48838314b0bf3385fd3b6610f979452284e",
       "size": 903,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/enderio/machines-client.toml"
     },
     {
       "path": "config/enderio/machines-common.toml",
       "hash": "sha256:61470d9d17e2fa31dd057da95c0dcff6733608a0027a1c80d5989f3ef14c7075",
       "size": 6470,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/enderio/machines-common.toml"
     },
     {
       "path": "config/enderio/modded-conduits-common.toml",
       "hash": "sha256:1bf6d2c17d2aabb47790325e597439981f5bb145ef7432a6a84642fa8eee7695",
       "size": 401,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/enderio/modded-conduits-common.toml"
     },
     {
       "path": "config/entityculling.json",
       "hash": "sha256:ceb5b3624c3269bef037b2914da8ab0d1c368abdd466156292a5d82db8803b0e",
       "size": 1897,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/entityculling.json"
     },
     {
       "path": "config/evilcraft-common.toml",
       "hash": "sha256:d737baa25ccb26df4ef2ec425f8f155ba237c39cf87dc2fc672c2865360f11b2",
       "size": 12558,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/evilcraft-common.toml"
     },
     {
       "path": "config/extremereactors/client.toml",
       "hash": "sha256:0cca7f3e387be7a6e516f524102d9f1bd0eb6deadd336b5190dceb57f2bd5677",
       "size": 577,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/extremereactors/client.toml"
     },
     {
       "path": "config/extremereactors/common.toml",
       "hash": "sha256:26895c36a9ead679d91f13c58c7fba1d6efe6e24712a994ca123f05a0494d413",
       "size": 3493,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/extremereactors/common.toml"
     },
     {
       "path": "config/fancymenu/assets/tzp_title_bg.png",
       "hash": "sha256:f8fd3daf805584585e9ae58bc7a24a8a96f4486aa095cf3aedca08b4276fc8bf",
       "size": 152316,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fancymenu/assets/tzp_title_bg.png"
     },
     {
       "path": "config/fancymenu/assets/tzp_wordmark.png",
       "hash": "sha256:abe260590bb4da838a39b35a3e9e11d209751d210eff80956d501cb21dfe8fe7",
       "size": 7168,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fancymenu/assets/tzp_wordmark.png"
     },
     {
       "path": "config/fancymenu/custom_gui_screens.txt",
       "hash": "sha256:ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880",
       "size": 51,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fancymenu/custom_gui_screens.txt"
     },
     {
       "path": "config/fancymenu/customizablemenus.txt",
       "hash": "sha256:4c68ab99c906dd487952f61bf33c0635039a8bbff3f02099e3cd8272fe51b4aa",
       "size": 75,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fancymenu/customizablemenus.txt"
     },
     {
       "path": "config/fancymenu/customization/tzp_title_screen.txt",
       "hash": "sha256:7d5e6c1a45c4480a8102aaba118ebb854b536b8b0a6e15b30a587a3ca839c27b",
       "size": 28351,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fancymenu/customization/tzp_title_screen.txt"
     },
     {
       "path": "config/fancymenu/legacy_checklist.txt",
       "hash": "sha256:9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0",
       "size": 42,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fancymenu/legacy_checklist.txt"
     },
     {
       "path": "config/fancymenu/options.txt",
       "hash": "sha256:edc27fd53bfcd38c5007c2938af5b751b88ce4afcfa3c35c342a14309d9f23f6",
       "size": 2134,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fancymenu/options.txt"
     },
     {
       "path": "config/fancymenu/ui_themes/dark.json",
       "hash": "sha256:3f1263eaf693fdb6a315099b06797ac18830faa66c620916a80337a5082fd850",
       "size": 6218,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fancymenu/ui_themes/dark.json"
     },
     {
       "path": "config/fancymenu/ui_themes/light.json",
       "hash": "sha256:3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41",
       "size": 6220,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fancymenu/ui_themes/light.json"
     },
     {
       "path": "config/fancymenu/user_variables.db",
       "hash": "sha256:3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823",
       "size": 23,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fancymenu/user_variables.db"
     },
     {
       "path": "config/farmersdelight-client.toml",
       "hash": "sha256:b15e935386c6b1c8a9ec606bcb516df64f07a439e54254b916d8db31fb7ced77",
       "size": 357,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/farmersdelight-client.toml"
     },
     {
       "path": "config/farmersdelight-common.toml",
       "hash": "sha256:0191c442d17fdc41a626951d610fa978512af5bbc464b81bba8be4884a1eca4a",
       "size": 4587,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/farmersdelight-common.toml"
     },
     {
       "path": "config/fastbench.cfg",
       "hash": "sha256:fe014b978a15ec5008eac8b2acceefbd93dde1a89faf41ca47ef80360b1f170e",
       "size": 522,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fastbench.cfg"
     },
     {
       "path": "config/ferritecore-mixin.toml",
       "hash": "sha256:b6c85cb392f799ed932ffe8d6051f48a283a0df3f8674acf4f8d89341836e686",
       "size": 1579,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ferritecore-mixin.toml"
     },
     {
       "path": "config/fetzis_asian_deco/fetzis-asian-deco-config.json",
       "hash": "sha256:1cfb81fa8ed8d9ca756b46ff234496f7f625617d7dffd9ded505779445c94a79",
       "size": 307,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fetzis_asian_deco/fetzis-asian-deco-config.json"
     },
     {
       "path": "config/fluxnetworks-client.toml",
       "hash": "sha256:ba7f9d2bc6c1c8fd235b5700fd3634b93126b76214e7941c926301a3ea35f09b",
       "size": 218,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fluxnetworks-client.toml"
     },
     {
       "path": "config/fluxnetworks-common.toml",
       "hash": "sha256:b51082ddf986a8453cfb410c6eca59eb33077e18664468ec02477686b2666130",
       "size": 815,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fluxnetworks-common.toml"
     },
     {
       "path": "config/fluxnetworks-server.toml",
       "hash": "sha256:f4e9a6ba02a2ea63337f346560da95475233310f7836e36539c268c82fabf463",
       "size": 2293,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fluxnetworks-server.toml"
     },
     {
       "path": "config/flywheel-client.toml",
       "hash": "sha256:c11fdf99c5c88c65fe9f7efc6a66a802cd196e58cd29983384eff8aa7becb8cb",
       "size": 623,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/flywheel-client.toml"
     },
     {
       "path": "config/fml.toml",
       "hash": "sha256:f7c63d561cf711b738dbccce1d5cc2461fb6a6d9a7a6e4c1a67e1365aa9b1122",
       "size": 1520,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/fml.toml"
     },
     {
       "path": "config/ftblibrary-client.snbt",
       "hash": "sha256:8aacae46ad8363a2f94fd4ada8da8931b9b81e54744c575b3273228e05f04004",
       "size": 1570,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftblibrary-client.snbt"
     },
     {
       "path": "config/ftbquests-client.snbt",
       "hash": "sha256:83b3c8c5548b8e419f97857e0694fac7ae08442ebd894f41868db4b30ae1030f",
       "size": 1085,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests-client.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapter_groups.snbt",
       "hash": "sha256:2405d2b19dd8a661580e2b4a97967e53bb27424ab161db047e28c1bb8a327cbd",
       "size": 84,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/chapter_groups.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/tzp_onboarding.snbt",
       "hash": "sha256:3be4a39a99c549084a1eb45ead26f17d3c465cd3514997bd2fd168c6c2c14010",
       "size": 5991,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/chapters/tzp_onboarding.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/tzp_path_building.snbt",
       "hash": "sha256:717c17a466d0c7846fc70a5e10abef32c28f9cfe5c99cf5d74783c5e33ecbf80",
       "size": 2009,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/chapters/tzp_path_building.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/tzp_path_combat.snbt",
       "hash": "sha256:4e28ebdd4a7c94beeaccc76cea4d908ee9c7870fd78fc6d6af56c0b3a7ac421e",
       "size": 12581,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/chapters/tzp_path_combat.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/tzp_path_emc.snbt",
       "hash": "sha256:17c201b8ae779e74dd78e53f68ef92f8729035d6cddfc649f3f98c8407cfc44c",
       "size": 9023,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/chapters/tzp_path_emc.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/tzp_path_energy.snbt",
       "hash": "sha256:dfb4cde3e5e57de1067b32bec6c81cfd3b7275e83e74b26525163688bb522ba6",
       "size": 9304,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/chapters/tzp_path_energy.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/tzp_path_explore.snbt",
       "hash": "sha256:c1fab1d709e2b2f127dbf3ac13b081c1cdcc05e5b66cf8955722a59aa1f32593",
       "size": 10696,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/chapters/tzp_path_explore.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/tzp_path_farming.snbt",
       "hash": "sha256:ae456d4faaf31468e088b5987d51ebccab9b944c068e367d77cb758114239c8e",
       "size": 9037,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/chapters/tzp_path_farming.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/tzp_path_magic.snbt",
       "hash": "sha256:837259c277290e20e0a6fa1f51d4e2b2f9b5b0c6dab08ab8b4bd396ac8d839ff",
       "size": 26654,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/chapters/tzp_path_magic.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/tzp_path_minecolonies.snbt",
       "hash": "sha256:144b30b44602dfa6c95189cd83125a91c4a35c2f4b431ee042cd19ff0576a4b0",
       "size": 13290,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/chapters/tzp_path_minecolonies.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/tzp_path_storage.snbt",
       "hash": "sha256:dc279b9d218e2c5db242db4cbde88158b139a5295c38af42e863601099077747",
       "size": 7768,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/chapters/tzp_path_storage.snbt"
     },
     {
       "path": "config/ftbquests/quests/chapters/tzp_path_tech.snbt",
       "hash": "sha256:8f68843366f2fc67b9e2895423de5e2007edbfc0671cd960a08ee351604c9093",
       "size": 40617,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/chapters/tzp_path_tech.snbt"
     },
     {
       "path": "config/ftbquests/quests/data.snbt",
       "hash": "sha256:ce2db19fed88d18e57fa41e1c22ed19dd7ac064a2c39dcf9d3f3882723defb78",
       "size": 551,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/data.snbt"
     },
     {
       "path": "config/ftbquests/quests/lang/en_us.snbt",
       "hash": "sha256:6d338e60c5e638c9542ef0a4811e47c3977e66780e64248acc27182d7d731b62",
       "size": 6375,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbquests/quests/lang/en_us.snbt"
     },
     {
       "path": "config/ftbultimine-client.snbt",
       "hash": "sha256:bd0bb47eedb240528f44fefd13e3185de5b452c651163211e05830bb8836f5c6",
       "size": 1767,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbultimine-client.snbt"
     },
     {
       "path": "config/ftbultimine-server.snbt",
       "hash": "sha256:91cd49539494960b575e2640061961e159b7fdf1cdb4b850830a3e5f3e2ac794",
       "size": 3388,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbultimine-server.snbt"
     },
     {
       "path": "config/ftbxmodcompat.snbt",
       "hash": "sha256:1227e1dd97b7c71deaa0b47abf0ec446db955b6cb8f1db0e877a22f095dd9780",
       "size": 856,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ftbxmodcompat.snbt"
     },
     {
       "path": "config/gobber2/gobber2_config_settings.json5",
       "hash": "sha256:d248d9c376080113692756947b3a54ecb472fae13f2cd685b2e55b48dcf14747",
       "size": 9210,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/gobber2/gobber2_config_settings.json5"
     },
     {
       "path": "config/goblintraders-entities.toml",
       "hash": "sha256:47c74e5b08ccacbd39330a1367813e9437660ed603af42923fec6182b2349bed",
       "size": 6848,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/goblintraders-entities.toml"
     },
     {
       "path": "config/guideme.toml",
       "hash": "sha256:86ad6c16f2290267eb51f3654ebd8410921118450617154f337bdd442af53c28",
       "size": 544,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/guideme.toml"
     },
     {
       "path": "config/immersiveengineering-client.toml",
       "hash": "sha256:912425e0f8128c386af08b3ffe7caf82b3a01eac44b617e466295d5078696827",
       "size": 2542,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/immersiveengineering-client.toml"
     },
     {
       "path": "config/immersiveengineering-server.toml",
       "hash": "sha256:f3527617cb361ee9f0a672f5d8aa8c76f5d9b57a6d2965a75d5b25684d84e8c7",
       "size": 21692,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/immersiveengineering-server.toml"
     },
     {
       "path": "config/immersiveengineering-startup.toml",
       "hash": "sha256:776cf15a4474e30ac7bdf944f44d0dca25851efad95b8d8055f3d3de29aad705",
       "size": 1671,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/immersiveengineering-startup.toml"
     },
     {
       "path": "config/industrialforegoing/client-config.toml",
       "hash": "sha256:a4e582597ce3b8d8eb9fe18b7268f91c00ca907730b25d31af8356df0d732871",
       "size": 89,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/industrialforegoing/client-config.toml"
     },
     {
       "path": "config/industrialforegoing/item-core.toml",
       "hash": "sha256:2501dec928c53b7a8a71f05bb3bdafe597d949a05d4915840e26d5ef1cec8352",
       "size": 139,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/industrialforegoing/item-core.toml"
     },
     {
       "path": "config/industrialforegoing/machine-agriculture-husbandry.toml",
       "hash": "sha256:f39d785366cdc2554a2e552195e66b0aa8715281fef8a193735a811e3d639ba1",
       "size": 4806,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/industrialforegoing/machine-agriculture-husbandry.toml"
     },
     {
       "path": "config/industrialforegoing/machine-core.toml",
       "hash": "sha256:46253d6757c201847b3e8cbba8cf94b7fde363bd977513715656560b8d949fa7",
       "size": 1332,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/industrialforegoing/machine-core.toml"
     },
     {
       "path": "config/industrialforegoing/machine-generator.toml",
       "hash": "sha256:3de46a35b80df8aceda2dbf75cba36f0ff11fa923397cdbacfdba3ba2385dd15",
       "size": 1080,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/industrialforegoing/machine-generator.toml"
     },
     {
       "path": "config/industrialforegoing/machine-misc.toml",
       "hash": "sha256:4c3f40eb0f34abea3bc95731099037b46bd9675ac7ead2543ff9474cc90cf137",
       "size": 2058,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/industrialforegoing/machine-misc.toml"
     },
     {
       "path": "config/industrialforegoing/machine-resource-production.toml",
       "hash": "sha256:cb556b276a8b7ba6fdeb05f3c84188c7c65d7f163e2b4f470002464cceb764d9",
       "size": 6719,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/industrialforegoing/machine-resource-production.toml"
     },
     {
       "path": "config/integrateddynamics-common.toml",
       "hash": "sha256:94f27842425e6283ce34c7ae2bef4142bb22c9a7a264b6832e4bf18c3b940373",
       "size": 8427,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/integrateddynamics-common.toml"
     },
     {
       "path": "config/integrateddynamicscompat-common.toml",
       "hash": "sha256:3ed73212b026fd2cdd028b4ea0df9403358b01bef9df7865150591de57cae2cc",
       "size": 470,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/integrateddynamicscompat-common.toml"
     },
     {
       "path": "config/integratedmekanism-common.toml",
       "hash": "sha256:daa907e67befe39b6af4fe503ae5abbc7555336529664f642312ca6e6a3b98e6",
       "size": 1449,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/integratedmekanism-common.toml"
     },
     {
       "path": "config/integratedterminals-common.toml",
       "hash": "sha256:94bebb065c19cd6d450abffa6ab9c0b014c389aa8a500feced4c8c0a4df22298",
       "size": 3998,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/integratedterminals-common.toml"
     },
     {
       "path": "config/integratedtunnels-common.toml",
       "hash": "sha256:a765755f656e5e920bc7f3d60b46f3fd68ee6eda3454e6c0139db0945954eb4e",
       "size": 4420,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/integratedtunnels-common.toml"
     },
     {
       "path": "config/jade/hide-blocks.json",
       "hash": "sha256:309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa",
       "size": 149,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jade/hide-blocks.json"
     },
     {
       "path": "config/jade/hide-entities.json",
       "hash": "sha256:3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709",
       "size": 243,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jade/hide-entities.json"
     },
     {
       "path": "config/jade/jade.json",
       "hash": "sha256:f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05",
       "size": 1089,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jade/jade.json"
     },
     {
       "path": "config/jade/plugins.json",
       "hash": "sha256:bac5f7f9f68028a9d5ef7bc8b0af11ae032fcad1797f9f04a41c1b31d6fa8ae8",
       "size": 3897,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jade/plugins.json"
     },
     {
       "path": "config/jade/server-plugin-overrides.json",
       "hash": "sha256:44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
       "size": 2,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jade/server-plugin-overrides.json"
     },
     {
       "path": "config/jade/sort-order.json",
       "hash": "sha256:96464ce95556b6ae9cfd0999a59810b955dd865b599ce829e5fbf6ae0ca315fe",
       "size": 4006,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jade/sort-order.json"
     },
     {
       "path": "config/jei-server.toml",
       "hash": "sha256:57d741871716e29b3a318b625e740d590598f001c362b6a4a95e3ee628c5cbc3",
       "size": 317,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jei-server.toml"
     },
     {
       "path": "config/jei/blacklist.json",
       "hash": "sha256:b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648",
       "size": 19,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jei/blacklist.json"
     },
     {
       "path": "config/jei/ingredient-list-mod-sort-order.ini",
       "hash": "sha256:54b65e29bd466940e116f16f0594fb73775b7d4388ea7c2a6f5f0ef02449d0fe",
       "size": 1534,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jei/ingredient-list-mod-sort-order.ini"
     },
     {
       "path": "config/jei/ingredient-list-type-sort-order.ini",
       "hash": "sha256:6efb81538273733dc2acce78240c8d61b721b0c4623cf4157575ef821c361256",
       "size": 264,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jei/ingredient-list-type-sort-order.ini"
     },
     {
       "path": "config/jei/jei-client.ini",
       "hash": "sha256:690df55f936858abf5ed93e681daab91e02b9bea84e128bedf0723556ce19258",
       "size": 10423,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jei/jei-client.ini"
     },
     {
       "path": "config/jei/jei-colors.ini",
       "hash": "sha256:e4bc0c5fce5a7536bce14c94b30e30482e65d63792b29db0ad59d4fa9eb4d1a5",
       "size": 1353,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jei/jei-colors.ini"
     },
     {
       "path": "config/jei/jei-debug.ini",
       "hash": "sha256:39b7d63de65fbf7654ee33d521d67095aa17a93226d2d9b7a6fb09305c8990d4",
       "size": 1282,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jei/jei-debug.ini"
     },
     {
       "path": "config/jei/jei-mod-id-format.ini",
       "hash": "sha256:4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e",
       "size": 477,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jei/jei-mod-id-format.ini"
     },
     {
       "path": "config/jei/recipe-category-sort-order.ini",
       "hash": "sha256:be931d10d326b494fab0b945bbdba22ca887a49782779bd0f9d9bf6eb568cd23",
       "size": 6219,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jei/recipe-category-sort-order.ini"
     },
     {
       "path": "config/jei/world/server/Minecraft_Server_74a5eed7/bookmarks.json",
       "hash": "sha256:0ad564789f080c724dd8ecbb5b77bc421953e76f5be00aca1c6167e0d0858d10",
       "size": 414,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jei/world/server/Minecraft_Server_74a5eed7/bookmarks.json"
     },
     {
       "path": "config/jei/world/server/Minecraft_Server_74a5eed7/lookupHistory.json",
       "hash": "sha256:5258064cc91f24e74fc098e81816fe5ee265c285762a5aa810d9304b6a3713e5",
       "size": 2023,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jei/world/server/Minecraft_Server_74a5eed7/lookupHistory.json"
     },
     {
       "path": "config/jei/world/server/TZP_-_The_Zack_Pack_d4a95e74/bookmarks.json",
       "hash": "sha256:038eca863b9dcd0521a1ba2c36cf7b9b5b4a5047b6cd5d0c545e53ee5e5f3744",
       "size": 115,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jei/world/server/TZP_-_The_Zack_Pack_d4a95e74/bookmarks.json"
     },
     {
       "path": "config/jei/world/server/TZP_-_The_Zack_Pack_d4a95e74/lookupHistory.json",
       "hash": "sha256:7c4aecd078aa8962e83ce40a40cf9dfcbaacd9c3674cd1f7cde09d131af7bd80",
       "size": 211,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/jei/world/server/TZP_-_The_Zack_Pack_d4a95e74/lookupHistory.json"
     },
     {
       "path": "config/journeymap-server.toml",
       "hash": "sha256:2cca3ae64f5d1b4b8a196400a4f59c88ae766ab8a7a3b9fb92b99bf04ace70b8",
       "size": 541,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/journeymap-server.toml"
     },
     {
       "path": "config/kleeslabs-common.toml",
       "hash": "sha256:78fa3d2f0489af1e164eb7a8cf7641806686771260178751ad565a6130e572a6",
       "size": 379,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/kleeslabs-common.toml"
     },
     {
       "path": "config/konkrete/locals/de_de.local",
       "hash": "sha256:79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef",
       "size": 369,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/konkrete/locals/de_de.local"
     },
     {
       "path": "config/konkrete/locals/en_us.local",
       "hash": "sha256:fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a",
       "size": 426,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/konkrete/locals/en_us.local"
     },
     {
       "path": "config/konkrete/locals/pl_pl.local",
       "hash": "sha256:d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8",
       "size": 313,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/konkrete/locals/pl_pl.local"
     },
     {
       "path": "config/konkrete/locals/pt_br.local",
       "hash": "sha256:dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c",
       "size": 322,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/konkrete/locals/pt_br.local"
     },
     {
       "path": "config/letmedespawn.json",
       "hash": "sha256:6af411644e22ede34383135509cb96b2a636d8ed45494b28976514a95537105e",
       "size": 72,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/letmedespawn.json"
     },
     {
       "path": "config/lithium.properties",
       "hash": "sha256:6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be",
       "size": 267,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/lithium.properties"
     },
     {
       "path": "config/mcjtylib-client.toml",
       "hash": "sha256:e53f528f91643fdbeb901028f577deeb4cae1335d66b6be178116d27ebe90a6d",
       "size": 5617,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/mcjtylib-client.toml"
     },
     {
       "path": "config/mcjtylib-server.toml",
       "hash": "sha256:4c7594784731c81461499616cc1dbe427b92f7eff931ef0034332c06bc233fc1",
       "size": 428,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/mcjtylib-server.toml"
     },
     {
       "path": "config/minecolonies-client.toml",
       "hash": "sha256:fb29486d6ade92f90a5d23f1cfaecf5b0c36882dd60fc56c602ab45db2ddfa63",
       "size": 1123,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/minecolonies-client.toml"
     },
     {
       "path": "config/minecolonies-common.toml",
       "hash": "sha256:552997c64c67252063c3ea798abb4441946aa7dc16e69b09cc9357704ce6f70c",
       "size": 376,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/minecolonies-common.toml"
     },
     {
       "path": "config/minecolonies-server-1.toml.bak",
       "hash": "sha256:ff03a7378f73795dbe0d6a570166aa365fb8ccd5245048269139766c58eca773",
       "size": 9139,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/minecolonies-server-1.toml.bak"
     },
     {
       "path": "config/minecolonies-server.toml",
       "hash": "sha256:7aea482bddba918b214158305200825205d31d543a728e09004c95665cf1ed7a",
       "size": 9032,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/minecolonies-server.toml"
     },
     {
       "path": "config/minecolonies_compatibility-common.toml",
       "hash": "sha256:702bc76b52a76b37f3bc3b6c3df910f70604664c1223ae6979add47dac92f33e",
       "size": 74,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/minecolonies_compatibility-common.toml"
     },
     {
       "path": "config/minecolonies_compatibility-server.toml",
       "hash": "sha256:245c0f19c9d3e2d225bda1fc920e1804d7206c0b877da35f572bcb387ade3aaf",
       "size": 6431,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/minecolonies_compatibility-server.toml"
     },
     {
       "path": "config/minecolonies_tweaks-client.toml",
       "hash": "sha256:9f7877ade79b31e37ea249d7c8ddab38ffaad9da71676cd0d97da8bcbdfd8cba",
       "size": 359,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/minecolonies_tweaks-client.toml"
     },
     {
       "path": "config/minecolonies_tweaks-common.toml",
       "hash": "sha256:f7d9aeee24b075557ed84a1897ae56d25cef4cefe2854383375a521746e2fdb2",
       "size": 126,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/minecolonies_tweaks-common.toml"
     },
     {
       "path": "config/minecolonies_tweaks-custom_tools.json",
       "hash": "sha256:4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "size": 2,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/minecolonies_tweaks-custom_tools.json"
     },
     {
       "path": "config/minecolonies_tweaks-server.toml",
       "hash": "sha256:9ae90c871f24becce1a7e5c358aca34c728c5ac94e9a98ed65b4aa8dbd6d9adf",
       "size": 3602,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/minecolonies_tweaks-server.toml"
     },
     {
       "path": "config/modernfix-common.toml",
       "hash": "sha256:ee24e2b1bc100942a1c605f996255742cd6a5bb3662877aa906bc301100ccf27",
       "size": 103,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/modernfix-common.toml"
     },
     {
       "path": "config/modernfix-mixins.properties",
       "hash": "sha256:a66b53de0ce4ab104b0bc465db636c1924673d9305ac3c5debdde7160c37ffe3",
       "size": 4841,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/modernfix-mixins.properties"
     },
     {
       "path": "config/monolib-common.toml",
       "hash": "sha256:4810ae3ea7fee7a660b2beced37c6ecbc0d94427766dfa298e6ae6d36dd130e7",
       "size": 223,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/monolib-common.toml"
     },
     {
       "path": "config/moonlight-client.toml",
       "hash": "sha256:5a6948c2b7927921cd3cab28446f301a24cf4db168533474d20dac154ad18167",
       "size": 1266,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/moonlight-client.toml"
     },
     {
       "path": "config/moonlight-common.toml",
       "hash": "sha256:ce17e22174f8d796e792c87dbe7c2cff8360686edfb59080adf905e26df144ea",
       "size": 949,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/moonlight-common.toml"
     },
     {
       "path": "config/mowziesmobs-client.toml",
       "hash": "sha256:a22a8cf21927e7031e9860c3df89526aaf3db9183c439be217e0578ee5e98c0d",
       "size": 963,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/mowziesmobs-client.toml"
     },
     {
       "path": "config/mowziesmobs-common.toml",
       "hash": "sha256:55984be8a03604dd95446a84769854c5a42b064146db05dafa16c2ecba7a0971",
       "size": 36941,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/mowziesmobs-common.toml"
     },
     {
       "path": "config/mysticalagradditions-common.toml",
       "hash": "sha256:980f26ce2c841033da6c0aaa78c854cf8158040c7fe253778cf417a8a9cbb476",
       "size": 920,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/mysticalagradditions-common.toml"
     },
     {
       "path": "config/mysticalagriculture-common.toml",
       "hash": "sha256:a89ad3d52f17e0f27e3c9fd8b19bf1bb6d2b7d36e75f9ded2d750f2fa9abc3ad",
       "size": 2313,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/mysticalagriculture-common.toml"
     },
     {
       "path": "config/naturescompass-client.toml",
       "hash": "sha256:52155f5707537443156b47499d98b96dcdbf48ad0ed4ce8cfdf53cef7ffb8a9c",
       "size": 432,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/naturescompass-client.toml"
     },
     {
       "path": "config/naturescompass-common.toml",
       "hash": "sha256:17a03bf968fa4f6f0a6d074cde3d537ddfe566045a0b99ed04261696335133d9",
       "size": 1175,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/naturescompass-common.toml"
     },
     {
       "path": "config/neoforge-client.toml",
       "hash": "sha256:a5f0eb38f8daf8574f7672a8393a0ab5c668d6ec6e7ae43fc8669e928786929d",
       "size": 570,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/neoforge-client.toml"
     },
     {
       "path": "config/neoforge-common.toml",
       "hash": "sha256:e6f7578cf8c11ade0a47e36bf3863fc96f84cdf4bb679c0fceabb1e8a2f42399",
       "size": 764,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/neoforge-common.toml"
     },
     {
       "path": "config/neoforge-server.toml",
       "hash": "sha256:0f1415d7fef6d7f6194275501d500b633dd3310aea40d64128edd1b096372f60",
       "size": 1167,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/neoforge-server.toml"
     },
     {
       "path": "config/notenoughanimations.json",
       "hash": "sha256:a2d22cc7d19765757c890486eda58fcd7bbfa1501cda91a94297ec40c61db9bc",
       "size": 3303,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/notenoughanimations.json"
     },
     {
       "path": "config/nyctography.json",
       "hash": "sha256:03628d836e10cdcc721a9daaca06a3e9141ca9a85d9daea0e4b93a0c9ee03c3a",
       "size": 1436,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/nyctography.json"
     },
     {
       "path": "config/packetfixer.properties",
       "hash": "sha256:f2355b00ad70e109fca9b953a83253d1bc4c15604ae262813ea237ea1a013e08",
       "size": 473,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/packetfixer.properties"
     },
     {
       "path": "config/patchouli-client.toml",
       "hash": "sha256:af6a2ac2c40095993ccdc76bb8c74dd72ed4dd216276e39f5e835a87c1ab6e27",
       "size": 1074,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/patchouli-client.toml"
     },
     {
       "path": "config/pigpen.json",
       "hash": "sha256:fb5dd2829a2f066352138e97031ac6f592c015051f274e5b936068664a72f9a8",
       "size": 1432,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/pigpen.json"
     },
     {
       "path": "config/placebo.cfg",
       "hash": "sha256:6bbc71c6dc18b1ba4952e1bc54ed2b98c3a90f04cec4257ec3f7566cdf0c0e2a",
       "size": 478,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/placebo.cfg"
     },
     {
       "path": "config/ponder-client.toml",
       "hash": "sha256:57fe579bf4cdbcab6c6702dc0dad2727b899f07f28fea686bca1e4b25b20bbfb",
       "size": 615,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/ponder-client.toml"
     },
     {
       "path": "config/projectred-client.toml",
       "hash": "sha256:93ec34d6450dcbfd4368803d803140752b7530368bf0bd1c590dcae0d0dd5536",
       "size": 830,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/projectred-client.toml"
     },
     {
       "path": "config/projectred-server.toml",
       "hash": "sha256:8cad27e49e7ff16c87c4a9a9a3714bccc2c59a77dbcd489450aa0f09af4ecb99",
       "size": 1207,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/projectred-server.toml"
     },
     {
       "path": "config/refinedstorage-common.toml",
       "hash": "sha256:c4dcd13762b596a331c868628eb3cd7d776ae6e1ade4eebc2a3c7e82cddf0285",
       "size": 5887,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/refinedstorage-common.toml"
     },
     {
       "path": "config/refurbished_furniture.client.toml",
       "hash": "sha256:4f1a5223024ed65213ddb62c3d4f0a80584a0a94f4f9a6028f76dad8865f70a2",
       "size": 1152,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/refurbished_furniture.client.toml"
     },
     {
       "path": "config/refurbished_furniture.server.toml",
       "hash": "sha256:d473f95f1004fbf45cdb9d3015385d464ffff0f17de5ead35be1dcd073c28d3b",
       "size": 8038,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/refurbished_furniture.server.toml"
     },
     {
       "path": "config/reliquary-client.toml",
       "hash": "sha256:5e47ac12ac1d7e0d0b6cbb41d5083ee52504ac53fcaef129313f8a32bde6e83d",
       "size": 2385,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/reliquary-client.toml"
     },
     {
       "path": "config/reliquary-common.toml",
       "hash": "sha256:b5df966e7310248eb5c104356d910a9a72d65228ed6b559980846a8b443603a7",
       "size": 20619,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/reliquary-common.toml"
     },
     {
       "path": "config/resourceful-config-web.json",
       "hash": "sha256:90419226cbfd7e3ceb69dbd8d0f3c4f7110669d6d39ff62a727d5c9b15ab2669",
       "size": 196,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/resourceful-config-web.json"
     },
     {
       "path": "config/rftoolsbase-server.toml",
       "hash": "sha256:7f675aaf6ac5dc9785a13cb514182a56b28de0a81758222e10d230564eb0a794",
       "size": 454,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/rftoolsbase-server.toml"
     },
     {
       "path": "config/runelic.json",
       "hash": "sha256:9e5d4a1869bb499cd08e18e9c2ea9f0658650c7b52714870aa7e2f72b02fa181",
       "size": 1433,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/runelic.json"
     },
     {
       "path": "config/securitycraft-client.toml",
       "hash": "sha256:984d53da73d8ccfa11843a046a80c97b33dbb0899492aec18bf525c29ba3de36",
       "size": 1598,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/securitycraft-client.toml"
     },
     {
       "path": "config/securitycraft-server.toml",
       "hash": "sha256:c4639c725b4696e955a0ee2b4373be954c8cd697e0409c2d49ecfb385a402976",
       "size": 8135,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/securitycraft-server.toml"
     },
     {
       "path": "config/slabmachines-common.toml",
       "hash": "sha256:b4626d7378cab3f9bae6f0e47881084c0360a8f91da8d60a4b711a690698f5ff",
       "size": 437,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/slabmachines-common.toml"
     },
     {
       "path": "config/sophisticatedbackpacks-common.toml",
       "hash": "sha256:ce60ba4ebdbb1ba959f3ee6be206f84f2221b8dc436140c92cda412ef33f10e6",
       "size": 114,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/sophisticatedbackpacks-common.toml"
     },
     {
       "path": "config/sophisticatedbackpacks-server.toml",
       "hash": "sha256:2f62e5714f62538754a8b1948cb36153debab67b86de667be71b8475310bbd0d",
       "size": 21135,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/sophisticatedbackpacks-server.toml"
     },
     {
       "path": "config/sophisticatedcore-client.toml",
       "hash": "sha256:8a01f9564b7d6f79767d6fe3aed4cf14d3c30697e4bd3ed26a5087da79a6aa1d",
       "size": 465,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/sophisticatedcore-client.toml"
     },
     {
       "path": "config/sophisticatedcore-common.toml",
       "hash": "sha256:7f9f775da204fcf1ca9bd2865979e555069d02fd42f4fa576599ea40a0de6e21",
       "size": 2921,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/sophisticatedcore-common.toml"
     },
     {
       "path": "config/spark/config.json",
       "hash": "sha256:992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42",
       "size": 117,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/spark/config.json"
     },
     {
       "path": "config/spark/tmp-client/about.txt",
       "hash": "sha256:8057ccf4540ea269b0fc332225859f44d8f3a55d891fa2e7a3447b6202658d2a",
       "size": 575,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/spark/tmp-client/about.txt"
     },
     {
       "path": "config/spark/tmp-client/spark-2e1931ca048fc-libasyncProfiler.so.tmp",
       "hash": "sha256:ca887a92875658c128fb6d10b68b04fca6ae17669fba6fa60af9efc1c787dec0",
       "size": 652632,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/spark/tmp-client/spark-2e1931ca048fc-libasyncProfiler.so.tmp"
     },
     {
       "path": "config/spark/tmp-client/spark-2e193f4d6f5c6-profile-data.jfr.tmp",
       "hash": "sha256:25948f577aa280e3061617c75bf86e6e9ebca98aeebc67baedc2ef5e74ea3825",
       "size": 144958,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/spark/tmp-client/spark-2e193f4d6f5c6-profile-data.jfr.tmp"
     },
     {
       "path": "config/spark/tmp/about.txt",
       "hash": "sha256:8057ccf4540ea269b0fc332225859f44d8f3a55d891fa2e7a3447b6202658d2a",
       "size": 575,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/spark/tmp/about.txt"
     },
     {
       "path": "config/starterkit.json5",
       "hash": "sha256:18c81c65c991801a3335ee10b63fb9db04b70decc17960263eed54e198f0a35c",
       "size": 1376,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/starterkit.json5"
     },
     {
       "path": "config/starterkit/descriptions/Archer.txt",
       "hash": "sha256:2ea003ce1408175d33f2bf55cb2de60b7aca7d652b922a84ec52d7d77eb99b64",
       "size": 57,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/starterkit/descriptions/Archer.txt"
     },
     {
       "path": "config/starterkit/descriptions/Default.txt",
       "hash": "sha256:19df01c903be0cc0216fbca05181ff06c2aff09f2ef213e78ea93f82d2cb1324",
       "size": 125,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/starterkit/descriptions/Default.txt"
     },
     {
       "path": "config/starterkit/descriptions/Lumberjack.txt",
       "hash": "sha256:5091e1a2d5a2927fe1d8f6a6a233ace60f2407be05384f3140b839e9ad3a041a",
       "size": 52,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/starterkit/descriptions/Lumberjack.txt"
     },
     {
       "path": "config/starterkit/descriptions/Witch.txt",
       "hash": "sha256:290f6b832794b6876aba9da963b585ba4e99e5e6a972aebb52810e9a256e2f65",
       "size": 52,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/starterkit/descriptions/Witch.txt"
     },
     {
       "path": "config/starterkit/kits/Default.txt",
       "hash": "sha256:193f74ea80658b11e009a2861452c95075d56aa4e2083d0b121bed2ececac6f3",
       "size": 535,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/starterkit/kits/Default.txt"
     },
     {
       "path": "config/starterkit/kits/inactive/Archer.txt",
       "hash": "sha256:0f00a01ce3bff3f33748f257761822b0553db478902f7d4dd03f198eb7e95a13",
       "size": 641,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/starterkit/kits/inactive/Archer.txt"
     },
     {
       "path": "config/starterkit/kits/inactive/Lumberjack.txt",
       "hash": "sha256:d80303242d592bce2450f488b4f5b85ddefce7167f36255086c7288072799862",
       "size": 613,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/starterkit/kits/inactive/Lumberjack.txt"
     },
     {
       "path": "config/starterkit/kits/inactive/Witch.txt",
       "hash": "sha256:0d28e1544a862d8114f40dc2c7a829eae27ab353960fbe1ebc5db0e4f04b5d74",
       "size": 1073,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/starterkit/kits/inactive/Witch.txt"
     },
     {
       "path": "config/storagedrawers-client.toml",
       "hash": "sha256:208db3e4a920d34d9d72e8bee35ea202f59c018cc8d5d53c83896947f75cf205",
       "size": 909,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/storagedrawers-client.toml"
     },
     {
       "path": "config/storagedrawers-common.v2.toml",
       "hash": "sha256:f85f909e20ab3a7b9db17013e21bca303dfb8f677a0308d7e64cdc85fcd1ac58",
       "size": 14012,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/storagedrawers-common.v2.toml"
     },
     {
       "path": "config/structurize-client.toml",
       "hash": "sha256:e45be76627e4589ac8eb3eab016d034cbdf21192305dc8a19a9e556852090904",
       "size": 1259,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/structurize-client.toml"
     },
     {
       "path": "config/structurize-server.toml",
       "hash": "sha256:83934466c1b4bd82dce494e1f6e86b8f295d1ff9e474c00b8b53949e986dea9f",
       "size": 1940,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/structurize-server.toml"
     },
     {
       "path": "config/supplementaries-client.toml",
       "hash": "sha256:12642ea9a7205959953198e7b124c12336dc6de7df1838f61d856329ae35ace8",
       "size": 9000,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/supplementaries-client.toml"
     },
     {
       "path": "config/supplementaries-common.toml",
       "hash": "sha256:14210291891759b831951eba24c65985ed5bd27a7d09b6383aeb9fd3e8f1bc8c",
       "size": 26975,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/supplementaries-common.toml"
     },
     {
       "path": "config/terrablender.toml",
       "hash": "sha256:512709e3869097a21b90bca2b0b0a0d2eaa71d07b338eade937ceddb8f6315ff",
       "size": 961,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/terrablender.toml"
     },
     {
       "path": "config/tipsmod.json",
       "hash": "sha256:2e5e6b293b2251a6acdc55a9e5210c6a78b7fc176b0504f042d106c9350dfca1",
       "size": 889,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tipsmod.json"
     },
     {
       "path": "config/titanium/titanium-tags.toml",
       "hash": "sha256:a03cffa3642c3db1f385fa28513bd8fd2b77fc1ea439c8e9371428a7934f7e89",
       "size": 341,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/titanium/titanium-tags.toml"
     },
     {
       "path": "config/titanium/titanium.toml",
       "hash": "sha256:da70f3a232fb8a8c8580d04598c3ed2a7c17cf1740e17895ffaea847f4f09b68",
       "size": 243,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/titanium/titanium.toml"
     },
     {
       "path": "config/tombstone-client.toml",
       "hash": "sha256:f9552fe6281765455c9ad689be8cf75f63c495829b4e45fa2d778b6b160371b0",
       "size": 4112,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone-client.toml"
     },
     {
       "path": "config/tombstone-common.toml",
       "hash": "sha256:c18468da00ba9177f1e9b303fd7abc51746568219d768af0135dc252eb92939b",
       "size": 9222,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone-common.toml"
     },
     {
       "path": "config/tombstone-server.toml",
       "hash": "sha256:c3b886d463c52aea5dddf278435270bcc817a91c15c1435daf9b4814e0b500e2",
       "size": 6861,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone-server.toml"
     },
     {
       "path": "config/tombstone/loottables/tombstone-pool-abandoned_grave.json",
       "hash": "sha256:2f9c62e9bd48e1021e9436c7c4b978b6481d0387eb4cc2c41e85e516d57ec79d",
       "size": 2446,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone/loottables/tombstone-pool-abandoned_grave.json"
     },
     {
       "path": "config/tombstone/loottables/tombstone-pool-archaeology.json",
       "hash": "sha256:5e4a9d4f0c7a23c0f53b03787bb72a24e3cdf46986821826a7ec36cbe2628b17",
       "size": 1768,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone/loottables/tombstone-pool-archaeology.json"
     },
     {
       "path": "config/tombstone/loottables/tombstone-pool-cat_morning.json",
       "hash": "sha256:e1d2a8abbc4844994f632e32087e50eff38e9811433df18e504cc6f6d9679fa4",
       "size": 1345,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone/loottables/tombstone-pool-cat_morning.json"
     },
     {
       "path": "config/tombstone/loottables/tombstone-pool-chest_treasure.json",
       "hash": "sha256:b995aea4eec3ea13ad1652ea3fe5b6106e66faa5a9267ca8a9cf50d59c47c560",
       "size": 2132,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone/loottables/tombstone-pool-chest_treasure.json"
     },
     {
       "path": "config/tombstone/loottables/tombstone-pool-lost_treasure.json",
       "hash": "sha256:90e92fdb2592438409baf4ee6b177a35e4bf85b06458adc50c53acb2dd8f3185",
       "size": 3132,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone/loottables/tombstone-pool-lost_treasure.json"
     },
     {
       "path": "config/tombstone/loottables/tombstone-pool-seeker_rod.json",
       "hash": "sha256:9a4ea792b6befda58cf505456b140494cc8682e2e0d607e0be440fb274d5bba0",
       "size": 1403,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone/loottables/tombstone-pool-seeker_rod.json"
     },
     {
       "path": "config/tombstone/loottables/tombstone-pool-sniffer_digging.json",
       "hash": "sha256:f8c3b3bdff731ceb4409f34002e05f596853e83403bb49d5b70d803c0d2a2804",
       "size": 362,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone/loottables/tombstone-pool-sniffer_digging.json"
     },
     {
       "path": "config/tombstone/loottables/tombstone-pool-undead_boss.json",
       "hash": "sha256:a54e32b9b8219e080e159dd991c434803ac3dc2a0058a7c77f180cae04ce09a9",
       "size": 2004,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone/loottables/tombstone-pool-undead_boss.json"
     },
     {
       "path": "config/tombstone/loottables/tombstone-pool-undead_mob.json",
       "hash": "sha256:3a4897fa8f813051ab2262bd366402b90fb5d8490ce6628b50e2407d34c185b2",
       "size": 1484,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone/loottables/tombstone-pool-undead_mob.json"
     },
     {
       "path": "config/tombstone/loottables/tombstone-table-chest_treasure.json",
       "hash": "sha256:bac76fce6d98653a4382a9457196bfd96bc69264dea482c5c77ca59c6c5610db",
       "size": 1788,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone/loottables/tombstone-table-chest_treasure.json"
     },
     {
       "path": "config/tombstone/version.info",
       "hash": "sha256:4d896ba5088e72d413d3a61530142fb0a0e350cf7209c52d67e34095401e5c59",
       "size": 5,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/tombstone/version.info"
     },
     {
       "path": "config/towns_and_towers/structure_enable_or_disable_new.json5",
       "hash": "sha256:7c70e7df82d014a87dcb2defcf45d9654a22362283c7efe1f81f3b3c04290709",
       "size": 3051,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/towns_and_towers/structure_enable_or_disable_new.json5"
     },
     {
       "path": "config/towns_and_towers/structure_rarity_new.json5",
       "hash": "sha256:fe4ca0974aca38b27c94e3f1dc092f1688b54f27d9eaa728d61c6ccae4ca1313",
       "size": 1520,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/towns_and_towers/structure_rarity_new.json5"
     },
     {
       "path": "config/transition.json",
       "hash": "sha256:6c0060c7301372bbc414f86a139b383e34fb620f0621badd71bb19efc3f26767",
       "size": 62,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/transition.json"
     },
     {
       "path": "config/trashcans-common.toml",
       "hash": "sha256:fe5a6b7611945c20c356f34813150e9893ab1a2ea9694740c3cc5d0367d96ad1",
       "size": 81,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/trashcans-common.toml"
     },
     {
       "path": "config/trashslot-common.toml",
       "hash": "sha256:e206fb54c03e7d6c3c4661cf2e01b7c704b3265f9200cb382e5ed6aba2c18fb3",
       "size": 742,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/trashslot-common.toml"
     },
     {
       "path": "config/trender.json",
       "hash": "sha256:0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124",
       "size": 47,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/trender.json"
     },
     {
       "path": "config/undergarden-client.toml",
       "hash": "sha256:7ea8c2400eb5a2f886b74db8be3f7580a759a5ba399f0f0e91e6942783e6434c",
       "size": 383,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/undergarden-client.toml"
     },
     {
       "path": "config/undergarden-common.toml",
       "hash": "sha256:501fa0b51fcff8b66c53e71b014d2805d36adb2e086f594e00a67a5d15d40141",
       "size": 339,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/undergarden-common.toml"
     },
     {
       "path": "config/upgrade_aquatic-client.toml",
       "hash": "sha256:58d2977b5fa4d3db0989e96f0ba8664b8bbc520d24646a0649cf25a4ea59518e",
       "size": 423,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/upgrade_aquatic-client.toml"
     },
     {
       "path": "config/upgrade_aquatic-common.toml",
       "hash": "sha256:571e1b1491fa4935d9d0cde152491d82b02007df5e60cdc72c8b98a516cf126e",
       "size": 1583,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/upgrade_aquatic-common.toml"
     },
     {
       "path": "config/vanilla_structures/placement_structure_config.json5",
       "hash": "sha256:1f069468e438ae66f65ee41732603c895741b063add626a9e56ef7d0040ac4e6",
       "size": 1690,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/vanilla_structures/placement_structure_config.json5"
     },
     {
       "path": "config/vanilla_structures/toggle_structure_config.json5",
       "hash": "sha256:c4fb220488de3c1afc569f4b8a89d8e97f8b5504eeb59d9700b491f29718d2f9",
       "size": 1423,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/vanilla_structures/toggle_structure_config.json5"
     },
     {
       "path": "config/wands.json",
       "hash": "sha256:5bb15a3e14375bc393a36d02695dd76527f8ff12bdd82d42050fa34e3fb2b334",
       "size": 2437,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/wands.json"
     },
     {
       "path": "config/waystones-common.toml",
       "hash": "sha256:f72833762e4fc48b59d0071a6aedef1ec46b9e1c389ab9a524ea2d3158fd56f4",
       "size": 6149,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/waystones-common.toml"
     },
     {
       "path": "config/xnet-client.toml",
       "hash": "sha256:dc7468178bf85e2051c37553db4129ee331af8bac3bceb99f1f46c21b3e113f4",
       "size": 349,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/xnet-client.toml"
     },
     {
       "path": "config/xnet-server.toml",
       "hash": "sha256:652949e4b218bd56d55b4a12d10d9d4257d5dcd35b59d8ae408468d43161d20c",
       "size": 2794,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/config/xnet-server.toml"
     }
   ],
@@ -3496,108 +4009,126 @@
       "path": "kubejs/README.txt",
       "hash": "sha256:989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af",
       "size": 1203,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/README.txt"
     },
     {
       "path": "kubejs/assets/tzp/tips/tzp_almost_unified.json",
       "hash": "sha256:9b8d4a1c5e8119ccedca9834b23389104074855a1b6b0b1c560ce43f677f051f",
       "size": 189,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/assets/tzp/tips/tzp_almost_unified.json"
     },
     {
       "path": "kubejs/assets/tzp/tips/tzp_datapack.json",
       "hash": "sha256:bde783006b59a1faae7913db3d37ffaa0daad74f8817468a33fc871be6e1b9c3",
       "size": 208,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/assets/tzp/tips/tzp_datapack.json"
     },
     {
       "path": "kubejs/assets/tzp/tips/tzp_ftb_quests.json",
       "hash": "sha256:8c978a2bf08bdcb5af61c58db66761044a5fe631a4b7bcf427adadb4f342657e",
       "size": 206,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/assets/tzp/tips/tzp_ftb_quests.json"
     },
     {
       "path": "kubejs/assets/tzp/tips/tzp_kubejs.json",
       "hash": "sha256:6d1120cd3f1df0993cb7549fe7fa70be4fcb84d6190a51414441a36d26c40ac3",
       "size": 182,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/assets/tzp/tips/tzp_kubejs.json"
     },
     {
       "path": "kubejs/assets/tzp/tips/tzp_projecte.json",
       "hash": "sha256:a34e0914872042e4e92d85c2f6295965553637233076820617903a95fc85e49c",
       "size": 185,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/assets/tzp/tips/tzp_projecte.json"
     },
     {
       "path": "kubejs/assets/tzp/tips/tzp_quest_onboarding.json",
       "hash": "sha256:e8099a540182d2b312c95685873f3e6670ad17ab09401704ad491e9abf1d3056",
       "size": 215,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/assets/tzp/tips/tzp_quest_onboarding.json"
     },
     {
       "path": "kubejs/assets/tzp/tips/tzp_quest_paths.json",
       "hash": "sha256:3e7dd6fd860781040d50032211837fae51d138535bb2f7b1a2a7b36acf4faa23",
       "size": 242,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/assets/tzp/tips/tzp_quest_paths.json"
     },
     {
       "path": "kubejs/assets/tzp/tips/tzp_ram.json",
       "hash": "sha256:8cad1eaf622c96830e79500693dceff82a05a0d5f47252f12b5bd87c2ff6e092",
       "size": 215,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/assets/tzp/tips/tzp_ram.json"
     },
     {
       "path": "kubejs/client_scripts/main.js",
       "hash": "sha256:3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf",
       "size": 116,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/client_scripts/main.js"
     },
     {
       "path": "kubejs/client_scripts/tzp_title_screen.js",
       "hash": "sha256:bac3080d21c0e0ca430204309f249de699dd5cbbab5b7e38919d3823db8ef31f",
       "size": 1198,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/client_scripts/tzp_title_screen.js"
     },
     {
       "path": "kubejs/config/client.json",
       "hash": "sha256:f38d326943014d6906916a9387c75e2bfd609fce10e92049d76a395c5775b6f1",
       "size": 344,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/config/client.json"
     },
     {
       "path": "kubejs/config/common.json",
       "hash": "sha256:e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3",
       "size": 446,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/config/common.json"
     },
     {
       "path": "kubejs/config/web_server.json",
       "hash": "sha256:d3de5dca40d2cd37f405678c32c639fb513e3a5689b81068474f0c9f2f21d127",
       "size": 120,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/config/web_server.json"
     },
     {
       "path": "kubejs/config/web_server.json.example",
       "hash": "sha256:bafa949b91f6db0d3cf3c4ed986f61bbc9d682bfb949926971396c07b47a8cd2",
       "size": 78,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/config/web_server.json.example"
     },
     {
       "path": "kubejs/server_scripts/tzp_minecolonies.js",
       "hash": "sha256:b400e160c4ab79f93e2370729987fc1d14974e82408422d4ad4083c54bb50f59",
       "size": 457,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/server_scripts/tzp_minecolonies.js"
     },
     {
       "path": "kubejs/server_scripts/tzp_progression.js",
       "hash": "sha256:0b36f53979a3bcb92d64dd326998d0e16a164ac86bc36ea8201190262f95e1e9",
       "size": 808,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/server_scripts/tzp_progression.js"
     },
     {
       "path": "kubejs/startup_scripts/main.js",
       "hash": "sha256:5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe",
       "size": 117,
+      "required": true,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/kubejs/startup_scripts/main.js"
     }
   ]
