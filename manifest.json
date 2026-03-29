@@ -1566,6 +1566,30 @@
       "sha256": "54ac755031b05c3a5b6ddfa22dabc45fb3775481041503dcecd75e5e86627779",
       "size": 1551013,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ZeroCore2-1.21.1-2.4.21.jar"
+    },
+    {
+      "path": "mods/irons_patreon_lib-1.21.1-1.0.0.jar",
+      "sha256": "ceb2911a8c7c2ee44735aeb2ba9af9e08eb9a28e1b5ba767bfe76ea536df18e1",
+      "size": 353552,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/irons_patreon_lib-1.21.1-1.0.0.jar"
+    },
+    {
+      "path": "mods/lithostitched-1.6.5-neoforge-21.1.jar",
+      "sha256": "93dafb81acec4936d23bddd4cc35cb982c79d5f780c5ec4e23c22837d2e726f8",
+      "size": 793877,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/lithostitched-1.6.5-neoforge-21.1.jar"
+    },
+    {
+      "path": "mods/lodestone-1.21.1-1.8.2.jar",
+      "sha256": "cc961af6a77391628378c1c838e521415fa895062b13def493d27234ca527f3e",
+      "size": 818829,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/lodestone-1.21.1-1.8.2.jar"
+    },
+    {
+      "path": "mods/create-dragons-plus-1.8.7.jar",
+      "sha256": "1377916672a5919af4c23e19e993fa0da29c6cd6b99b34148054f76ff7aeff86",
+      "size": 644935,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/create-dragons-plus-1.8.7.jar"
     }
   ],
   "configs": [
