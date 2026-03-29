@@ -1584,6 +1584,12 @@
       "sha256": "7e56b7f00e8351bba0a513dd9bcf59d82a0ccde82f1f0fe4ce378ccaad10025f",
       "size": 92312,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/lionfishapi-2.6.jar"
+    },
+    {
+      "path": "mods/fzzy_config-0.7.6+1.21+neoforge.jar",
+      "sha256": "4e5cc1438087b0bc0276969e88b9ad0bdf2bcc60d6caf5fe79e18947d7a29050",
+      "size": 2369895,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/fzzy_config-0.7.6+1.21+neoforge.jar"
     }
   ],
   "configs": [
