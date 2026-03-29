@@ -1578,6 +1578,12 @@
       "sha256": "1377916672a5919af4c23e19e993fa0da29c6cd6b99b34148054f76ff7aeff86",
       "size": 644935,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/create-dragons-plus-1.8.7.jar"
+    },
+    {
+      "path": "mods/lionfishapi-2.6.jar",
+      "sha256": "7e56b7f00e8351bba0a513dd9bcf59d82a0ccde82f1f0fe4ce378ccaad10025f",
+      "size": 92312,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/lionfishapi-2.6.jar"
     }
   ],
   "configs": [
