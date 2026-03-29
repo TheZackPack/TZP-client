@@ -1,6 +1,18 @@
 {
-  "version": "1.1.9",
+  "version": "2.0.0-alpha",
   "files": [
+    {
+      "path": "mods/[1.21.1] SecurityCraft v1.10.1.jar",
+      "sha256": "cce82e9f2b74b2c678241a24eeca6c656a07f55f73e16d4d860591db5ed4435f",
+      "size": 4951098,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/%5B1.21.1%5D%20SecurityCraft%20v1.10.1.jar"
+    },
+    {
+      "path": "mods/[Neoforge]ctov-3.6.3.jar",
+      "sha256": "4815b19b83541f09cba556e222612bc5ddcc31f7c4ba2198f4b4d6376cca8b2e",
+      "size": 7139609,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/[Neoforge]ctov-3.6.3.jar"
+    },
     {
       "path": "mods/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
       "sha256": "a24674330b8de59a02e0ebe4dd81fcff15d90e8c1cdcc32980d73c1cab050933",
@@ -8,10 +20,40 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/AdvancementPlaques-1.21.1-neoforge-1.6.8.jar"
     },
     {
+      "path": "mods/adventuredungeons-neoforge-1.21-1.3.1.jar",
+      "sha256": "a5ae9687c37ab5a383d1b3a5a6f46a0b8bdeb3aca643745323c3b78c6ca6c347",
+      "size": 1518470,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/adventuredungeons-neoforge-1.21-1.3.1.jar"
+    },
+    {
+      "path": "mods/ae2wtlib-19.4.1.jar",
+      "sha256": "30d80a662bd7cda0576ae15d6f594a8449ccf33cc10ff21d49e278f8f4be99e9",
+      "size": 242235,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ae2wtlib-19.4.1.jar"
+    },
+    {
       "path": "mods/Almanac-1.21.1-2-neoforge-1.5.2.jar",
       "sha256": "379893246c33aaa6dd8e4a8711e349cd6835e08c2bd5b8bd7b7e81be9822aacb",
       "size": 25593,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Almanac-1.21.1-2-neoforge-1.5.2.jar"
+    },
+    {
+      "path": "mods/almostunified-neoforge-1.21.1-1.3.0.jar",
+      "sha256": "b5f71e44e8895906b1aaf890a49422776a4177877654ec364972ae5de88d579e",
+      "size": 293343,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/almostunified-neoforge-1.21.1-1.3.0.jar"
+    },
+    {
+      "path": "mods/AmbientSounds_NEOFORGE_v6.3.3_mc1.21.1.jar",
+      "sha256": "c062dbc2399089666fb601611b3bf73fd29bef61433b0542e7d2e7286af93996",
+      "size": 84811178,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/AmbientSounds_NEOFORGE_v6.3.3_mc1.21.1.jar"
+    },
+    {
+      "path": "mods/another_furniture-neoforge-4.0.2.jar",
+      "sha256": "c61a66c73bcc5147d9983dc72c485493a612d2dbc078fcb86e2024155e34b7dd",
+      "size": 2417424,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/another_furniture-neoforge-4.0.2.jar"
     },
     {
       "path": "mods/Apotheosis-1.21.1-8.5.2.jar",
@@ -38,406 +80,28 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ApothicSpawners-1.21.1-1.3.4.jar"
     },
     {
-      "path": "mods/Applied-Mekanistics-1.6.3.jar",
-      "sha256": "8946fea39451dbce8e709dedbef40a52ba337bdf7a25ac0c4b503800b1bf0773",
-      "size": 149709,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Applied-Mekanistics-1.6.3.jar"
-    },
-    {
-      "path": "mods/Aquaculture-1.21.1-2.7.19.jar",
-      "sha256": "952e4b2a2deef875a144900f2b522865dab84ecd424e607a8b12c029c6cc9b83",
-      "size": 605954,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Aquaculture-1.21.1-2.7.19.jar"
-    },
-    {
-      "path": "mods/BOMD-NeoForge-1.21-1.3.2.jar",
-      "sha256": "66cad715a52397352f04faff3a78c0352b68f3d1212651013d60d1854caa6ec6",
-      "size": 1951866,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/BOMD-NeoForge-1.21-1.3.2.jar"
-    },
-    {
-      "path": "mods/BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
-      "sha256": "60b548bef04a2f0e1da686ee9035c2e3d4ed0459a17d7a4836fc26af6de6b60e",
-      "size": 98641,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar"
-    },
-    {
-      "path": "mods/BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar",
-      "sha256": "6af75f8f41fb50a80945237930516542f5d9b5005334afdc41b393f58f18932a",
-      "size": 22338081,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar"
-    },
-    {
-      "path": "mods/BrandonsCore-1.21.1-3.2.1.309.jar",
-      "sha256": "076b44de51c606e6cdd89694ac0a879fc028d4f0103880ef44f47dbcc69f1d23",
-      "size": 1385131,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/BrandonsCore-1.21.1-3.2.1.309.jar"
-    },
-    {
-      "path": "mods/BuildingWands-neoforge-MC1.21-2.14.jar",
-      "sha256": "79fa863ebb0822f2a3482c0fdfc98bc30975c2d9509f7ae0f632a28f8f0249e8",
-      "size": 413807,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/BuildingWands-neoforge-MC1.21-2.14.jar"
-    },
-    {
-      "path": "mods/CBMultipart-1.21.1-3.5.0.155.jar",
-      "sha256": "b95ad536b91a264c484937909e5d3dab4bab9b268fc72f1e51611d0a80506da5",
-      "size": 547450,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/CBMultipart-1.21.1-3.5.0.155.jar"
-    },
-    {
-      "path": "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
-      "sha256": "5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d",
-      "size": 250545,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar"
-    },
-    {
-      "path": "mods/Clumps-neoforge-1.21.1-19.0.0.1.jar",
-      "sha256": "b524ccdace2ef8fd19f5b2074f7de1103ac5065c52553f064c00e098346c293e",
-      "size": 18382,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Clumps-neoforge-1.21.1-19.0.0.1.jar"
-    },
-    {
-      "path": "mods/CodeChickenLib-1.21.1-4.6.1.526.jar",
-      "sha256": "e35cb0ca3e3aeb87e1e171242454426d22edf517b06dc38e5c3d5b6d44d6bc04",
-      "size": 1538347,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/CodeChickenLib-1.21.1-4.6.1.526.jar"
-    },
-    {
-      "path": "mods/CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
-      "sha256": "ed83bea2826667fca80a6a8067f89fe7b97eb8b3213bbcb7f0f4e6a6898c0bc9",
-      "size": 1185088,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/CreeperOverhaul-neoforge-1.21.1-4.0.6.jar"
-    },
-    {
-      "path": "mods/Cucumber-1.21.1-8.0.15.jar",
-      "sha256": "6894b0ef2d6b5f4bb59b552dc34d0fe6b5ec52e4787717eef87b82afc462f3c7",
-      "size": 275523,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Cucumber-1.21.1-8.0.15.jar"
-    },
-    {
-      "path": "mods/Draconic-Evolution-1.21.1-3.1.4.632.jar",
-      "sha256": "623d7d58e58428a206015b56bf67387c79ff6d97f7221cff23b1dad0bed9544e",
-      "size": 6045942,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Draconic-Evolution-1.21.1-3.1.4.632.jar"
-    },
-    {
-      "path": "mods/DramaticDoors-NeoQuiFab-1.21.1-3.3.2.jar",
-      "sha256": "9a9f604c29e41bdfcc1706ffd7c93b8dc09862424f390ebb3e4adf0799677b3c",
-      "size": 13104042,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/DramaticDoors-NeoQuiFab-1.21.1-3.3.2.jar"
-    },
-    {
-      "path": "mods/DungeonsArise-1.21.1-2.1.68-release.jar",
-      "sha256": "7eee1eca7e3b2c6c1bede055934f391ae2e8349ffe33e106f451176d2cfcf0e4",
-      "size": 11842679,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/DungeonsArise-1.21.1-2.1.68-release.jar"
-    },
-    {
-      "path": "mods/EnderStorage-1.21.1-2.13.0.191.jar",
-      "sha256": "f52f23f9df8925c7aec26154c2f1816cc76422c67a4fa4e30fa8b80b7a854202",
-      "size": 264089,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/EnderStorage-1.21.1-2.13.0.191.jar"
-    },
-    {
-      "path": "mods/Engineers Delight 1.21.1 neoforge R.1.8.jar",
-      "sha256": "561a58ba043d74debf76eee4442ad393c8d6ed7b5b22ee9c94f7466b8578d8ef",
-      "size": 156364,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Engineers%20Delight%201.21.1%20neoforge%20R.1.8.jar"
-    },
-    {
-      "path": "mods/ExplorersCompass-1.21.1-3.0.3-neoforge.jar",
-      "sha256": "e092f671e7e7447e6ed7da6444da93d62d97c438f3e895d0ac3105cbce7958d8",
-      "size": 159182,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ExplorersCompass-1.21.1-3.0.3-neoforge.jar"
-    },
-    {
-      "path": "mods/ExtremeReactors2-1.21.1-2.4.28.jar",
-      "sha256": "74fdfdfc91c3c8e5a439d411e6f081d12193635fffe2c55142f2f28f75b9d621",
-      "size": 2554779,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ExtremeReactors2-1.21.1-2.4.28.jar"
-    },
-    {
-      "path": "mods/FarmersDelight-1.21.1-1.2.10.jar",
-      "sha256": "5346b829cdb4b4ae530a3e588b56aa4d26356ceec57a07e3d0c6b681f3f96dcb",
-      "size": 2935025,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/FarmersDelight-1.21.1-1.2.10.jar"
-    },
-    {
-      "path": "mods/FarmersStructures-1.0.2-1.21.1_neoforge.jar",
-      "sha256": "4c99583903ad7db011008a1c41c8d0464f2727d017e2ac543a1a1d027c9313f4",
-      "size": 497259,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/FarmersStructures-1.0.2-1.21.1_neoforge.jar"
-    },
-    {
-      "path": "mods/FastFurnace-1.21.1-9.0.1.jar",
-      "sha256": "4a8743c5d870aa9885d65e20d728c76fec894e01e81d1b49ef0f4459a67f0eea",
-      "size": 4623,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/FastFurnace-1.21.1-9.0.1.jar"
-    },
-    {
-      "path": "mods/FastWorkbench-1.21.1-9.1.3.jar",
-      "sha256": "abf593ba1584c761f198989008d334c95932afe0a7c6b16af4baa16b54fd1449",
-      "size": 28635,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/FastWorkbench-1.21.1-9.1.3.jar"
-    },
-    {
-      "path": "mods/FluxNetworks-1.21.1-8.0.0.jar",
-      "sha256": "29e511b2d76f85bd247aa213a92bb059ecc037fcc3fed82baffcff97b638d3a6",
-      "size": 535938,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/FluxNetworks-1.21.1-8.0.0.jar"
-    },
-    {
-      "path": "mods/GlitchCore-neoforge-1.21.1-2.1.0.0.jar",
-      "sha256": "9362e2faacc6c864a91c5d0f452305fe7a496aa6c91131af63d021f1baa773a7",
-      "size": 90918,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/GlitchCore-neoforge-1.21.1-2.1.0.0.jar"
-    },
-    {
-      "path": "mods/Gobber-NeoForge-1.21.1-2.10.15.jar",
-      "sha256": "36f998130395b23ace89c9e54bffb6e18de3af53420c81dc29fce349408f4433",
-      "size": 674321,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Gobber-NeoForge-1.21.1-2.10.15.jar"
-    },
-    {
-      "path": "mods/Iceberg-1.21.1-neoforge-1.3.2.jar",
-      "sha256": "0d620c975619b04110b94a73d5b42d252563ff59c1eae9d21ab2ee7e38460a3c",
-      "size": 213853,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Iceberg-1.21.1-neoforge-1.3.2.jar"
-    },
-    {
-      "path": "mods/ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar",
-      "sha256": "9fbb8dce1bb72feacdc3b75c6fcbf689865ad3793a19649443d76be20993ddd0",
-      "size": 368598,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ImmediatelyFast-NeoForge-1.6.10%2B1.21.1.jar"
-    },
-    {
-      "path": "mods/ImmersiveEngineering-1.21.1-12.4.2-194.jar",
-      "sha256": "45942985a4a4aebf265b8e22a0c54a96208637471f36f2532ff5d4911322debc",
-      "size": 14232121,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ImmersiveEngineering-1.21.1-12.4.2-194.jar"
-    },
-    {
-      "path": "mods/Jade-1.21.1-NeoForge-15.10.5.jar",
-      "sha256": "067bb4b007e1d6f6b79f0afe99c91252aa825472b99a76d33a60d24442f9e92d",
-      "size": 725742,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Jade-1.21.1-NeoForge-15.10.5.jar"
-    },
-    {
-      "path": "mods/Mekanism-1.21.1-10.7.18.84.jar",
-      "sha256": "3a14697671a7958319845dd606646f14365d456d2d7480a9d5215da6b77667ca",
-      "size": 11950460,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Mekanism-1.21.1-10.7.18.84.jar"
-    },
-    {
-      "path": "mods/MekanismGenerators-1.21.1-10.7.18.84.jar",
-      "sha256": "067680441ad6aa0875ef1dcab64dceff2f39856753027caa46c9737dfd7794ed",
-      "size": 1104556,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MekanismGenerators-1.21.1-10.7.18.84.jar"
-    },
-    {
-      "path": "mods/MineColonies_Compatibility-1.21.1-3.39.jar",
-      "sha256": "c391c7c0eb3b9ef891182aebaa9de7643fa02d4cfb8cb3acf11a661b587759c8",
-      "size": 1417946,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MineColonies_Compatibility-1.21.1-3.39.jar"
-    },
-    {
-      "path": "mods/MineColonies_Tweaks-1.21.1-3.28.jar",
-      "sha256": "ecf04d62db12ff2720c449cf1790e836112f3b9770e1ee82372af7de2cc4bb8c",
-      "size": 785949,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MineColonies_Tweaks-1.21.1-3.28.jar"
-    },
-    {
-      "path": "mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
-      "sha256": "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b",
-      "size": 73938,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar"
-    },
-    {
-      "path": "mods/MushroomQuest-1.21.1-v4.2.0.jar",
-      "sha256": "ebd0f60363159ad1eaa2881229e8a431e18b4786625c71df98286111127a3bb9",
-      "size": 1387140,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MushroomQuest-1.21.1-v4.2.0.jar"
-    },
-    {
-      "path": "mods/MysticalAgradditions-1.21.1-8.0.12.jar",
-      "sha256": "18fa8e096e30d3682a13a9372c1ed18225db5a77f3b1bd1af4bf3de1ced2e7ed",
-      "size": 317127,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MysticalAgradditions-1.21.1-8.0.12.jar"
-    },
-    {
-      "path": "mods/MysticalAgriculture-1.21.1-8.0.23.jar",
-      "sha256": "28e3f2b277cc22ddfa5ba5e52a865b42ab4c4a066c1d24d4bf349e7d62f96332",
-      "size": 2323367,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MysticalAgriculture-1.21.1-8.0.23.jar"
-    },
-    {
-      "path": "mods/NaturesCompass-1.21.1-3.0.3-neoforge.jar",
-      "sha256": "6dd24f37f5d69a6f9803c00b7722f9f103647131c29415511fa01c6feced0848",
-      "size": 216873,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/NaturesCompass-1.21.1-3.0.3-neoforge.jar"
-    },
-    {
-      "path": "mods/Patchouli-1.21.1-93-NEOFORGE.jar",
-      "sha256": "959af52ed6640c316c3a8469203420be4aeea11ad6603890ba83bf48f5d9f993",
-      "size": 646777,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Patchouli-1.21.1-93-NEOFORGE.jar"
-    },
-    {
-      "path": "mods/Placebo-1.21.1-9.9.1.jar",
-      "sha256": "42c90bc43800558b9322bd60faa9011d6694e66a87b7e6b3b9f51fa735b527ea",
-      "size": 324056,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Placebo-1.21.1-9.9.1.jar"
-    },
-    {
-      "path": "mods/ProjectE-1.21.1-PE1.1.0.jar",
-      "sha256": "fec9389d8b70fcf87331a0bcc41b78ada79c1e6326ef02a7bb6db9a1d5a4c48b",
-      "size": 2426228,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectE-1.21.1-PE1.1.0.jar"
-    },
-    {
-      "path": "mods/ProjectRed-1.21.1-4.22.0-beta+33-core.jar",
-      "sha256": "bce16d5a86d6063cf715988802b07b1fe45eef5feaf88a733c9d002b54cf12fa",
-      "size": 772520,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectRed-1.21.1-4.22.0-beta%2B33-core.jar"
-    },
-    {
-      "path": "mods/ProjectRed-1.21.1-4.22.0-beta+33-expansion.jar",
-      "sha256": "7133b709f76914f3a27e0536ed25f7dd39dcca46fa41f83d7cf93dc0856bc9af",
-      "size": 1130980,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectRed-1.21.1-4.22.0-beta%2B33-expansion.jar"
-    },
-    {
-      "path": "mods/ProjectRed-1.21.1-4.22.0-beta+33-exploration.jar",
-      "sha256": "97b598a3164a89fd3c4d3eb6c957708a5f3dc164b7feb45062559b9a9933e3f0",
-      "size": 518702,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectRed-1.21.1-4.22.0-beta%2B33-exploration.jar"
-    },
-    {
-      "path": "mods/ProjectRed-1.21.1-4.22.0-beta+33-fabrication.jar",
-      "sha256": "a03c88c76615437069dafa318c8a0b0bc70e18f212ee110dd34300e655137613",
-      "size": 790193,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectRed-1.21.1-4.22.0-beta%2B33-fabrication.jar"
-    },
-    {
-      "path": "mods/ProjectRed-1.21.1-4.22.0-beta+33-integration.jar",
-      "sha256": "2b27857316783a6b3c2e04051349b2f18b83441b582e9aefefdcdd757815e14c",
-      "size": 3569363,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectRed-1.21.1-4.22.0-beta%2B33-integration.jar"
-    },
-    {
-      "path": "mods/ProjectRed-1.21.1-4.22.0-beta+33-transmission.jar",
-      "sha256": "e087e1f8f9297ca920ec42b2d6f4d11f3e13accb91ca55b938145cea007f2a58",
-      "size": 474534,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectRed-1.21.1-4.22.0-beta%2B33-transmission.jar"
-    },
-    {
-      "path": "mods/PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar",
-      "sha256": "305c828c171a5b52867b56686665b525bcf286018496ece81f376806794ba914",
-      "size": 1080389,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar"
-    },
-    {
-      "path": "mods/SlabMachines-1.21.1-6.1.1.jar",
-      "sha256": "27ccc9887278d3ee7a89ca88665dcd0159f19a1ca47e5144aec5a53b3369ed1b",
-      "size": 157459,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/SlabMachines-1.21.1-6.1.1.jar"
-    },
-    {
-      "path": "mods/StorageDrawers-neoforge-1.21.1-13.11.4.jar",
-      "sha256": "8bdbc98f32f4166061439e8dda346345012788ddebaeb743a3b585d8a0a0fbbc",
-      "size": 1131419,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/StorageDrawers-neoforge-1.21.1-13.11.4.jar"
-    },
-    {
-      "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
-      "sha256": "edb34c388fe17ea88d0a7fd11174bbf8ae8f28a4c8ce886f1bf9a5cf0ebc36b8",
-      "size": 120364,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
-    },
-    {
-      "path": "mods/The_Undergarden-1.21.1-0.9.5.jar",
-      "sha256": "a1064635cd1392aec112448f17ee5845c9aa617a2572548b9959b3016e856f2e",
-      "size": 45290729,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/The_Undergarden-1.21.1-0.9.5.jar"
-    },
-    {
-      "path": "mods/UniversalEnchants-v21.1.6-1.21.1-NeoForge.jar",
-      "sha256": "b1455b6c31b84809d80620699486dbe6f253d827c7e5f7483caf123c16933a38",
-      "size": 96733,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/UniversalEnchants-v21.1.6-1.21.1-NeoForge.jar"
-    },
-    {
-      "path": "mods/YungsApi-1.21.1-NeoForge-5.1.6.jar",
-      "sha256": "08e1d21690d3213a4c62de6b6cf79f3527afb2e72e0cad0e1848d46eb8f682ca",
-      "size": 388678,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsApi-1.21.1-NeoForge-5.1.6.jar"
-    },
-    {
-      "path": "mods/YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar",
-      "sha256": "aa94ae3e7fdacb469459bf45be60c35bebfebe0488a79e31c7686d746939701d",
-      "size": 392794,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar"
-    },
-    {
-      "path": "mods/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
-      "sha256": "2c3191ad447092cc7873a06e92f16bd3e2ff9dc31e93268b8893d06dd89e1fd6",
-      "size": 905839,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar"
-    },
-    {
-      "path": "mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
-      "sha256": "61816c3b7c9d92c6b44f93dce87ceb0a22827f20285d5d9c4d10d519d734de04",
-      "size": 782160,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar"
-    },
-    {
-      "path": "mods/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
-      "sha256": "5450a64a7036237f449496837e08f3e5b3aa1d7974a10df43944172def75d8ff",
-      "size": 609639,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar"
-    },
-    {
-      "path": "mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
-      "sha256": "a9cab2fc01538368862365691f7d215309801aed0b390351681b6b60a1db7b58",
-      "size": 461244,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar"
-    },
-    {
-      "path": "mods/ZeroCore2-1.21.1-2.4.21.jar",
-      "sha256": "54ac755031b05c3a5b6ddfa22dabc45fb3775481041503dcecd75e5e86627779",
-      "size": 1551013,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ZeroCore2-1.21.1-2.4.21.jar"
-    },
-    {
-      "path": "mods/[1.21.1] SecurityCraft v1.10.1.jar",
-      "sha256": "cce82e9f2b74b2c678241a24eeca6c656a07f55f73e16d4d860591db5ed4435f",
-      "size": 4951098,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/%5B1.21.1%5D%20SecurityCraft%20v1.10.1.jar"
-    },
-    {
-      "path": "mods/ae2wtlib-19.4.1.jar",
-      "sha256": "30d80a662bd7cda0576ae15d6f594a8449ccf33cc10ff21d49e278f8f4be99e9",
-      "size": 242235,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ae2wtlib-19.4.1.jar"
-    },
-    {
-      "path": "mods/almostunified-neoforge-1.21.1-1.3.0.jar",
-      "sha256": "b5f71e44e8895906b1aaf890a49422776a4177877654ec364972ae5de88d579e",
-      "size": 293343,
-      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/almostunified-neoforge-1.21.1-1.3.0.jar"
-    },
-    {
       "path": "mods/appleskin-neoforge-mc1.21-3.0.8.jar",
       "sha256": "60691595ce02e48281c1ec0d1fac4e56ba1aadd496dd6c071a41b4da7f82bf42",
       "size": 75595,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/appleskin-neoforge-mc1.21-3.0.8.jar"
     },
     {
+      "path": "mods/Applied-Mekanistics-1.6.3.jar",
+      "sha256": "8946fea39451dbce8e709dedbef40a52ba337bdf7a25ac0c4b503800b1bf0773",
+      "size": 149709,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Applied-Mekanistics-1.6.3.jar"
+    },
+    {
       "path": "mods/appliedenergistics2-19.2.17.jar",
       "sha256": "460d779a0609b81409907d9956de8f6f70a1b0912257e3e5c3c7e75ac9630e95",
       "size": 8230896,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/appliedenergistics2-19.2.17.jar"
+    },
+    {
+      "path": "mods/Aquaculture-1.21.1-2.7.19.jar",
+      "sha256": "952e4b2a2deef875a144900f2b522865dab84ecd424e607a8b12c029c6cc9b83",
+      "size": 605954,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Aquaculture-1.21.1-2.7.19.jar"
     },
     {
       "path": "mods/aquaculturedelight-1.2.0-neoforge-1.21.1.jar",
@@ -494,10 +158,22 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/better_weaponry-1.1.3-neoforge-1.21.1.jar"
     },
     {
+      "path": "mods/BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar",
+      "sha256": "60b548bef04a2f0e1da686ee9035c2e3d4ed0459a17d7a4836fc26af6de6b60e",
+      "size": 98641,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar"
+    },
+    {
       "path": "mods/bettercombat-neoforge-2.3.2+1.21.1.jar",
       "sha256": "afb1f28271ee3b622947f533aa754bb22ed67edd4940a3e9fdf2cca1edb7b8a9",
       "size": 1041845,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/bettercombat-neoforge-2.3.2%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar",
+      "sha256": "6af75f8f41fb50a80945237930516542f5d9b5005334afdc41b393f58f18932a",
+      "size": 22338081,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar"
     },
     {
       "path": "mods/blockui-1.0.209-1.21.1.jar",
@@ -512,6 +188,12 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/blueprint-1.21.1-8.0.8.jar"
     },
     {
+      "path": "mods/BOMD-NeoForge-1.21-1.3.2.jar",
+      "sha256": "66cad715a52397352f04faff3a78c0352b68f3d1212651013d60d1854caa6ec6",
+      "size": 1951866,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/BOMD-NeoForge-1.21-1.3.2.jar"
+    },
+    {
       "path": "mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
       "sha256": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76",
       "size": 328813,
@@ -524,10 +206,52 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/born_in_chaos_%5BNeoforge%5D_1.21.1_1.7.4.jar"
     },
     {
+      "path": "mods/BrandonsCore-1.21.1-3.2.1.309.jar",
+      "sha256": "076b44de51c606e6cdd89694ac0a879fc028d4f0103880ef44f47dbcc69f1d23",
+      "size": 1385131,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/BrandonsCore-1.21.1-3.2.1.309.jar"
+    },
+    {
+      "path": "mods/BrewinAndChewin-neoforge-4.4.2+1.21.1.jar",
+      "sha256": "2164f5c859b928d689f6cef566081f0db5b3339d401ef84eee84b2c28ffa8105",
+      "size": 1566859,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/BrewinAndChewin-neoforge-4.4.2%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/BuildingWands-neoforge-MC1.21-2.14.jar",
+      "sha256": "79fa863ebb0822f2a3482c0fdfc98bc30975c2d9509f7ae0f632a28f8f0249e8",
+      "size": 413807,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/BuildingWands-neoforge-MC1.21-2.14.jar"
+    },
+    {
+      "path": "mods/c2me-neoforge-mc1.21.1-0.3.0+alpha.0.90.jar",
+      "sha256": "69bd1d5c6061d8eec93a864fcbeae7179dc6fc85fab920c8b835ced26a9d68b8",
+      "size": 4506973,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/c2me-neoforge-mc1.21.1-0.3.0%2Balpha.0.90.jar"
+    },
+    {
       "path": "mods/carryon-neoforge-1.21.1-2.2.4.4.jar",
       "sha256": "ad69537be8be8b433227792e43f8df7b4d3cef7e359255d471a44e776ad8dd57",
       "size": 357489,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/carryon-neoforge-1.21.1-2.2.4.4.jar"
+    },
+    {
+      "path": "mods/CBMultipart-1.21.1-3.5.0.155.jar",
+      "sha256": "b95ad536b91a264c484937909e5d3dab4bab9b268fc72f1e51611d0a80506da5",
+      "size": 547450,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/CBMultipart-1.21.1-3.5.0.155.jar"
+    },
+    {
+      "path": "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+      "sha256": "5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d",
+      "size": 250545,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar"
+    },
+    {
+      "path": "mods/charmofundying-neoforge-9.1.0+1.21.1.jar",
+      "sha256": "361bb87bb0cd0881ab5d1f469595c26c49992d4ed965f2631015135d61f515d1",
+      "size": 178369,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/charmofundying-neoforge-9.1.0%2B1.21.1.jar"
     },
     {
       "path": "mods/chipped-neoforge-1.21.1-4.0.2.jar",
@@ -540,6 +264,18 @@
       "sha256": "65e722e0d98431a07c45f8bdd8d529a217cc8c175fde1740248bd5c1b4f3c0d4",
       "size": 1163890,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/cloth-config-15.0.140-neoforge.jar"
+    },
+    {
+      "path": "mods/Clumps-neoforge-1.21.1-19.0.0.1.jar",
+      "sha256": "b524ccdace2ef8fd19f5b2074f7de1103ac5065c52553f064c00e098346c293e",
+      "size": 18382,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Clumps-neoforge-1.21.1-19.0.0.1.jar"
+    },
+    {
+      "path": "mods/CodeChickenLib-1.21.1-4.6.1.526.jar",
+      "sha256": "e35cb0ca3e3aeb87e1e171242454426d22edf517b06dc38e5c3d5b6d44d6bc04",
+      "size": 1538347,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/CodeChickenLib-1.21.1-4.6.1.526.jar"
     },
     {
       "path": "mods/collective-1.21.1-8.13.jar",
@@ -572,10 +308,28 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/create-1.21.1-6.0.9.jar"
     },
     {
+      "path": "mods/create-enchantment-industry-2.3.0.jar",
+      "sha256": "304bec94c91e73538cac6516ca3ef7722625764686830357e8cbb6bc21dd4606",
+      "size": 683005,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/create-enchantment-industry-2.3.0.jar"
+    },
+    {
       "path": "mods/create-stuff-additions1.21.1_v2.1.0e.jar",
       "sha256": "fb5d8f0f88af98b5901ccd9d0f3ad1231f0796366d48ddfe5d537df6257736bd",
       "size": 1318700,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/create-stuff-additions1.21.1_v2.1.0e.jar"
+    },
+    {
+      "path": "mods/create_connected-1.1.13-mc1.21.1.jar",
+      "sha256": "f78002d3f41c30bc478b6e47028f02a20a24fd74ff8c8c22013b83b01fb4b83d",
+      "size": 6555122,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/create_connected-1.1.13-mc1.21.1.jar"
+    },
+    {
+      "path": "mods/create_jetpack-forge-5.1.2.jar",
+      "sha256": "9fe5a681ea841ce9dc02e7132cd360e1c3e75314905b4ef1493e7548265d0985",
+      "size": 481239,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/create_jetpack-forge-5.1.2.jar"
     },
     {
       "path": "mods/create_things_and_misc-4.0-neoforge-1.21.1.jar",
@@ -584,10 +338,46 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/create_things_and_misc-4.0-neoforge-1.21.1.jar"
     },
     {
+      "path": "mods/createaddition-1.5.10.jar",
+      "sha256": "72653762c1014c33ce151858d1478573dbd74cbc23c74ffe1fb2d71fb73627ee",
+      "size": 1595173,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/createaddition-1.5.10.jar"
+    },
+    {
+      "path": "mods/createdeco-2.1.2-1.21.1-neo.jar",
+      "sha256": "9a2b0a69462a89776f33ee0444489c8e84e0f87a71488a971cb3e0d56d5a6f24",
+      "size": 3318509,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/createdeco-2.1.2-1.21.1-neo.jar"
+    },
+    {
+      "path": "mods/createdieselgenerators-1.21.1-1.3.8.jar",
+      "sha256": "ae75832de6b89a73923e6fb7c84098b4757be6f000b63d181e52589f66a163bc",
+      "size": 3137342,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/createdieselgenerators-1.21.1-1.3.8.jar"
+    },
+    {
+      "path": "mods/CreativeCore_NEOFORGE_v2.13.36_mc1.21.1.jar",
+      "sha256": "b443e30407436ecb4efe0974de69fe506788fc18daa72fcb804787a273cc5b3b",
+      "size": 1213893,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/CreativeCore_NEOFORGE_v2.13.36_mc1.21.1.jar"
+    },
+    {
+      "path": "mods/CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
+      "sha256": "ed83bea2826667fca80a6a8067f89fe7b97eb8b3213bbcb7f0f4e6a6898c0bc9",
+      "size": 1185088,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/CreeperOverhaul-neoforge-1.21.1-4.0.6.jar"
+    },
+    {
       "path": "mods/cristellib-neoforge-1.21.1-3.0.3.jar",
       "sha256": "f5ada4fe5a4a8ba9f8800a54f9ae6fe5a7a4d1156ada6567d11d45e3c3b02239",
       "size": 539899,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/cristellib-neoforge-1.21.1-3.0.3.jar"
+    },
+    {
+      "path": "mods/Cucumber-1.21.1-8.0.15.jar",
+      "sha256": "6894b0ef2d6b5f4bb59b552dc34d0fe6b5ec52e4787717eef87b82afc462f3c7",
+      "size": 275523,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Cucumber-1.21.1-8.0.15.jar"
     },
     {
       "path": "mods/curios-neoforge-9.5.1+1.21.1.jar",
@@ -608,16 +398,58 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/darkutils-neoforge-1.21.1-21.1.1.jar"
     },
     {
+      "path": "mods/deeperdarker-neoforge-1.21-1.3.4.jar",
+      "sha256": "86417e4cd33fe0d80381e3e231feb2e10b35887b67174bb207f76142c53b17e1",
+      "size": 17885687,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/deeperdarker-neoforge-1.21-1.3.4.jar"
+    },
+    {
       "path": "mods/domum-ornamentum-1.0.231-main.jar",
       "sha256": "04c0c902bdbcbd48e38bee5a323907ae0b7b7db4ff4a3e4da7c45334b65610a1",
       "size": 1143596,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/domum-ornamentum-1.0.231-main.jar"
     },
     {
+      "path": "mods/Draconic-Evolution-1.21.1-3.1.4.632.jar",
+      "sha256": "623d7d58e58428a206015b56bf67387c79ff6d97f7221cff23b1dad0bed9544e",
+      "size": 6045942,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Draconic-Evolution-1.21.1-3.1.4.632.jar"
+    },
+    {
+      "path": "mods/DramaticDoors-NeoQuiFab-1.21.1-3.3.2.jar",
+      "sha256": "9a9f604c29e41bdfcc1706ffd7c93b8dc09862424f390ebb3e4adf0799677b3c",
+      "size": 13104042,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/DramaticDoors-NeoQuiFab-1.21.1-3.3.2.jar"
+    },
+    {
+      "path": "mods/dungeons-and-taverns-v4.4.4.jar",
+      "sha256": "1db28e89e0cb76aebe9e40955d1866e8ac1779575d15c2a1e250ac804a762d05",
+      "size": 24859622,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/dungeons-and-taverns-v4.4.4.jar"
+    },
+    {
+      "path": "mods/DungeonsArise-1.21.1-2.1.68-release.jar",
+      "sha256": "7eee1eca7e3b2c6c1bede055934f391ae2e8349ffe33e106f451176d2cfcf0e4",
+      "size": 11842679,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/DungeonsArise-1.21.1-2.1.68-release.jar"
+    },
+    {
       "path": "mods/dynamic-fps-3.11.4+minecraft-1.21.0-neoforge.jar",
       "sha256": "78cb67c9faeff5d1cb4da48d41e48ecc47baddaaec0f792e6edc8207aee0ab8e",
       "size": 220193,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/dynamic-fps-3.11.4%2Bminecraft-1.21.0-neoforge.jar"
+    },
+    {
+      "path": "mods/EasyAnvils-v21.1.0-1.21.1-NeoForge.jar",
+      "sha256": "dcd0e562710a639b4fdd60a7500dc9404c6fbd1007215a088248ce1c57ccc6dc",
+      "size": 152297,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/EasyAnvils-v21.1.0-1.21.1-NeoForge.jar"
+    },
+    {
+      "path": "mods/effortless-1.21.1-3.4.0.jar",
+      "sha256": "43dcee63746a1a0126c333c3d36cce23884e13138ad17aeaa7abec19d1df1ad0",
+      "size": 2054108,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/effortless-1.21.1-3.4.0.jar"
     },
     {
       "path": "mods/elevatorid-neoforge-1.21.1-1.11.4.jar",
@@ -632,6 +464,12 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/embeddium-1.0.15%2Bmc1.21.1.jar"
     },
     {
+      "path": "mods/EnchantingInfuser-v21.1.3-1.21.1-NeoForge.jar",
+      "sha256": "48662ca0cd523b3efb8d6d5a8cc396652d388fe6698f7a37e180b116074dbc63",
+      "size": 200112,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/EnchantingInfuser-v21.1.3-1.21.1-NeoForge.jar"
+    },
+    {
       "path": "mods/enchdesc-neoforge-1.21.1-21.1.9.jar",
       "sha256": "74d546ecb147da7e2cb53fe3115f6e062094329dcf15639b3da694cc00d3f843",
       "size": 81847,
@@ -644,10 +482,40 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/enderio-8.2.2-alpha.jar"
     },
     {
+      "path": "mods/endermanoverhaul-neoforge-1.21.1-2.0.3.jar",
+      "sha256": "fe6c04dcfdbb8815058ebf1102d64cb4c86060a0a1b7350121e4a976d4a92248",
+      "size": 1330403,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/endermanoverhaul-neoforge-1.21.1-2.0.3.jar"
+    },
+    {
+      "path": "mods/EnderStorage-1.21.1-2.13.0.191.jar",
+      "sha256": "f52f23f9df8925c7aec26154c2f1816cc76422c67a4fa4e30fa8b80b7a854202",
+      "size": 264089,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/EnderStorage-1.21.1-2.13.0.191.jar"
+    },
+    {
+      "path": "mods/ends_delight-2.5.1+neoforge.1.21.1.jar",
+      "sha256": "58dbac7560ead20b5c252d03fc5fa1941ab429b277a6eb86ed576fb60c7cc41d",
+      "size": 263222,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/ends_delight-2.5.1%2Bneoforge.1.21.1.jar"
+    },
+    {
+      "path": "mods/Engineers Delight 1.21.1 neoforge R.1.8.jar",
+      "sha256": "561a58ba043d74debf76eee4442ad393c8d6ed7b5b22ee9c94f7466b8578d8ef",
+      "size": 156364,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Engineers%20Delight%201.21.1%20neoforge%20R.1.8.jar"
+    },
+    {
       "path": "mods/entityculling-neoforge-1.9.5-mc1.21.1.jar",
       "sha256": "6357c6c7649d139f088b7176d589e3e7b16790f3c484a544c112702df0373001",
       "size": 1564767,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/entityculling-neoforge-1.9.5-mc1.21.1.jar"
+    },
+    {
+      "path": "mods/everycomp-1.21-2.11.34-neoforge.jar",
+      "sha256": "5c7bc96ba8040f511b9cd71a771b4783fa3c06396398f9fb69a9c5973e4a883f",
+      "size": 2634223,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/everycomp-1.21-2.11.34-neoforge.jar"
     },
     {
       "path": "mods/evilcraft-1.21.1-neoforge-1.2.83.jar",
@@ -656,10 +524,52 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/evilcraft-1.21.1-neoforge-1.2.83.jar"
     },
     {
+      "path": "mods/expandeddelight-0.1.4.jar",
+      "sha256": "35e9f833432a7a7d25c24e85289a6f58e2cbe2e1cf43b9c0cfef7d5752d04394",
+      "size": 547554,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/expandeddelight-0.1.4.jar"
+    },
+    {
+      "path": "mods/ExplorersCompass-1.21.1-3.0.3-neoforge.jar",
+      "sha256": "e092f671e7e7447e6ed7da6444da93d62d97c438f3e895d0ac3105cbce7958d8",
+      "size": 159182,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ExplorersCompass-1.21.1-3.0.3-neoforge.jar"
+    },
+    {
+      "path": "mods/ExtremeReactors2-1.21.1-2.4.28.jar",
+      "sha256": "74fdfdfc91c3c8e5a439d411e6f081d12193635fffe2c55142f2f28f75b9d621",
+      "size": 2554779,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ExtremeReactors2-1.21.1-2.4.28.jar"
+    },
+    {
       "path": "mods/fancymenu_neoforge_3.8.1_MC_1.21.1.jar",
       "sha256": "d935c9862541a41083f0ab086684b0510a924c05f609f8935f7fab6fbe843613",
       "size": 4297501,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/fancymenu_neoforge_3.8.1_MC_1.21.1.jar"
+    },
+    {
+      "path": "mods/FarmersDelight-1.21.1-1.2.10.jar",
+      "sha256": "5346b829cdb4b4ae530a3e588b56aa4d26356ceec57a07e3d0c6b681f3f96dcb",
+      "size": 2935025,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/FarmersDelight-1.21.1-1.2.10.jar"
+    },
+    {
+      "path": "mods/FarmersStructures-1.0.2-1.21.1_neoforge.jar",
+      "sha256": "4c99583903ad7db011008a1c41c8d0464f2727d017e2ac543a1a1d027c9313f4",
+      "size": 497259,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/FarmersStructures-1.0.2-1.21.1_neoforge.jar"
+    },
+    {
+      "path": "mods/FastFurnace-1.21.1-9.0.1.jar",
+      "sha256": "4a8743c5d870aa9885d65e20d728c76fec894e01e81d1b49ef0f4459a67f0eea",
+      "size": 4623,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/FastFurnace-1.21.1-9.0.1.jar"
+    },
+    {
+      "path": "mods/FastWorkbench-1.21.1-9.1.3.jar",
+      "sha256": "abf593ba1584c761f198989008d334c95932afe0a7c6b16af4baa16b54fd1449",
+      "size": 28635,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/FastWorkbench-1.21.1-9.1.3.jar"
     },
     {
       "path": "mods/ferritecore-7.0.3-neoforge.jar",
@@ -672,6 +582,18 @@
       "sha256": "c6f581dd7c0ea3a1be9d44609b773295617b678c01dadd5846098be8d7558869",
       "size": 17515951,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/fetzisasiandeco-neoforge-1.7.3-1.21.jar"
+    },
+    {
+      "path": "mods/FluxNetworks-1.21.1-8.0.0.jar",
+      "sha256": "29e511b2d76f85bd247aa213a92bb059ecc037fcc3fed82baffcff97b638d3a6",
+      "size": 535938,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/FluxNetworks-1.21.1-8.0.0.jar"
+    },
+    {
+      "path": "mods/forbidden_arcanus-2.6.1.jar",
+      "sha256": "8d5ef1557fcdd0ba9fe98c38458751bcbecb118c30924daa6fbdea0a54bf5785",
+      "size": 3402083,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/forbidden_arcanus-2.6.1.jar"
     },
     {
       "path": "mods/framework-neoforge-1.21.1-0.13.11.jar",
@@ -716,10 +638,28 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ftb-xmod-compat-neoforge-21.1.8.jar"
     },
     {
+      "path": "mods/fzzy_config-0.7.6+1.21+neoforge.jar",
+      "sha256": "4e5cc1438087b0bc0276969e88b9ad0bdf2bcc60d6caf5fe79e18947d7a29050",
+      "size": 2369895,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/fzzy_config-0.7.6%2B1.21%2Bneoforge.jar"
+    },
+    {
       "path": "mods/geckolib-neoforge-1.21.1-4.8.4.jar",
       "sha256": "a1b6ce25e8627aa7e748672eedb6b71af68e0993462313649c259f38e42bcac9",
       "size": 622582,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/geckolib-neoforge-1.21.1-4.8.4.jar"
+    },
+    {
+      "path": "mods/GlitchCore-neoforge-1.21.1-2.1.0.0.jar",
+      "sha256": "9362e2faacc6c864a91c5d0f452305fe7a496aa6c91131af63d021f1baa773a7",
+      "size": 90918,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/GlitchCore-neoforge-1.21.1-2.1.0.0.jar"
+    },
+    {
+      "path": "mods/Gobber-NeoForge-1.21.1-2.10.15.jar",
+      "sha256": "36f998130395b23ace89c9e54bffb6e18de3af53420c81dc29fce349408f4433",
+      "size": 674321,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Gobber-NeoForge-1.21.1-2.10.15.jar"
     },
     {
       "path": "mods/gobberdelight-2.2.0-neoforge-1.21.1.jar",
@@ -734,6 +674,12 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/goblintraders-neoforge-1.21.1-1.11.2.jar"
     },
     {
+      "path": "mods/guardvillagers-2.4.7-1.21.1.jar",
+      "sha256": "1806ee3ffa75a45474d310166adf8eef0ab99f39343d8e30d238077191eb1593",
+      "size": 282953,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/guardvillagers-2.4.7-1.21.1.jar"
+    },
+    {
       "path": "mods/guideme-21.1.15.jar",
       "sha256": "0901f237e6711af4194512b73410d4f6e8abb7b0bf51e33b5ee98a4f9a515be7",
       "size": 9309183,
@@ -744,6 +690,36 @@
       "sha256": "6f2a776fb28ed07d370899814e5e711fbeebe31396097d78a3b550439b364948",
       "size": 7132842,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/handcrafted-neoforge-1.21.1-4.0.3.jar"
+    },
+    {
+      "path": "mods/Iceberg-1.21.1-neoforge-1.3.2.jar",
+      "sha256": "0d620c975619b04110b94a73d5b42d252563ff59c1eae9d21ab2ee7e38460a3c",
+      "size": 213853,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Iceberg-1.21.1-neoforge-1.3.2.jar"
+    },
+    {
+      "path": "mods/ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar",
+      "sha256": "9fbb8dce1bb72feacdc3b75c6fcbf689865ad3793a19649443d76be20993ddd0",
+      "size": 368598,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ImmediatelyFast-NeoForge-1.6.10%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/ImmersiveEngineering-1.21.1-12.4.2-194.jar",
+      "sha256": "45942985a4a4aebf265b8e22a0c54a96208637471f36f2532ff5d4911322debc",
+      "size": 14232121,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ImmersiveEngineering-1.21.1-12.4.2-194.jar"
+    },
+    {
+      "path": "mods/ImmersivePetroleum-1.21.1-4.4.1-37.jar",
+      "sha256": "5c83cfb4d8b1437648b0de072cc1a46081bfdc7413257f1d0d438813c6f3cf98",
+      "size": 2001552,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/ImmersivePetroleum-1.21.1-4.4.1-37.jar"
+    },
+    {
+      "path": "mods/improvedmobs-1.21.1-1.15.2-neoforge.jar",
+      "sha256": "7d797fd4dcfdfce16d0c7d8cdb8529d3bf079c394318c4ef7a22afcfd5a55a55",
+      "size": 377034,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/improvedmobs-1.21.1-1.15.2-neoforge.jar"
     },
     {
       "path": "mods/industrialforegoing-1.21-3.6.38.jar",
@@ -776,10 +752,34 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/integratedtunnels-1.21.1-neoforge-1.9.4.jar"
     },
     {
+      "path": "mods/InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar",
+      "sha256": "05f1b8660f74f543fba61d4ce7cf8632d4c69a95b7c15b1a6fd442be2e397ca6",
+      "size": 1295466,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar"
+    },
+    {
       "path": "mods/ironchest-1.21-neoforge-16.0.7.jar",
       "sha256": "dae66a38a33c2adac6ca0b7a4fbf4b365ba37a6a1f7a10961028617965c1fcaf",
       "size": 305975,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ironchest-1.21-neoforge-16.0.7.jar"
+    },
+    {
+      "path": "mods/irons_spellbooks-1.21.1-3.15.5.jar",
+      "sha256": "9d02da3fc7a54d00e252a3e231ccbdd048def2035af1be911d3697aaf5fb5359",
+      "size": 13568479,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/irons_spellbooks-1.21.1-3.15.5.jar"
+    },
+    {
+      "path": "mods/ItemBorders-1.21-neoforge-1.2.5.jar",
+      "sha256": "6ad3a4f3ea1c56fb8600db9cbdbe2de9c50b217f9981de134b44aab216da83b9",
+      "size": 23511,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/ItemBorders-1.21-neoforge-1.2.5.jar"
+    },
+    {
+      "path": "mods/Jade-1.21.1-NeoForge-15.10.5.jar",
+      "sha256": "067bb4b007e1d6f6b79f0afe99c91252aa825472b99a76d33a60d24442f9e92d",
+      "size": 725742,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Jade-1.21.1-NeoForge-15.10.5.jar"
     },
     {
       "path": "mods/jei-1.21.1-neoforge-19.27.0.336.jar",
@@ -806,16 +806,40 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/konkrete_neoforge_1.9.9_MC_1.21.jar"
     },
     {
+      "path": "mods/kotlinforforge-5.11.0-all.jar",
+      "sha256": "ac827b62ce8fe71760208671b4a694e3ccd35049075f9406a751cffb5a5c9779",
+      "size": 6869790,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/kotlinforforge-5.11.0-all.jar"
+    },
+    {
       "path": "mods/kubejs-neoforge-2101.7.2-build.348.jar",
       "sha256": "6ddc6ddd16fabe09e2dd4303c6a598e3c272d6820b5c081f9c53e6b7aa6397fb",
       "size": 2240610,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/kubejs-neoforge-2101.7.2-build.348.jar"
     },
     {
+      "path": "mods/L_Ender's Cataclysm 1.21.1-3.25.jar",
+      "sha256": "e8820197cea1d2477ecbe74a8b60b7260f6ff2938132858b25cae51f2186e300",
+      "size": 73346444,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/L_Ender's%20Cataclysm%201.21.1-3.25.jar"
+    },
+    {
+      "path": "mods/LegendaryTooltips-1.21.1-neoforge-1.5.5.jar",
+      "sha256": "8ba2bc2cb894e48d8e7520d41c72ef7f429659c3ee58b029f4899c760b958493",
+      "size": 81808,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/LegendaryTooltips-1.21.1-neoforge-1.5.5.jar"
+    },
+    {
       "path": "mods/letmedespawn-1.21.x-neoforge-1.5.0.jar",
       "sha256": "074ffdbe34bf97b7d15fa4db7cfff547578a9c2f547479128a43d184c4ca642a",
       "size": 14911,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/letmedespawn-1.21.x-neoforge-1.5.0.jar"
+    },
+    {
+      "path": "mods/libIPN-neoforge-1.21.1-6.6.3.jar",
+      "sha256": "98f061ba69d31764fa10ab7810ca49062633e107a6b261ba3b66dc25ba5fef7b",
+      "size": 626146,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/libIPN-neoforge-1.21.1-6.6.3.jar"
     },
     {
       "path": "mods/lithium-neoforge-0.15.3+mc1.21.1.jar",
@@ -828,6 +852,12 @@
       "sha256": "1326956204d2509e19b87614223a4b9f3d83823d2a9f595db86b6b569d03111c",
       "size": 970642,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/lootr-neoforge-1.21.1-1.11.37.118.jar"
+    },
+    {
+      "path": "mods/malum-1.21.1-1.8.2.jar",
+      "sha256": "38f4fa53e8da9e3d67aa5f54f98fd7c83cb342f0463ce5c63a6864229c88efa8",
+      "size": 33585331,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/malum-1.21.1-1.8.2.jar"
     },
     {
       "path": "mods/mcjtylib-1.21-9.0.20.jar",
@@ -860,6 +890,30 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/mekagenjei-1.2.jar"
     },
     {
+      "path": "mods/Mekanism-1.21.1-10.7.18.84.jar",
+      "sha256": "3a14697671a7958319845dd606646f14365d456d2d7480a9d5215da6b77667ca",
+      "size": 11950460,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Mekanism-1.21.1-10.7.18.84.jar"
+    },
+    {
+      "path": "mods/MekanismAdditions-1.21.1-10.7.18.84.jar",
+      "sha256": "a1cd45f294fbf281ffc744388c8a581dab57b43bc7a4592950c99183ab51e02e",
+      "size": 1160805,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/MekanismAdditions-1.21.1-10.7.18.84.jar"
+    },
+    {
+      "path": "mods/MekanismGenerators-1.21.1-10.7.18.84.jar",
+      "sha256": "067680441ad6aa0875ef1dcab64dceff2f39856753027caa46c9737dfd7794ed",
+      "size": 1104556,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MekanismGenerators-1.21.1-10.7.18.84.jar"
+    },
+    {
+      "path": "mods/MekanismTools-1.21.1-10.7.18.84.jar",
+      "sha256": "83c832b01deb46961a83f9bb1a4a0f98b322bf532d4583d5fe0d378ea72d0271",
+      "size": 520884,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/MekanismTools-1.21.1-10.7.18.84.jar"
+    },
+    {
       "path": "mods/melody_neoforge_1.0.10_MC_1.21.jar",
       "sha256": "6b973a4564703c531fc0eae09db08b07a38091e0a743c687b8d2049457e84871",
       "size": 36096,
@@ -870,6 +924,18 @@
       "sha256": "edcdfa059062c9c67840440ad48d68cecdb10ed2b71294eda26568268c570a03",
       "size": 77338580,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/minecolonies-1.1.1285-1.21.1.jar"
+    },
+    {
+      "path": "mods/MineColonies_Compatibility-1.21.1-3.39.jar",
+      "sha256": "c391c7c0eb3b9ef891182aebaa9de7643fa02d4cfb8cb3acf11a661b587759c8",
+      "size": 1417946,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MineColonies_Compatibility-1.21.1-3.39.jar"
+    },
+    {
+      "path": "mods/MineColonies_Tweaks-1.21.1-3.28.jar",
+      "sha256": "ecf04d62db12ff2720c449cf1790e836112f3b9770e1ee82372af7de2cc4bb8c",
+      "size": 785949,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MineColonies_Tweaks-1.21.1-3.28.jar"
     },
     {
       "path": "mods/mob_drops_recipes_end-merged-1.21.1-2.1.0.jar",
@@ -890,6 +956,12 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/modernfix-neoforge-5.26.1%2Bmc1.21.1.jar"
     },
     {
+      "path": "mods/modonomicon-1.21.1-neoforge-1.120.1.jar",
+      "sha256": "f5753e656ea6f200f3862d95a3ffab660470f09cdd222566b562aa3e465dd703",
+      "size": 2403998,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/modonomicon-1.21.1-neoforge-1.120.1.jar"
+    },
+    {
       "path": "mods/monolib-neoforge-1.21.1-2.1.0.jar",
       "sha256": "46b20622774b924cf2ab66e48a7f5dc7fc4a0995ba7d771a0a697a2468ac69ae",
       "size": 179499,
@@ -902,6 +974,12 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/moonlight-1.21-2.29.20-neoforge.jar"
     },
     {
+      "path": "mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "sha256": "68e6f4201c5de97b77929a7215c9552495696ca6a3bf3ae4eacc34e135f6cc8b",
+      "size": 73938,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+    },
+    {
       "path": "mods/mowziesmobs-1.21.1-1.8.2.jar",
       "sha256": "b8e7e39fb6430326de7fbb193db56588ee8bd04d0054527924fe588f37131e4f",
       "size": 36042925,
@@ -912,6 +990,36 @@
       "sha256": "7ca26db4648589b7f76694c249d5096c0c0afb7615fe6adf9f638c6c825c15e7",
       "size": 34139,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/multipiston-1.2.58-1.21.1.jar"
+    },
+    {
+      "path": "mods/MushroomQuest-1.21.1-v4.2.0.jar",
+      "sha256": "ebd0f60363159ad1eaa2881229e8a431e18b4786625c71df98286111127a3bb9",
+      "size": 1387140,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MushroomQuest-1.21.1-v4.2.0.jar"
+    },
+    {
+      "path": "mods/MutantMonsters-v21.1.1-1.21.1-NeoForge.jar",
+      "sha256": "1e20340a6642dcd6e43399292825f8cd84a079e0b917e36cf7341e787b626a4f",
+      "size": 1346730,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/MutantMonsters-v21.1.1-1.21.1-NeoForge.jar"
+    },
+    {
+      "path": "mods/MysticalAgradditions-1.21.1-8.0.12.jar",
+      "sha256": "18fa8e096e30d3682a13a9372c1ed18225db5a77f3b1bd1af4bf3de1ced2e7ed",
+      "size": 317127,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MysticalAgradditions-1.21.1-8.0.12.jar"
+    },
+    {
+      "path": "mods/MysticalAgriculture-1.21.1-8.0.23.jar",
+      "sha256": "28e3f2b277cc22ddfa5ba5e52a865b42ab4c4a066c1d24d4bf349e7d62f96332",
+      "size": 2323367,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/MysticalAgriculture-1.21.1-8.0.23.jar"
+    },
+    {
+      "path": "mods/NaturesCompass-1.21.1-3.0.3-neoforge.jar",
+      "sha256": "6dd24f37f5d69a6f9803c00b7722f9f103647131c29415511fa01c6feced0848",
+      "size": 216873,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/NaturesCompass-1.21.1-3.0.3-neoforge.jar"
     },
     {
       "path": "mods/neoessentials-1.0.2.5+build.1074.jar",
@@ -932,6 +1040,12 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/netherportalfix-neoforge-1.21.1-21.1.1.jar"
     },
     {
+      "path": "mods/noisium-neoforge-2.7.0+mc1.21-1.21.1.jar",
+      "sha256": "ca097cd53fcdabecbcbf22e2515eb1956f313f094cd3a0506800ebf239e255f9",
+      "size": 60512,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/noisium-neoforge-2.7.0%2Bmc1.21-1.21.1.jar"
+    },
+    {
       "path": "mods/notenoughanimations-neoforge-1.11.3-mc1.21.1.jar",
       "sha256": "096a0026702abe5e331684e9212247cf48a25e575dfe36a366ecc068ef5952cf",
       "size": 1926047,
@@ -944,16 +1058,34 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/nyctography-neoforge-1.21.1-21.1.6.jar"
     },
     {
+      "path": "mods/occultism-1.21.1-neoforge-1.205.0.jar",
+      "sha256": "93f835e72e200476ee85679471596ee9284515a68137cb52447b00df504ed583",
+      "size": 6791577,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/occultism-1.21.1-neoforge-1.205.0.jar"
+    },
+    {
       "path": "mods/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
       "sha256": "2979a8a3f44e5d5df4f9f6315d18c220f3debf736bb8a2c2740acdfb13bd820f",
       "size": 46623,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar"
     },
     {
+      "path": "mods/Patchouli-1.21.1-93-NEOFORGE.jar",
+      "sha256": "959af52ed6640c316c3a8469203420be4aeea11ad6603890ba83bf48f5d9f993",
+      "size": 646777,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Patchouli-1.21.1-93-NEOFORGE.jar"
+    },
+    {
       "path": "mods/pigpen-neoforge-1.21.1-21.1.4.jar",
       "sha256": "f548ebac6570b77c2525f0fbe6d5479ec7edd1cbb9cf7a8bbae81c2507131076",
       "size": 39573,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/pigpen-neoforge-1.21.1-21.1.4.jar"
+    },
+    {
+      "path": "mods/Placebo-1.21.1-9.9.1.jar",
+      "sha256": "42c90bc43800558b9322bd60faa9011d6694e66a87b7e6b3b9f51fa735b527ea",
+      "size": 324056,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/Placebo-1.21.1-9.9.1.jar"
     },
     {
       "path": "mods/player-animation-lib-forge-2.0.4+1.21.1.jar",
@@ -972,6 +1104,60 @@
       "sha256": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167",
       "size": 84812,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/prickle-neoforge-1.21.1-21.1.11.jar"
+    },
+    {
+      "path": "mods/Prism-1.21.1-neoforge-1.0.11.jar",
+      "sha256": "b6a1e585416c48d7d9fa53fc12c67122ad1f3a6965202b51d4e2c643ffca61c2",
+      "size": 62031,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/Prism-1.21.1-neoforge-1.0.11.jar"
+    },
+    {
+      "path": "mods/ProjectE-1.21.1-PE1.1.0.jar",
+      "sha256": "fec9389d8b70fcf87331a0bcc41b78ada79c1e6326ef02a7bb6db9a1d5a4c48b",
+      "size": 2426228,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectE-1.21.1-PE1.1.0.jar"
+    },
+    {
+      "path": "mods/ProjectRed-1.21.1-4.22.0-beta+33-core.jar",
+      "sha256": "bce16d5a86d6063cf715988802b07b1fe45eef5feaf88a733c9d002b54cf12fa",
+      "size": 772520,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectRed-1.21.1-4.22.0-beta%2B33-core.jar"
+    },
+    {
+      "path": "mods/ProjectRed-1.21.1-4.22.0-beta+33-expansion.jar",
+      "sha256": "7133b709f76914f3a27e0536ed25f7dd39dcca46fa41f83d7cf93dc0856bc9af",
+      "size": 1130980,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectRed-1.21.1-4.22.0-beta%2B33-expansion.jar"
+    },
+    {
+      "path": "mods/ProjectRed-1.21.1-4.22.0-beta+33-exploration.jar",
+      "sha256": "97b598a3164a89fd3c4d3eb6c957708a5f3dc164b7feb45062559b9a9933e3f0",
+      "size": 518702,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectRed-1.21.1-4.22.0-beta%2B33-exploration.jar"
+    },
+    {
+      "path": "mods/ProjectRed-1.21.1-4.22.0-beta+33-fabrication.jar",
+      "sha256": "a03c88c76615437069dafa318c8a0b0bc70e18f212ee110dd34300e655137613",
+      "size": 790193,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectRed-1.21.1-4.22.0-beta%2B33-fabrication.jar"
+    },
+    {
+      "path": "mods/ProjectRed-1.21.1-4.22.0-beta+33-integration.jar",
+      "sha256": "2b27857316783a6b3c2e04051349b2f18b83441b582e9aefefdcdd757815e14c",
+      "size": 3569363,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectRed-1.21.1-4.22.0-beta%2B33-integration.jar"
+    },
+    {
+      "path": "mods/ProjectRed-1.21.1-4.22.0-beta+33-transmission.jar",
+      "sha256": "e087e1f8f9297ca920ec42b2d6f4d11f3e13accb91ca55b938145cea007f2a58",
+      "size": 474534,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ProjectRed-1.21.1-4.22.0-beta%2B33-transmission.jar"
+    },
+    {
+      "path": "mods/PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar",
+      "sha256": "305c828c171a5b52867b56686665b525bcf286018496ece81f376806794ba914",
+      "size": 1080389,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar"
     },
     {
       "path": "mods/railways-0.1.0+neoforge-mc1.21.1.jar",
@@ -1022,6 +1208,36 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/rftoolsbase-1.21-6.0.10.jar"
     },
     {
+      "path": "mods/rftoolsbuilder-1.21-7.0.4.jar",
+      "sha256": "06e8ae92660f59f03852e191452b259c46a179976fcefbd10c1625ed3cc7178b",
+      "size": 920495,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/rftoolsbuilder-1.21-7.0.4.jar"
+    },
+    {
+      "path": "mods/rftoolsdim-1.21-12.0.3.jar",
+      "sha256": "ed21a62a132c3aa65bb0c03f8156c1fc274d3a6857e72e3afee3b4b9cee89744",
+      "size": 1747537,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/rftoolsdim-1.21-12.0.3.jar"
+    },
+    {
+      "path": "mods/rftoolspower-1.21-7.0.5.jar",
+      "sha256": "5bddc92f2d5fd9f0ed96fc157a1ca710c66e23c5f57c22132f0f7dc326bb5666",
+      "size": 579946,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/rftoolspower-1.21-7.0.5.jar"
+    },
+    {
+      "path": "mods/rftoolsstorage-1.21-6.0.4.jar",
+      "sha256": "0dd69d2b726b688df2eeb661df4efdf73569cae2629bdf0e5d562f086680f217",
+      "size": 396201,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/rftoolsstorage-1.21-6.0.4.jar"
+    },
+    {
+      "path": "mods/rftoolsutility-1.21-7.0.11.jar",
+      "sha256": "b8222b152d7604ab3d70c0454607e013a7441d7b4fb4e723a60aef9edec669ee",
+      "size": 1430392,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/rftoolsutility-1.21-7.0.11.jar"
+    },
+    {
       "path": "mods/rhino-2101.2.7-build.81.jar",
       "sha256": "fcc3f8de61771596f1b120f734819cb97f5935a5d42c76f4057a0be06a3609db",
       "size": 882032,
@@ -1032,6 +1248,36 @@
       "sha256": "dcc36211dea46e87fa0d14b8a0cd11aa6d7b8f3083344e3f28100c413975da9d",
       "size": 67386,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/runelic-neoforge-1.21.1-21.1.5.jar"
+    },
+    {
+      "path": "mods/simplyswords-neoforge-1.63.0-1.21.1.jar",
+      "sha256": "4619dcf1501fc82c1a52acd4c88a466436f5c1d7d2bccc0932912a12b0bc5198",
+      "size": 12617777,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/simplyswords-neoforge-1.63.0-1.21.1.jar"
+    },
+    {
+      "path": "mods/SimplyTooltips-neoforge-0.1.3.jar",
+      "sha256": "ea21464cfd363efe2965cdf801b82b37ecda83e93051193f4830783ead723518",
+      "size": 5320037,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/SimplyTooltips-neoforge-0.1.3.jar"
+    },
+    {
+      "path": "mods/SlabMachines-1.21.1-6.1.1.jar",
+      "sha256": "27ccc9887278d3ee7a89ca88665dcd0159f19a1ca47e5144aec5a53b3369ed1b",
+      "size": 157459,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/SlabMachines-1.21.1-6.1.1.jar"
+    },
+    {
+      "path": "mods/sliceanddice-forge-4.2.4.jar",
+      "sha256": "c3bd743a73eed3de14f6be5221fe68655cfeed0749f8f467f2ce2012ed1416bd",
+      "size": 406699,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/sliceanddice-forge-4.2.4.jar"
+    },
+    {
+      "path": "mods/SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
+      "sha256": "68036561cc5511766d54cc0deabc3fc3a5e68f9e3db2478f2574ec82b494374b",
+      "size": 391053,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/SmartBrainLib-neoforge-1.21.1-1.16.11.jar"
     },
     {
       "path": "mods/sophisticatedbackpacks-1.21.1-3.25.34.1581.jar",
@@ -1046,6 +1292,12 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/sophisticatedcore-1.21.1-1.4.10.1531.jar"
     },
     {
+      "path": "mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
+      "sha256": "bddc71ecd4f074a101eb3785599d13c69e64025e1029aa0fd0a28fcf9bccf2ea",
+      "size": 202454,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar"
+    },
+    {
       "path": "mods/spark-1.10.124-neoforge.jar",
       "sha256": "647e8a81afbe414dba1df4ba15fd06c5d32d4cb544e68828405e8e074c2e16db",
       "size": 3642581,
@@ -1056,6 +1308,12 @@
       "sha256": "1fbe57e9d7653af5dad1f4baa1354bb2fe11481fe7a2fa55bc3b5a8b281b580c",
       "size": 272899,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/starterkit-1.21.1-7.4.jar"
+    },
+    {
+      "path": "mods/StorageDrawers-neoforge-1.21.1-13.11.4.jar",
+      "sha256": "8bdbc98f32f4166061439e8dda346345012788ddebaeb743a3b585d8a0a0fbbc",
+      "size": 1131419,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/StorageDrawers-neoforge-1.21.1-13.11.4.jar"
     },
     {
       "path": "mods/structurize-1.0.816-1.21.1.jar",
@@ -1086,6 +1344,36 @@
       "sha256": "925d61a8cee8ca013bac15cda2fcfbdf647eb1cde50c414c18298ea3a627c640",
       "size": 3641681,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/t_and_t-neoforge-fabric-1.13.7%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/tectonic-3.0.21-neoforge-21.1.jar",
+      "sha256": "472d59f427afa2d025e54fd723c104ec929597ba865f5740d28bbadbf9d0f8cc",
+      "size": 329507,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/tectonic-3.0.21-neoforge-21.1.jar"
+    },
+    {
+      "path": "mods/tenshilib-1.21.1-2.2.5-neoforge.jar",
+      "sha256": "248b59b6c630173c37df05c9b46b9d6b5a4099a712f1301fb40b959fcacbba64",
+      "size": 726455,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/tenshilib-1.21.1-2.2.5-neoforge.jar"
+    },
+    {
+      "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+      "sha256": "edb34c388fe17ea88d0a7fd11174bbf8ae8f28a4c8ce886f1bf9a5cf0ebc36b8",
+      "size": 120364,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
+    },
+    {
+      "path": "mods/Terralith_1.21.x_v2.5.8.jar",
+      "sha256": "00333a130ac38b7b9ca93700098d5e02e0612bdc2d3522aada2f36e5600621bf",
+      "size": 3115385,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/Terralith_1.21.x_v2.5.8.jar"
+    },
+    {
+      "path": "mods/The_Undergarden-1.21.1-0.9.5.jar",
+      "sha256": "a1064635cd1392aec112448f17ee5845c9aa617a2572548b9959b3016e856f2e",
+      "size": 45290729,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/The_Undergarden-1.21.1-0.9.5.jar"
     },
     {
       "path": "mods/tipsmod-neoforge-1.21.1-21.1.3.jar",
@@ -1130,6 +1418,12 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/trashslot-neoforge-1.21.1-21.1.6.jar"
     },
     {
+      "path": "mods/travelersbackpack-neoforge-1.21.1-10.1.34.jar",
+      "sha256": "3371817ad2880d49edc4b34036b3cbe65515f07b0beffcbedeedf244f083c9d1",
+      "size": 1352912,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/travelersbackpack-neoforge-1.21.1-10.1.34.jar"
+    },
+    {
       "path": "mods/travelerscompass-neoforge-1.21.1-4.0.04.jar",
       "sha256": "91213925bab28919811c117344e08f268dc3a498881b4054cad6d7db253e2ad9",
       "size": 520390,
@@ -1148,10 +1442,28 @@
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/undergardendelight-1.2.1-neoforge-1.21.1.jar"
     },
     {
+      "path": "mods/UniversalEnchants-v21.1.6-1.21.1-NeoForge.jar",
+      "sha256": "b1455b6c31b84809d80620699486dbe6f253d827c7e5f7483caf123c16933a38",
+      "size": 96733,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/UniversalEnchants-v21.1.6-1.21.1-NeoForge.jar"
+    },
+    {
       "path": "mods/upgrade_aquatic-1.21.1-7.0.1.jar",
       "sha256": "ac4edecc341435c38893d85964074a2e09e322e3fb32be93d08f2a3165c0ebe7",
       "size": 4925541,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/upgrade_aquatic-1.21.1-7.0.1.jar"
+    },
+    {
+      "path": "mods/valhelsia_core-neoforge-1.21.1-1.1.4.jar",
+      "sha256": "e7f3a862e58d1003b557b1d619605524e1e88fc5c47d0b7ce3549a3cead06d7c",
+      "size": 181220,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/valhelsia_core-neoforge-1.21.1-1.1.4.jar"
+    },
+    {
+      "path": "mods/voicechat-neoforge-1.21.1-2.6.14.jar",
+      "sha256": "0e85039578fabbc611baf6facbd42a88b60731281a7e4f7a12a603275b6921fc",
+      "size": 4894250,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/voicechat-neoforge-1.21.1-2.6.14.jar"
     },
     {
       "path": "mods/waystones-neoforge-1.21.1-21.1.29.jar",
@@ -1170,6 +1482,90 @@
       "sha256": "b5c30321b46cfaa521645a04aff89d2804d8167a25bb23ad4b1ae8da73093a2f",
       "size": 1118651,
       "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/yet_another_config_lib_v3-3.8.2%2B1.21.1-neoforge.jar"
+    },
+    {
+      "path": "mods/YungsApi-1.21.1-NeoForge-5.1.6.jar",
+      "sha256": "08e1d21690d3213a4c62de6b6cf79f3527afb2e72e0cad0e1848d46eb8f682ca",
+      "size": 388678,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsApi-1.21.1-NeoForge-5.1.6.jar"
+    },
+    {
+      "path": "mods/YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar",
+      "sha256": "aa94ae3e7fdacb469459bf45be60c35bebfebe0488a79e31c7686d746939701d",
+      "size": 392794,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterCaves-1.21.1-NeoForge-3.1.4.jar"
+    },
+    {
+      "path": "mods/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
+      "sha256": "2c3191ad447092cc7873a06e92f16bd3e2ff9dc31e93268b8893d06dd89e1fd6",
+      "size": 905839,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar"
+    },
+    {
+      "path": "mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+      "sha256": "61816c3b7c9d92c6b44f93dce87ceb0a22827f20285d5d9c4d10d519d734de04",
+      "size": 782160,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar"
+    },
+    {
+      "path": "mods/YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar",
+      "sha256": "8005f1ea798d09fc05dad07a21ed1f393a523a718197cdbd37b1ce6d9a17e4a4",
+      "size": 398130,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar"
+    },
+    {
+      "path": "mods/YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
+      "sha256": "a0d57b78c7a1891796f342b1f09c214bc27bedf0a3a894f029dfdb2db9f813d0",
+      "size": 795839,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar"
+    },
+    {
+      "path": "mods/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+      "sha256": "5625930dfb3240820d6e4ecf55fff0c39f70ce782fad117a4d418251184c7be0",
+      "size": 493967,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar"
+    },
+    {
+      "path": "mods/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+      "sha256": "5450a64a7036237f449496837e08f3e5b3aa1d7974a10df43944172def75d8ff",
+      "size": 609639,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar"
+    },
+    {
+      "path": "mods/YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar",
+      "sha256": "cdcf8fe0e08c75261048d43c6ed4898972d23e096dd04a2524c136f06416ab02",
+      "size": 1025571,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar"
+    },
+    {
+      "path": "mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+      "sha256": "a9cab2fc01538368862365691f7d215309801aed0b390351681b6b60a1db7b58",
+      "size": 461244,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar"
+    },
+    {
+      "path": "mods/YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar",
+      "sha256": "888b1e6d1ada21982a75abfb4afb040c9bc2cc68777ec5fcd1199b978e3d4f8d",
+      "size": 174789,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar"
+    },
+    {
+      "path": "mods/YungsBridges-1.21.1-NeoForge-5.1.1.jar",
+      "sha256": "bf93a85422a6b457358c3b56352641a97ec09cc37dec18b2cedcac2bd1ff9bec",
+      "size": 136820,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/YungsBridges-1.21.1-NeoForge-5.1.1.jar"
+    },
+    {
+      "path": "mods/YungsExtras-1.21.1-NeoForge-5.1.1.jar",
+      "sha256": "0cd26474e514f5dc3114aaf5ec7e049bcd285f0c5db191bb45223193f35df70d",
+      "size": 198183,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/v2.0.0-alpha/mods/YungsExtras-1.21.1-NeoForge-5.1.1.jar"
+    },
+    {
+      "path": "mods/ZeroCore2-1.21.1-2.4.21.jar",
+      "sha256": "54ac755031b05c3a5b6ddfa22dabc45fb3775481041503dcecd75e5e86627779",
+      "size": 1551013,
+      "url": "https://raw.githubusercontent.com/TheZackPack/TZP-client/main/mods/ZeroCore2-1.21.1-2.4.21.jar"
     }
   ],
   "configs": [
